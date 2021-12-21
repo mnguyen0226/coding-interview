@@ -23,9 +23,15 @@
         - Analysis
         - Delete
         - If the key is 5,35,95,145,175,... then H(x) = x % 10 will not provide a uniform distributed hash table. Thus to come up with a good hashing function, you will have to understand the key.
+    
     - Resolve collisions 2 - Close Hashing (Open Addressing)
         - Close hashing means that we will not increase the space of the Hashtable. We can do this by store elements in different address instead of the same address.
-        - Linear Probing
+        - Linear Probing: When there is a collision, store at the next free space. However, this technique has a problem of primary clustering./
+            - Insert: Say you got a Hash Table of 10, you should not fill up more than 5 keys regardless the linear probing
+            - Search
+            - Analysis
+            - Delete: When delete an element, you have to rehashing, meaning that you will have to take out all the element and hash it back to the table.
+            Thus we don't recommend delete in linear probing
         - Quadratic Probing
         - Double Hashing
 
