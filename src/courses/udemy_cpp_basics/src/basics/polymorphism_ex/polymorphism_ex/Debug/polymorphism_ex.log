@@ -1,0 +1,6 @@
+﻿  polymorphism_ex.cpp
+C:\Users\nguye\OneDrive\Desktop\Junior\Coding Interview\coding-interview\dsa_notes\udemy\cpp_basics\src\basics\polymorphism_ex\polymorphism_ex\polymorphism_ex.cpp(26,12): error C2259: 'Innova': cannot instantiate abstract class
+C:\Users\nguye\OneDrive\Desktop\Junior\Coding Interview\coding-interview\dsa_notes\udemy\cpp_basics\src\basics\polymorphism_ex\polymorphism_ex\polymorphism_ex.cpp(15): message : see declaration of 'Innova'
+C:\Users\nguye\OneDrive\Desktop\Junior\Coding Interview\coding-interview\dsa_notes\udemy\cpp_basics\src\basics\polymorphism_ex\polymorphism_ex\polymorphism_ex.cpp(26,12): message : due to following members:
+C:\Users\nguye\OneDrive\Desktop\Junior\Coding Interview\coding-interview\dsa_notes\udemy\cpp_basics\src\basics\polymorphism_ex\polymorphism_ex\polymorphism_ex.cpp(26,12): message : 'void Car::start(void)': is abstract
+C:\Users\nguye\OneDrive\Desktop\Junior\Coding Interview\coding-interview\dsa_notes\udemy\cpp_basics\src\basics\polymorphism_ex\polymorphism_ex\polymorphism_ex.cpp(11): message : see declaration of 'Car::start'

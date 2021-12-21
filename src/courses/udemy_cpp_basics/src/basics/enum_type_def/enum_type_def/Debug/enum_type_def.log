@@ -1,0 +1,3 @@
+﻿  enum_type_def.cpp
+C:\Users\nguye\OneDrive\Desktop\Junior\Coding Interview\coding-interview\notes\udemy\cpp_basics\src\basics\enum_type_def\enum_type_def\enum_type_def.cpp(27,15): warning C4101: 'm2': unreferenced local variable
+  enum_type_def.vcxproj -> C:\Users\nguye\OneDrive\Desktop\Junior\Coding Interview\coding-interview\notes\udemy\cpp_basics\src\basics\enum_type_def\Debug\enum_type_def.exe

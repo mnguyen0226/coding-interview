@@ -1,0 +1,30 @@
+## Note on stack data structure
+- Stack is LIFO = Last In First Out
+- Data:
+    - Space for storing elements
+    - Top pointers.
+- Operations:
+    - Push(x)
+    - Pop()
+    - Peek(index)
+    - StackTop()
+    - IsEmpty()
+    - IsFull()
+- Applications:
+    - Paranthesis Matching.
+- Infix to Postfix Convertsion
+    - What is Postfix?
+        - Infix: Operand Operator Operand. Ex: a + b
+        - Prefix: Operator Operand Operand. Ex: +ab
+        - Postfix: Operand Operand Operator. Ex: ab+
+    - Why Postfix?
+        - In mathematic equation, there are different order in which we can execute the subset of the equation.
+        - We want to calculate everything in 1 scan, prefix form make it not possible but postfix form make it is possible.
+    - Precedence?
+    - Manual Conversion?
+    - We can use stack to convert from prefix to postfix
+        - +, - have precedence of 1
+        - *, / have precedence of 2
+        - a,c,b,... have precedence of 3
+        - Note: When pushing a characeter of prefix to a stack, if there is an element on top that has higher precedenc, we need to pop out of the stack.
+

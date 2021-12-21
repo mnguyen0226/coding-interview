@@ -1,0 +1,47 @@
+## Note on Trees data structures
+- Terminology:
+    - Tree is a collection of nodes and edges.
+    - N nodes contains N-1 edges.
+    - Degree of the node is the number of direct children that a specific node has.
+        - From looking at the tree, you can't tell which "ary" the tree is, the "ary" is defined before the tree is create.
+        - For example, you can say that binary tree is a 3-ary tree (0 <= node's degree <= 3)
+    - Leaf Node is node that has the degree of 0.
+    - Level starts at 1 not zero from the root node to the leave nodes.
+    - Height starts at 0 from the root node to the leave nodes.
+    - The collection of trees is called a forrest.
+    - Internal nodes are nodes that has number of degree larger than 0.
+    - External nodes / leaf nodes are nodes that has number of degree equal to 0.
+- Binary Tree Introduction:
+    - A tree with degree 2 (max of 2 children).
+    - We name left child and right child.
+    - There are two types of nodes: 
+        - Labelled Nodes.
+        - Unlabelled Nodes: There is no values assigned to the node.
+            - Number of distinct tree shape that you can have is T(n) = [2n C n] / (n+1), this is known as Catalan number
+            - Example: T(5) = [2*5 C 5]/(5+1) = [10 C 5] / 6 = [ (10 * 9 * 8 * 7 * 6) / (5 * 4 * 3 * 2 * 1)] / 6 = 42
+            - Number of tree with max height is 2^n with n is number of max possible height.
+    - Relationship between number of nodes and tree height:
+        - Minimum number of nodes are n = h + 1 with h is the height - recall height start at 0 aka not counting the root node
+        - Maximum number of nodes are n = 2^(h+1) - 1 with h is the height of the tree
+    - Relationship between number of deg(0) and deg(2) nodes is: deg(0) = deg(2) + 1
+- Strict/Complete Binary Tree Introduction:
+    - Degree 0 and degree 2 nodes are allowed but not degree 1.
+    - Number of minimum of nodes in CBT is n = 2*h + 1.
+    - Number of maximum of nodes in CBT is n = 2^(h+1) - 1.
+    - Internal vs External (leaf) nodes: num_external = num_internal + 1 
+- Binary Tree Design:
+    - Linked List Representation is similar to doubly linked list with Left Child, Data, Right Child.
+    - If there are n nodes then there are n+1 NULL pointers (at the leaf nodes)
+- Full vs Complete Binary Tree:
+    - Full BT has max number of nodes in the Binary Tree.
+    - Complete BT is a BT with height H and is a full BT at height H-1; and at height H (leaf node level), we have all the nodes from left to right without skipping any nodes. By this way, when we fill in the array, there is no blank in between variables.
+    - Why we need Complete Binary Tree? Cuz we use array so that we guarantee to have no blank space.
+    - Note: A full BT is always a complete BT, but not vice versa.
+- Strict vs Complete Binary Tree.
+- Tree Traversal: Visit all the nodes
+    - Preorder: visit(node), Preorder(left subtree), Preorder(right subtree) - ROOT LEFT RIGHT
+    - Inorder: Inorder(left subtree), visit(node), Inorder(right subtree) - LEFT ROOT RIGHT
+    - Postorder: Postorder(left subtree), Postorder(right subtree), Visit(node) - LEFT RIGHT ROOT
+    - Level order: order by level.
+
+
