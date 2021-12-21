@@ -34,7 +34,7 @@
             Thus we don't recommend delete in linear probing
         - Quadratic Probing:
             - 
-        - Double Hashing
+        - Double Hashing: Use two hash function at the same time. One hash function for insertion, the other hash function is for solving collision.
 
 
 - 3. Modulus Hash Function
