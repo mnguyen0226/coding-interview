@@ -12,12 +12,25 @@ int linear_probing(int H[], int key)
 {
     int index = hash(key);
     int i = 0;
-    while (H[(index + i) % SIZE] != 0)
+    while (H[(index + i) % SIZE] != 0) // if the slot has been occupy, then move to the next slot
     {
         i++;
     }
-    return (index + i) % SIZE;
+    return (index + i) % SIZE; // return the index that is empty
 }
+
+// linear probing
+int quadratic_probing(int H[], int key)
+{
+    int index = hash(key);
+    int i = 0;
+    while (H[(index + i*i) % SIZE] != 0) // if the slot has been occupy, then move to the next slot
+    {
+        i++;
+    }
+    return (index + i*i) % SIZE; // return the index that is empty
+}
+
 
 // linear probing insert
 void Insert(int H[], int key)
@@ -25,9 +38,9 @@ void Insert(int H[], int key)
     int index = hash(key);
     if (H[index] != 0)
     {
-        index = linear_probing(H, key);
+        index = linear_probing(H, key); // get the slot that is empty
     }
-    H[index] = key;
+    H[index] = key; // fill out the key to the HT
 }
 
 // search

@@ -32,7 +32,8 @@
             - Analysis
             - Delete: When delete an element, you have to rehashing, meaning that you will have to take out all the element and hash it back to the table.
             Thus we don't recommend delete in linear probing
-        - Quadratic Probing
+        - Quadratic Probing:
+            - 
         - Double Hashing
 
 
