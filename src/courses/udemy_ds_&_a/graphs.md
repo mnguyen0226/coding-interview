@@ -5,5 +5,8 @@
     - Compact List
 
 - Breadth First Search: Convert the graph to tree and do level-search
-    - Visiting vertice + Exploring vertice = You visit a node, then explore it completely
-- Depth First Search
+    - Visiting vertice + Exploring vertice = You visit a node, then explore it completely.
+
+- Depth First Search - Similar to pre-order traversal in tree.
+    - Use Stack.
+    - When you visit the vertice, you visit the next vertice but not neccessary explore all the connection first.
