@@ -1,4 +1,4 @@
-# 1. Solutions to Print challenges
+# 1. Solutions for Print Challenges
 
 ### Challenge 1: 
 ```
@@ -83,7 +83,7 @@ int main(){
 }
 ```
 
-# 2. Solutions to Data-Type Challenge
+# 2. Solutions for Data-Type Challenges
 ### Challenge 1:
 Write a C program to take an int, a float, and a char input from user and print them on the screen.
 
@@ -168,7 +168,7 @@ int main()
 }
 ```
 
-# 3. Solutions to Operators Challenge
+# 3. Solutions for Operators Challenges
 ### Challenge 1:
 ```c++
 #include <stdio.h>
@@ -322,3 +322,26 @@ int main()
     return 0;
 }
 ```
+
+# 4. Solutions for Decide If/Else Challenges
+
+
+# 5. Solutions for Loop Challenges
+
+
+# 6. Solutions for Functions Challenges
+
+
+# 7. Solutions for Pointer Challenges
+
+
+# 8. Solutions for Array Challenges
+
+
+# 9. Solutions for Strings Challenges
+
+
+# 10. Solutions for Pre-processor Challenges
+
+
+# 11. Solutions for Structure Challenges
