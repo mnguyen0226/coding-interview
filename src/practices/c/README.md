@@ -324,6 +324,30 @@ int main()
 ```
 
 # 4. Solutions for Decide If/Else Challenges
+### Challenge 1:
+Take values of length and breadth of a rectangle from user and check if it is square or not
+```c++
+#include <stdio.h>
+int main()
+{
+    int length, breadth;
+    printf("Please enter the length and breadth values: ");
+    scanf("%d", &length);
+    scanf("%d", &breadth);
+    if (length == breadth)
+    {
+        printf("The rectangle is square.");
+    }
+    else
+    {
+        printf("The rectangle is NOT square.");
+    }
+
+    return 0;
+}
+```
+
+### Challenge 2:
 
 
 # 5. Solutions for Loop Challenges
