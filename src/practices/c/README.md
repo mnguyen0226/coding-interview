@@ -1,6 +1,6 @@
-# Solution to all warm-up challenges
+# 1. Solutions to Print challenges
 
-## Challenge 1: 
+### Challenge 1: 
 ```
 Write a C program to print
 *
@@ -22,7 +22,7 @@ int main(){
 }
 ```
 
-## Challenge 2:
+### Challenge 2:
 Store two integers in two variables x and y. Print the sum of the two.
 ```c++
 #include <stdio.h>
@@ -35,7 +35,7 @@ int main(){
 }
 ```
 
-## Challenge 3:
+### Challenge 3:
 Store two integers in two variables x and y. Print the product of the two.
 ```c++
 #include <stdio.h>
@@ -48,7 +48,7 @@ int main(){
 }
 ```
 
-## Challenge 4:
+### Challenge 4:
 ```
 Print the following pattern on the screen
 ****
@@ -68,7 +68,7 @@ int main(){
 }
 ```
 
-## Challenge 5:
+### Challenge 5:
 Write a C program to take two integers inputs from users and print the sum and priduct of them
 ```c++
 #include <stdio.h>
@@ -82,3 +82,5 @@ int main(){
     return 0;
 }
 ```
+
+# 2. Solutions to Data-Type Challenge
