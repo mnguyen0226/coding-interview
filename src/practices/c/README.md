@@ -1,4 +1,4 @@
-# Solution to all challenges
+# Solution to all warm-up challenges
 
 ## Challenge 1: 
 ```
