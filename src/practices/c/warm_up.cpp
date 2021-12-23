@@ -1,12 +1,20 @@
 #include <stdio.h>
 int main()
 {
-    float length;
-    float breadth;
-    printf("Please enter the length and breadth int float: ");
-    scanf("%f", &length);
-    scanf("%f", &breadth);
-    int area = (int)length * (int)breadth;
-    printf("The area is %d", area);
+    int d;
+    int final = 0;
+    printf("Please enter a 3 digits number: ");
+    scanf("%d", &d);
+
+    int first = d / 100;
+    d = d % 100;
+
+    int second = d / 10;
+    int third = d % 10;
+
+    final = third * 100 + second * 10 + first;
+
+    printf("Reversed number is: %d\n", final);
+
     return 0;
 }

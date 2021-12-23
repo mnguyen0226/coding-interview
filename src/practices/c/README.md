@@ -168,6 +168,157 @@ int main()
 }
 ```
 
+# 3. Solutions to Operators Challenge
+### Challenge 1:
+```c++
+#include <stdio.h>
+int main()
+{
+    int a = 15;
+
+    // printf("%d\n", ++a); // increment then print => 16
+    printf("%d\n", a++); // print then increment => 15
+
+    return 0;
+}
+```
+
+### Challenge 2:
+The total number of students in a class are 45 or out which 25 are boys. If 80% of the total student secured grade A out of which 15 are boys, then write a program to calculate the total number of girls getting A.
+```c++
+#include <stdio.h>
+int main()
+{
+    int total = 45;
+    int boys = 25;
+    int girls = total - boys;
+    int total_A = 45 * 0.8;
+    int total_boys_A = 15;
+    int total_girls_A = total_A - total_boys_A;
+
+    printf("%d\n", total_girls_A);
+
+    return 0;
+}
+```
+
+### Challenge 3:
+Write a program to calculate the sum of the first and the second last digit of a 5 digit number entered from the keyboard.
+```c++
+#include <stdio.h>
+int main()
+{
+    int d;
+    printf("Please enter a 5 digits number: ");
+    scanf("%d", &d);
+
+    int first = d / 10000;
+    d = d % 10000;
+
+    int second = d / 1000;
+    d = d % 1000;
+
+    int third = d / 100;
+    d = d % 100;
+
+    int fourth = d / 10;
+    int fifth = d % 10;
+
+    int sum = first + fourth;
+    printf("Sum is: %d", sum);
+
+    return 0;
+}
+```
+
+### Challenge 4:
+Supose you entered a 4 digit number. Write a program to display a number whose digits are 2 greater than the corresponding digits of the entered number
+```c++
+#include <stdio.h>
+int main()
+{
+    int d;
+    int final = 0;
+    printf("Please enter a 4 digits number: ");
+    scanf("%d", &d);
+
+    int first = d / 1000; // get the number at the first position
+    first += 2; // increment by 2
+    first = first % 10; // in case that value is more than 10 then we interested in the last value only
+    first *= 1000; 
+    final += first; // add to the final value
+    d = d % 1000; // get the mod of the rest of 3 values
+
+    int second = d / 100;
+    second += 2;
+    second = second % 10;
+    second *= 100;
+    final += second;
+    d = d % 100;
+
+    int third = d / 10;
+    third += 2;
+    third = third % 10;
+    third *= 10;
+    final += third;
+
+    int fourth = d % 10;
+    fourth += 2;
+    fourth = fourth % 10;
+    final += fourth;
+
+    printf("Final is: %d\n", final);
+
+    return 0;
+}
+```
+
+### Challenge 5:
+Write a program to calculate the sum of the digits of a 3-digit number which is entered from the keyboard.
+```c++
+#include <stdio.h>
+int main()
+{
+    int d;
+    int sum = 0;
+    printf("Please enter a 3 digits number: ");
+    scanf("%d", &d);
+
+    int first = d / 100;
+    d = d % 100;
+
+    int second = d / 10;
+    int third = d % 10;
+
+    sum = first + second + third;
+
+    printf("Sum is: %d\n", sum);
+
+    return 0;
+}
+```
+
 ### Challenge 6:
+Write a program to reverse a 3-digit number which is entered from keyboard.
+```c++
+#include <stdio.h>
+int main()
+{
+    int d;
+    int final = 0;
+    printf("Please enter a 3 digits number: ");
+    scanf("%d", &d);
 
+    int first = d / 100;
+    d = d % 100;
 
+    int second = d / 10;
+    int third = d % 10;
+
+    final = third * 100 + second * 10 + first;
+
+    printf("Reversed number is: %d\n", final);
+
+    return 0;
+}
+```
