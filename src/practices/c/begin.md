@@ -1,6 +1,7 @@
 # Solution to all challenges
 
 ## Challenge 1: 
+```
 Write a C program to print
 *
 **
@@ -8,6 +9,7 @@ Write a C program to print
 ****
 on screen.
 ### Solution: Use the for loop
+```
 ```c++
 #include <stdio.h>
 
