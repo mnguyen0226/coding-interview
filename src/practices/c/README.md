@@ -615,7 +615,7 @@ int main()
 ```
 
 ### Challenge 6:
-A three digit number is called Armstrong number if sum of sube of its digit is equal to number itself. For instanc e 153 is arm strong number because 1^3 + 5^3 + 3^3 = 153. Write all arm strong numbers between 100 to 500.
+A three digit number is called Armstrong number if sum of sube of its digit is equal to number itself. For instance 153 is arm strong number because 1^3 + 5^3 + 3^3 = 153. Write all arm strong numbers between 100 to 500.
 
 ```c++
 int main()
