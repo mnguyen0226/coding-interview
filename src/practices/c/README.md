@@ -920,6 +920,169 @@ int main()
 }
 ```
 
+### Challenge 7:
+Write down the name of 10 of your friends in an array, then sort those in alphabetically ascending order.
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char arr[6][100] = {"Nbe", "Bev", "Dse", "Dtsd", "Exd", "Tsf"};
+    // bubble sort
+    for (int i = 0; i < 6 - 1; i++)
+    {
+        for (int j = 0; j < 6 - 1 - i; j++)
+        {
+            if (strcmp(arr[j], arr[j + 1]) > 0)
+            {
+                char temp[100] = "";
+                strcpy(temp, arr[j]);
+                strcpy(arr[j], arr[j + 1]);
+                strcpy(arr[j + 1], temp);
+            }
+        }
+    }
+
+    // print out all values
+    for (int i = 0; i < 6; i++)
+    {
+        printf("%s ", &arr[i]);
+    }
+
+    return 0;
+}
+```
+
+### Challenge 8: 
+Write a program to delete all the consonenets from the string "Hello, have a good day".
+```c++
+#include <stdio.h>
+#include <string.h>
+
+// you can't delete a character from a string but create a new string and copy the character there
+int main()
+{
+    char string[] = "Hello, have a good day.";
+    char new_s[100];
+    char *p = new_s; // point to H
+    int len = strlen(string);
+
+    for (int i = 0; i < len; i++)
+    {
+        if (string[i] == 'u' || string[i] == 'e' || string[i] == 'a' || string[i] == 'o' || string[i] == 'i'){
+            continue;
+        }
+        *p = string[i];
+        p++;
+    }
+    printf("%s", new_s);
+
+    return 0;
+}
+```
+
+### Challenge 9:
+Wriote a program to delete the word "the" in the sentence "this is the line in the cage".
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[] = "This is the lion in the cage";
+    char new_s[100]; // create a new string
+    char *pch = strtok(s, " "); // get the first token
+    while (pch != NULL) // parse through the array
+    {
+        if (strcmp(pch, "the") != 0) // if found the word "the"
+        {
+            strcat(new_s, pch);
+            strcat(new_s, " ");
+        }
+        pch = strtok(NULL, " ");
+    }
+    printf("%s", new_s); 
+
+    return 0;
+}
+```
+
+### Challenge 10:
+Write a program to reverse a string with and without using strrev.
+```c++
+// Without strrev()
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[] = "Hello, this is Minh";
+    char new_s[100];
+    int j = 0;
+    int len = strlen(s);
+    for (int i = len - 1; i >= 0; i--)
+    {
+        new_s[j] = s[i];
+        j++;
+    }
+
+    printf("%s", new_s);
+
+    return 0;
+}
+```
+
+```c++
+// With strrev()
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[] = "Hello, this is Minh";
+    char *new_s = strrev(s);
+
+    printf("%s", new_s);
+
+    return 0;
+}
+```
+
+### Challenge 11:
+Check the occurrence of the letter 'e' and the word 'is' in the sentence "This is umbrella" without using predefined String functions.
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[] = "This is an umbrella eeeeee is is is";
+    int count_e = 0;
+    int count_is = 0;
+
+    // traverse through all characters
+    for (int i = 0; i < strlen(s); i++)
+    {
+        if (s[i] == 'e')
+            count_e++;
+    }
+
+    // parse the string to find words
+    char *pch = strtok(s, " ");
+    while (pch != NULL)
+    {
+        if (strcmp(pch, "is") == 0)
+            count_is++;
+        pch = strtok(NULL, " ");
+    }
+    printf("Counter: %d, %d", count_e, count_is);
+
+    return 0;
+}
+```
+
+
 # 10. Solutions for Pre-processor Challenges
 
 

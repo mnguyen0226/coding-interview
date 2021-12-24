@@ -3,24 +3,26 @@
 
 int main()
 {
-    char name[] = "Nguyen Tran Binh Minh";
-    int num_letter = 4;
-    int count = 1;
+    char s[] = "This is an umbrella eeeeee is is is";
+    int count_e = 0;
+    int count_is = 0;
 
-    // parse through the string, find the last element.
-    char *pch = strtok(name, " "); // get the first token
+    // traverse through all characters
+    for (int i = 0; i < strlen(s); i++)
+    {
+        if (s[i] == 'e')
+            count_e++;
+    }
+
+    // parse the string to find words
+    char *pch = strtok(s, " ");
     while (pch != NULL)
     {
-        if (count == 4)
-        {
-            printf("%s ", pch);
-        }
-        else{
-            printf("%c. ", pch[0]);
-        }
+        if (strcmp(pch, "is") == 0)
+            count_is++;
         pch = strtok(NULL, " ");
-        count++;
     }
+    printf("Counter: %d, %d", count_e, count_is);
 
     return 0;
 }
