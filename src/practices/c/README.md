@@ -508,9 +508,134 @@ int main()
 }
 ```
 
-
 # 5. Solutions for Loop Challenges
+### Challenge 1:
+This will print infinitely
+```c++
+#include <stdio.h>
+int main(){
+    for(int i = 0;1;i++){
+        printf("%d\n",i);
+    }
+    return 0;
+}
+```
 
+### Challenge 2: 
+This will print z: 12 (0 3 6 9 12)
+```c++
+#include <stdio.h>
+int main( )
+{
+    int x = 10, y = 3, z;
+    for(z = 0; z<x; )
+    z = z++ +y; // execute this line in loop
+    printf("%d\n", z) ;
+    return 0;
+}
+```
+
+### Challenge 3: 
+```
+Print the following patterns using loop :
+a.
+*
+**
+***
+****
+```
+```c++
+#include <stdio.h>
+int main()
+{
+    for (int i = 0; i < 4; i++) //row
+    {
+        for (int j = 0; j < 4; j++) //col 
+        {
+            if (j <= i)
+            {
+                printf("* ");
+            }
+        }
+        printf("\n");
+    }
+
+    return 0;
+}
+```
+
+### Challenge 4: 
+Write a C program to calculate factorial of a number.
+```c++
+#include <stdio.h>
+int main()
+{
+    int num = 0;
+    printf("Please enter a number: ");
+    scanf("%d",&num);
+    int result = 1;
+    for(int i = 1; i <= num; i++){
+        result *= i;
+    }
+
+    printf("Factorial: %d", result);
+    return 0;
+}
+```
+
+### Challenge 5:
+Write a C program to find the GCD and LCM of the given two number.
+```c++
+#include <stdio.h>
+int main()
+{
+    int x, y, count = 1, small;
+    int gcd, lcm;
+    printf("Please enter the two values: ");
+    scanf("%d", &x);
+    scanf("%d", &y);
+
+    small = (x < y) ? x : y; // if x < y, then return x
+
+    while (count <= small)
+    {
+        if (x % count == 0 && y % count == 0)
+        {
+            gcd = count; // keep replacing this till find the gcd
+        }
+        count++;
+    }
+    // note that lcm = (num 1 * num 2) / gcd
+
+    lcm = (x * y) / gcd;
+
+    printf("LCM is: %d; GCD is: %d", lcm, gcd);
+    return 0;
+}
+```
+
+### Challenge 6:
+A three digit number is called Armstrong number if sum of sube of its digit is equal to number itself. For instanc e 153 is arm strong number because 1^3 + 5^3 + 3^3 = 153. Write all arm strong numbers between 100 to 500.
+
+```c++
+int main()
+{
+    for (int i = 100; i <= 500; i++)
+    {
+        int num = i;
+        int first = num / 100;
+        num = num % 100;
+
+        int second = num / 10;
+        int third = num % 10;
+        if (i == (first * first * first + second * second * second + third * third * third))
+        {
+            printf("Number: %d\n", i);
+        }
+    }
+    return 0;
+}
+```
 
 # 6. Solutions for Functions Challenges
 
