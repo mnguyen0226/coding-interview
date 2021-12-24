@@ -783,8 +783,6 @@ int main()
 }
 ```
 
-### Challenge 4:
-
 # 9. Solutions for Strings Challenges
 
 
