@@ -784,7 +784,141 @@ int main()
 ```
 
 # 9. Solutions for Strings Challenges
+### Challenge 1:
+Write a program to print a string entered by user.
+```c++
+#include <stdio.h>
+int main(){
+    char name[25];
+    printf("Please enter your name less than 25 char, no space: ");
+    scanf("%s", &name);
+    printf("Name is: %s", name);
+    return 0;
+}
+```
 
+### Challenge 2:
+Write a program to find the length of the string "refrigerator".
+```c++
+#include<stdio.h>
+
+int main(){
+    char c[] = "refrigerator";
+    int len = sizeof(c) / sizeof(c[0]);
+    printf("Len is: %d", len);
+
+    return 0;
+}
+```
+
+### Challenge 3:
+Write a program to enter a string s1 and copy it to another string s2.
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char c[] = "Hello Minh";
+    char t[100];
+    strcpy(t, c);
+    printf("String: %s", t);
+    return 0;
+}
+```
+
+### Challenge 4:
+Write a program to compare if two strings entered by user are equal or not without using the predefined string functions.
+```c++
+#include <stdio.h>
+int main()
+{
+    char s[] = "minh nguyen";
+    char t[] = "minh nguyen";
+
+    for (int i = 0; i < sizeof(t) / sizeof(t[0]); i++)
+    {
+        if (s[i] > t[i])
+        {
+            printf("s > t\n");
+            break;
+        }
+        else if (s[i] < t[i])
+        {
+            printf("s < t\n");
+            break;
+        }
+        else if(s[i] == t[i] && i == sizeof(t) / sizeof(t[0]) - 1){
+            printf("s == t\n");
+        }
+        continue;
+    }
+
+    return 0;
+}
+```
+
+### Challenge 5:
+Write a program to check if the word 'orange' is present in the sentence "This is orange juice".
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char c[] = "orange";
+    char s[] = "This is orange juice";
+    int flag = 0;
+    // get the first token
+    char *pch = strtok(s, " "); // breaks string str into a series of tokens using the delimiter delim.
+    while (pch != NULL)
+    {
+        if (strcmp(pch, c) == 0)
+        {
+            printf("There is an orange");
+            flag = 1;
+        }
+        pch = strtok(NULL, " "); // standard
+    }
+    if (flag == 0)
+    {
+        printf("There is no orange");
+    }
+
+    return 0;
+}
+```
+
+### Challenge 6:
+Write a program that takes your full name as input and displays the abbreviations of the first and the middle names except the last name which is displayed as it is. For example, if you name is Minh Tran Binh Nguyen, then the output should be M. T. B. Nguyen.
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char name[] = "Nguyen Tran Binh Minh";
+    int num_letter = 4;
+    int count = 1;
+
+    // parse through the string, find the last element.
+    char *pch = strtok(name, " "); // get the first token
+    while (pch != NULL)
+    {
+        if (count == 4)
+        {
+            printf("%s ", pch);
+        }
+        else{
+            printf("%c. ", pch[0]);
+        }
+        pch = strtok(NULL, " ");
+        count++;
+    }
+
+    return 0;
+}
+```
 
 # 10. Solutions for Pre-processor Challenges
 

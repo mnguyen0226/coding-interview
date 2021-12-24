@@ -1,23 +1,26 @@
 #include <stdio.h>
+#include <string.h>
 
 int main()
 {
-    int A[] = {1, 2, 3, 5, 100, -100, 233, 8};
-    int smallest = 100000;
-    int largest = -100000;
-    int len = sizeof(A) / sizeof(A[0]);
-    for (int i = 0; i < len; i++)
+    char name[] = "Nguyen Tran Binh Minh";
+    int num_letter = 4;
+    int count = 1;
+
+    // parse through the string, find the last element.
+    char *pch = strtok(name, " "); // get the first token
+    while (pch != NULL)
     {
-        if (smallest > A[i])
+        if (count == 4)
         {
-            smallest = A[i];
+            printf("%s ", pch);
         }
-        if (largest < A[i])
-        {
-            largest = A[i];
+        else{
+            printf("%c. ", pch[0]);
         }
+        pch = strtok(NULL, " ");
+        count++;
     }
-    printf("Len: %d, Smallest: %d, Largest: %d", len, smallest, largest);
 
     return 0;
 }
