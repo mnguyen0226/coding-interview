@@ -1,18 +1,16 @@
 #include <stdio.h>
-int main()
-{
-    for (int i = 100; i <= 500; i++)
-    {
-        int num = i;
-        int first = num / 100;
-        num = num % 100;
 
-        int second = num / 10;
-        int third = num % 10;
-        if (i == (first * first * first + second * second * second + third * third * third))
-        {
-            printf("Number: %d\n", i);
-        }
+int fibonacci(int n){
+    if(n == 0){
+        return 0;
     }
+    else if(n == 1){
+        return 1;
+    }
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+int main(){
+    printf("Fibonacci: %d", fibonacci(4));
     return 0;
 }

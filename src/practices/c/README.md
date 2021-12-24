@@ -639,6 +639,41 @@ int main()
 
 # 6. Solutions for Functions Challenges
 
+### Challenge 1:
+Write a function to calculate area and perimeter of a rectangle.
+```c++
+#include <stdio.h>
+void calculate(int a, int b)
+{
+    printf("Perimeter: %d, Area: %d", (a + b) * 2, a * b);
+}
+
+int main(){
+    calculate(1, 2);
+    return 0;
+}
+```
+
+### Challenge 2:
+Write a function to calculate the fibonacci series.
+```c++
+#include <stdio.h>
+
+int fibonacci(int n){
+    if(n == 0){
+        return 0;
+    }
+    else if(n == 1){
+        return 1;
+    }
+    return fibonacci(n-1) + fibonacci(n-2);
+}
+
+int main(){
+    printf("Fibonacci: %d", fibonacci(4));
+    return 0;
+}
+```
 
 # 7. Solutions for Pointer Challenges
 
