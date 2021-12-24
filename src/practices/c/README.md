@@ -676,7 +676,36 @@ int main(){
 ```
 
 # 7. Solutions for Pointer Challenges
+### Challenge 1:
+Write a program to print the value of the address of the pointer to a variable whose value is input from user.
+```c++
+#include <stdio.h>
 
+int main(){
+    int num;
+    printf("Please enter a value: ");
+    scanf("%d", &num);
+    int* i = &num; // pointer points to address of the number
+    printf("Address is: %u", &i);
+    return 0;
+}
+```
+
+### Challenge 2:
+Write a program to print a number which is entered from keyboard using pointer.
+```c++
+#include <stdio.h>
+
+int main(){
+    int num, *p;
+    printf("Please enter a number: ");
+    scanf("%d", &num);
+    p = &num;
+    printf("Number: %d", *p);
+
+    return 0;
+}
+```
 
 # 8. Solutions for Array Challenges
 

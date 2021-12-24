@@ -1,16 +1,11 @@
 #include <stdio.h>
 
-int fibonacci(int n){
-    if(n == 0){
-        return 0;
-    }
-    else if(n == 1){
-        return 1;
-    }
-    return fibonacci(n-1) + fibonacci(n-2);
-}
-
 int main(){
-    printf("Fibonacci: %d", fibonacci(4));
+    int num, *p;
+    printf("Please enter a number: ");
+    scanf("%d", &num);
+    p = &num;
+    printf("Number: %d", *p);
+
     return 0;
 }
