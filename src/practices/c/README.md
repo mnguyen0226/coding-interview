@@ -1082,6 +1082,60 @@ int main()
 }
 ```
 
+### Challenge 12:
+Write a program to check if a given string is a palindrome.
+```c++
+#include <stdio.h>
+#include <string.h>
+
+int main()
+{
+    char s[] = "ccaaccss";
+    char s1[] = "ccaaccss"; // directly be reverse
+    char *r_s = strrev(s1);
+    int flag = 1; // mark palindrome
+    for (int i = 0; i < strlen(s); i++)
+    {
+        if (s[i] != r_s[i])
+        {
+            printf("Not Palindrome");
+            flag = 0;
+            break;
+        }
+    }
+    if (flag == 1)
+    {
+        printf("Palindrome");
+    }
+
+    return 0;
+}
+```
+
+```c++
+// second way
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char s1[] = "aba";
+    int i;
+    int pali = 1; // flag
+
+    for (i = 0; i < strlen(s1) / 2; i++) // traverse half of the string
+    {
+        if (s1[i] != s1[strlen(s1) - i - 1]) 
+        {
+            pali = 0;
+            break;
+        }
+    }
+
+    printf("%d\n", pali);
+
+    return 0;
+}
+```
 
 # 10. Solutions for Pre-processor Challenges
 

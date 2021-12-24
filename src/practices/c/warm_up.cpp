@@ -1,28 +1,21 @@
 #include <stdio.h>
 #include <string.h>
-
 int main()
 {
-    char s[] = "This is an umbrella eeeeee is is is";
-    int count_e = 0;
-    int count_is = 0;
+    char s1[] = "aba";
+    int i;
+    int pali = 1; // flag
 
-    // traverse through all characters
-    for (int i = 0; i < strlen(s); i++)
+    for (i = 0; i < strlen(s1) / 2; i++) // traverse half of the string
     {
-        if (s[i] == 'e')
-            count_e++;
+        if (s1[i] != s1[strlen(s1) - i - 1]) // 
+        {
+            pali = 0;
+            break;
+        }
     }
 
-    // parse the string to find words
-    char *pch = strtok(s, " ");
-    while (pch != NULL)
-    {
-        if (strcmp(pch, "is") == 0)
-            count_is++;
-        pch = strtok(NULL, " ");
-    }
-    printf("Counter: %d, %d", count_e, count_is);
+    printf("%d\n", pali);
 
     return 0;
 }
