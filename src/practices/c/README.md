@@ -1138,6 +1138,24 @@ int main()
 ```
 
 # 10. Solutions for Pre-processor Challenges
+- In simple terms, a C Preprocessor is just a text substitution tool and it instructs the compiler to do required pre-processing before the actual compilation
+- Example: 
+    - #include: Inserts a particular header from another file.
+    - #define: Substitutes a preprocessor macro.
+    - #undef: Undefines a preprocessor macro.
 
+- Macro vs Functions?
+    - A macro is a name given to a block of C statements as a pre-processor directive. Being a pre-processor, the block of code is communicated to the compiler before entering into the actual coding (main () function). A macro is defined with the pre-processor directive. Macros are pre-processed which means that all the macros would be processed before your program compiles. However, functions are not preprocessed but compiled.
+    - Example:
+    ```c++
+
+    #include<stdio.h>
+    #define NUMBER 10
+    int main()
+    {
+        printf("%d", NUMBER);
+        return 0;
+    }
+    ```
 
 # 11. Solutions for Structure Challenges
