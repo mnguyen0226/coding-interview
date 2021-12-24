@@ -1158,4 +1158,64 @@ int main()
     }
     ```
 
+### Challenge 1: 
+Write a macro to calculate the area and perimeter of a rectangle.
+```c++
+#include <stdio.h>
+#define area(l, b) (l * b)
+#define perimeter(l, b) (2 * (l + b))
+int main()
+{
+    int a = area(3, 2);
+    int p = perimeter(3, 2);
+    printf("Area: %d, Perimeter: %d", a, p);
+
+    return 0;
+}
+```
+
+### Challenge 2:
+Write a macro to compare two numbers.
+```c++
+#include <stdio.h>
+#define compare(a, b) (a > b ? a : b)
+int main()
+{
+    int a = 1;
+    int b = 2;
+    printf("The larger number is: %d", compare(a, b));
+
+    return 0;
+}
+```
+
+### Challenge 3:
+Write a macro to find the average of two numbers
+```c++
+#include <stdio.h>
+#define average(a,b)((a+b)/2.0)
+int main()
+{
+    double a = 1.0;
+    double b = 2.0;
+    printf("The average number is: %f", average(a, b));
+
+    return 0;
+}
+```
+
+### Challenge 4:
+Write a macro to find absolute value of a number
+```c++
+#include <stdio.h>
+#define abs(a) (a < 0 ? (-1 * a) : a)
+int main()
+{
+    double a = -1.0;
+    printf("The absolute number is: %f", abs(a));
+
+    return 0;
+}
+```
+
 # 11. Solutions for Structure Challenges

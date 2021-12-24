@@ -1,21 +1,9 @@
 #include <stdio.h>
-#include <string.h>
+#define abs(a) (a < 0 ? (-1 * a) : a)
 int main()
 {
-    char s1[] = "aba";
-    int i;
-    int pali = 1; // flag
-
-    for (i = 0; i < strlen(s1) / 2; i++) // traverse half of the string
-    {
-        if (s1[i] != s1[strlen(s1) - i - 1]) // 
-        {
-            pali = 0;
-            break;
-        }
-    }
-
-    printf("%d\n", pali);
+    double a = -1.0;
+    printf("The absolute number is: %f", abs(a));
 
     return 0;
 }
