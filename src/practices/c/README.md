@@ -348,6 +348,165 @@ int main()
 ```
 
 ### Challenge 2:
+Take two int values from user and print greatest among them
+```c++
+#include <stdio.h>
+int main()
+{
+    int x, y;
+    printf("Please enter two int values: ");
+    scanf("%d", &x);
+    scanf("%d", &y);
+    if (x > y)
+    {
+        printf("Larger number is: %d", x);
+    }
+    else
+    {
+        printf("Larger number is: %d", y);
+    }
+
+    return 0;
+}
+```
+
+### Challenge 3:
+A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
+Ask user for quantity
+Suppose, one unit will cost 100.
+Judge and print total cost for user.
+```c++
+#include <stdio.h>
+int main()
+{
+    int quantity = 0;
+    printf("Please enter the quantity: ");
+    scanf("%d", &quantity);
+    if (100 * quantity > 1000)
+    {
+        printf("Cost is: %f", 100 * (float)quantity * 0.9);
+    }
+    else
+    {
+        printf("Cost is: %d", 100 * quantity);
+    }
+
+    return 0;
+}
+```
+
+### Challenge 4:
+A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.
+```c++
+#include <stdio.h>
+int main()
+{
+    int year = 0;
+    int salary = 0;
+    printf("Please enter the number of years of service: ");
+    scanf("%d", &year);
+    printf("Please enter the current salary: ");
+    scanf("%d", &salary);
+    if (year > 5)
+    {
+        printf("Net bonus amount: %f", (float)salary * 1.05);
+    }
+    else
+    {
+        printf("Net bonus amount: %f", (float)salary);
+    }
+
+    return 0;
+}
+```
+
+### Challenge 5:
+Write a C program to check if a year is a leap year or not. If a year is divisible by 4 then it is a leap year, but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400
+```c++
+#include <stdio.h>
+int main()
+{
+    int year = -1;
+    while (year < 0)
+    { // keep asking till getting the positive year
+        printf("Please enter the non-negative year: ");
+        scanf("%d", &year);
+    }
+    if (year % 100 == 0)
+    { // if it is a century year
+        if (year % 400 == 0)
+        {
+            printf("This is leap year.");
+        }
+        else
+        {
+            printf("This is not leap year");
+        }
+    }
+    else // not a century year
+    {
+        if (year % 4 == 0)
+        {
+            printf("This is leap year.");
+        }
+        else
+        {
+            printf("This is not leap year");
+        }
+    }
+
+    return 0;
+}
+```
+
+### Challenge 5:
+A 4 digit number is entered through keyboard. Write a C program to print a new number with digits reversed as of original one.
+```c++
+#include <stdio.h>
+int main()
+{
+    int num = 0;
+    int final;
+    printf("Please enter a 4 digits number: ");
+    scanf("%d", &num);
+
+    int first = num / 1000;
+    num = num % 1000;
+
+    int second = num / 100;
+    num = num % 100;
+
+    int third = num / 10;
+    int fourth = num % 10;
+
+    final = fourth * 1000 + third * 100 + second * 10 + first;
+    printf("Final is % d", final);
+    
+    return 0;
+}
+```
+
+### Challenge 6: 
+Write a C program to check whether an entered character is lowercase of uppercase.
+```c++
+#include <stdio.h>
+int main()
+{
+    char c;
+    printf("Please enter a character: ");
+    scanf("%c", &c);
+    if (c >= 65 && c <= 90)
+    {
+        printf("Uppercase");
+    }
+    else
+    {
+        printf("Lowercase");
+    }
+
+    return 0;
+}
+```
 
 
 # 5. Solutions for Loop Challenges

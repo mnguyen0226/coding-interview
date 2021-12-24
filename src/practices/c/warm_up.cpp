@@ -1,17 +1,16 @@
 #include <stdio.h>
 int main()
 {
-    int length, breadth;
-    printf("Please enter the length and breadth values: ");
-    scanf("%d", &length);
-    scanf("%d", &breadth);
-    if (length == breadth)
+    char c;
+    printf("Please enter a character: ");
+    scanf("%c", &c);
+    if (c >= 65 && c <= 90)
     {
-        printf("The rectangle is square.");
+        printf("Uppercase");
     }
     else
     {
-        printf("The rectangle is NOT square.");
+        printf("Lowercase");
     }
 
     return 0;
