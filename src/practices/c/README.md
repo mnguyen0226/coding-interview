@@ -708,7 +708,82 @@ int main(){
 ```
 
 # 8. Solutions for Array Challenges
+### Challenge 1:
+Take 10 integer inputs from user and store themn in an array and print them on screen.
+```c++
+#include <stdio.h>
+int main(){
+    int A[10];
+    int count = 0;
+    int num;
+    while(count < 10){
+        printf("Enter a number: ");
+        scanf("%d", &num);
+        A[count] = num; 
+        count++;
+    }
 
+    for(int i = 0; i < 10; i++){ // print all values
+        printf("%d ", A[i]);
+    }
+
+    return 0;
+}
+```
+
+### Challenge 2:
+Take 10 integer inputs from user and store them in an array. Then copy all element in another array in reverse order.
+```c++
+#include <stdio.h>
+
+int main(){
+    int num;
+    int A[10];
+    int rA[10];
+    for(int i = 0; i < 10; i++){
+        printf("Enter a number: ");
+        scanf("%d", &num);
+        A[i] = num;
+        rA[9-i] = num;
+    }
+
+    for(int i = 0; i < 10; i++){
+        printf("%d ", rA[i]);
+    }
+
+    return 0;
+}
+```
+
+### Challenge 3:
+Find the largest and smallest elements of an array.
+```c++
+#include <stdio.h>
+
+int main()
+{
+    int A[] = {1, 2, 3, 5, 100, -100, 233, 8};
+    int smallest = 100000;
+    int largest = -100000;
+    int len = sizeof(A) / sizeof(A[0]);
+    for (int i = 0; i < len; i++)
+    {
+        if (smallest > A[i])
+        {
+            smallest = A[i];
+        }
+        if (largest < A[i])
+        {
+            largest = A[i];
+        }
+    }
+    printf("Len: %d, Smallest: %d, Largest: %d", len, smallest, largest);
+
+    return 0;
+}
+```
+
+### Challenge 4:
 
 # 9. Solutions for Strings Challenges
 
