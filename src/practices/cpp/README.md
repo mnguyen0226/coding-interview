@@ -479,6 +479,7 @@ int main()
 ```
 
 # 11. Solutions for Structure Challenges
+- Have been done in [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c).
 
 # 12. Solutions for Classes & Objects Challenges
 
