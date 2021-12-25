@@ -39,6 +39,36 @@ int main()
 ```
 
 # 2. Solutions for Variables & Literals Challenges
+### Challenge 1:
+Store two integers in two variable x and y. Print the product of the two.
+```c++
+#include <iostream>
+using namespace std;
+
+int main(){
+    int x, y;
+    cout << "Please enter two value: ";
+    cin >> x >> y;
+    cout << "Product is: " << x * y;
+
+    return 0;
+}
+```
+
+### Challenge 2:
+Print the SDCII value of the character 'h'
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    char c = 'h';
+    cout << int(c) << endl;
+
+    return 0;
+}
+```
 
 # 3. Solutions for Operators Challenges
 
