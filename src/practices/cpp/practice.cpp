@@ -1,27 +1,74 @@
 #include <iostream>
+
 using namespace std;
 
-class Parent
+class Member
 {
 public:
-    Parent(){}; // constructor
-    void func1() { cout << "This is a parent class" << endl; }
+    string name;
+    int age;
+    int phone;
+    string address;
+    int salary;
+
+    // default constructor
+    Member(){};
+
+    // parameterized constructor
+    Member(string n, int a, int p, string ad, int s)
+    {
+        this->name = n;
+        this->age = a;
+        this->phone = p;
+        this->address = ad;
+        this->salary = s;
+    }
+
+    void printSalary()
+    {
+        cout << "Salary: " << this->salary << endl;
+    }
 };
 
-class Child : public Parent
+class Employee : public Member
 {
+private:
+    string specialization;
+    string department;
+
 public:
-    Child(){}; // constructor
-    void func2() { cout << "This is a child class" << endl; }
+    Employee(string n, int a, int p, string ad, int s)
+    {
+        this->name = n;
+        this->age = a;
+        this->phone = p;
+        this->address = ad;
+        this->salary = s;
+    };
+};
+
+class Manager : public Member
+{
+private:
+    string specialization;
+    string department;
+
+public:
+    Manager(string n, int a, int p, string ad, int s)
+    {
+        this->name = n;
+        this->age = a;
+        this->phone = p;
+        this->address = ad;
+        this->salary = s;
+    };
 };
 
 int main()
 {
-    Parent p;
-    Child c;
-    p.func1();
-    c.func2();
-    c.func1();
-
+    Employee e("A", 1, 2, "asd", 4);
+    Manager m("A", 1, 2, "asd", 5);
+    e.printSalary();
+    m.printSalary();
     return 0;
 }
