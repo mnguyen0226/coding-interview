@@ -1,16 +1,26 @@
 #include <iostream>
+#include <cstring>
+#include <sstream>
 
 using namespace std;
 
 int main()
 {
-    int A[] = {10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60};
-    int copy_A[10];
-    int j = 0;
-    for (int i = 3; i <= 8; i++)
+    string s = "www.google.com";
+    stringstream ss(s);
+    string temp;
+    int counter = 0;
+    while (getline(ss, temp, '.')) // stream a string, put in a temp string cut out by delimiter
     {
-        copy_A[j] = A[i];
-        j++;
+        for (int i = temp.size() - 1; i >= 0; i--)
+        {
+            cout << temp[i];
+        }
+        counter++;
+        if (counter < 3)
+        {
+            cout << '.';
+        }
     }
     return 0;
 }

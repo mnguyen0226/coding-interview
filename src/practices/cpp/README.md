@@ -317,10 +317,151 @@ int main()
 }
 ```
 
-### Challenge 2:
-If the input array is [10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60], your program should be able to find that the subarray lies between the indexes 3 and 8.
-
 # 9. Solutions for String Challenges
+### Challenge 1:
+Write a program to check if the word 'orange' is present in the "This is orange juice".
+```c++
+#include <iostream>
+#include <cstring>
+#include <sstream>
+using namespace std;
+
+int main()
+{
+    string s = "This is orange juice";
+    string o = "orange";
+    string temp;
+    stringstream ss(s);  // parse through a string
+    int flag = 0;
+
+    while (ss >> temp)
+    { // push the string to string 'o' to check if it is empty, strip down !, ., ?
+        if (temp.compare(o) == 0)
+        {
+            cout << "There is a word orange" << endl;
+            flag = 1;
+        }
+    }
+    if (flag == 0)
+    {
+        cout << "There is no word orange" << endl;
+    }
+
+    return 0;
+}
+```
+
+### Challenge 2: 
+Write a program that takes your full name as input and displays the abbreviations of the first and middle names except the last name which is displayed as it is.
+```c++
+#include <iostream>
+#include <cstring>
+#include <sstream>
+using namespace std;
+
+int main()
+{
+    string name;
+    int count = 0;
+    cout << "Please enter your FULL name: ";
+    getline(cin, name);
+    cout << "Please enter the number of words in your name: ";
+    cin >> count;
+
+    string temp; // place holder
+    stringstream ss(name);
+    while (ss >> temp)
+    { // while temp is not null
+        if (count != 1)
+        {
+            cout << temp[0] << ". ";
+        }
+        else
+        {
+            cout << temp << endl;
+        }
+        count--;
+    }
+
+    return 0;
+}
+```
+
+### Challenge 3:
+Write a program to delete all consonents from the string "Hello, have a good day."
+```c++
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main()
+{
+    string s = "Hello, have a good day.";
+    string new_s;
+    for (int i = 0; i < s.size(); i++)
+    {
+        if (s[i] != 'u' && s[i] != 'e' && s[i] != 'o' && s[i] != 'a' && s[i] != 'i')
+        {
+            new_s += s[i];
+        }
+    }
+    cout << new_s << endl;
+
+    return 0;
+}
+```
+
+### Challenge 4:
+Write a program to reverse a string with and without using any predefined function.
+```c++
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+int main()
+{
+    string s = "Hello, this is Minh";
+    string r_s;
+    for (int i = s.size() - 1; i >= 0; i--)
+    {
+        r_s += s[i];
+    }
+    cout << r_s << endl;
+
+    return 0;
+}
+```
+
+### Challenge 5:
+Write a program to reverse individual words in a string, where each word may be delimited by a dot, comma, space or tab, like www.google.com should become www.elgoog.moc.
+```c++
+#include <iostream>
+#include <cstring>
+#include <sstream>
+
+using namespace std;
+
+int main()
+{
+    string s = "www.google.com";
+    stringstream ss(s);
+    string temp;
+    int counter = 0;
+    while (getline(ss, temp, '.')) // stream a string, put in a temp string cut out by delimiter
+    {
+        for (int i = temp.size() - 1; i >= 0; i--)
+        {
+            cout << temp[i];
+        }
+        counter++;
+        if (counter < 3)
+        {
+            cout << '.';
+        }
+    }
+    return 0;
+}
+```
 
 # 10. Solutions for Pre-processor Challenges
 
