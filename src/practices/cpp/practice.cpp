@@ -1,9 +1,53 @@
 #include <iostream>
-#define interest(p, r, t) ((p * r * t) / 100.0)
 using namespace std;
+
+class Employee
+{
+private:
+    int salary;
+    int hour;
+
+public:
+    Employee()
+    {
+        salary = 0;
+        hour = 0;
+    };
+    Employee(int s, int h)
+    {
+        this->salary = s;
+        this->hour = h;
+    }
+    void getInfo(int *s, int *h) // return multiple values
+    {
+        *s = this->salary;
+        *h = this->hour;
+    }
+    void AddSal()
+    {
+        if (this->salary < 500)
+        {
+            this->salary += 10;
+        }
+    }
+    void AddWork()
+    {
+        if (this->hour > 6)
+        {
+            this->salary += 5;
+        }
+    }
+};
+
 int main()
 {
-    double d = interest(1.0, 2.0, 3.0);
-    cout << d << endl;
-    return 0;
+    Employee e(1, 7);
+    int s, h;
+    e.getInfo(&s, &h);
+    cout << s << " " << h << endl;
+
+    e.AddSal();
+    e.AddWork();
+    e.getInfo(&s, &h);
+    cout << s << " " << h << endl;
 }

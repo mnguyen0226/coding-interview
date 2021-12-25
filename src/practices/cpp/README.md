@@ -212,7 +212,9 @@ int main()
 ```
 
 ### Challenge 2:
+
 Using recursion, define a function to know the nth term of the Fibonacci series.
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -236,7 +238,8 @@ int main()
 }
 ```
 
-### Challenege 3: 
+### Challenege 3:
+
 Define a function named "perfect" that determines if parameter number is a perfect number. Use this function in a program that determines and prints all the perfect numbers between 1 and 1000.
 
 # 6. Solutions for Functions Challenges
@@ -273,8 +276,11 @@ int main()
 ```
 
 # 7. Solutions for Pointers Challenges
+
 ### Challenge 1:
+
 Write a program to print the address of a variable whose value is input from user.
+
 ```c++
 #include<iostream>
 using namespace std;
@@ -290,8 +296,11 @@ int main(){
 ```
 
 # 8. Solutions for Array Challenges
-### Challenge 1: 
+
+### Challenge 1:
+
 Take 10 integer inputs from user and store then in an array and print them on screen.
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -318,8 +327,11 @@ int main()
 ```
 
 # 9. Solutions for String Challenges
+
 ### Challenge 1:
+
 Write a program to check if the word 'orange' is present in the "This is orange juice".
+
 ```c++
 #include <iostream>
 #include <cstring>
@@ -351,8 +363,10 @@ int main()
 }
 ```
 
-### Challenge 2: 
+### Challenge 2:
+
 Write a program that takes your full name as input and displays the abbreviations of the first and middle names except the last name which is displayed as it is.
+
 ```c++
 #include <iostream>
 #include <cstring>
@@ -388,7 +402,9 @@ int main()
 ```
 
 ### Challenge 3:
+
 Write a program to delete all consonents from the string "Hello, have a good day."
+
 ```c++
 #include <iostream>
 #include <cstring>
@@ -412,7 +428,9 @@ int main()
 ```
 
 ### Challenge 4:
+
 Write a program to reverse a string with and without using any predefined function.
+
 ```c++
 #include <iostream>
 #include <cstring>
@@ -433,7 +451,9 @@ int main()
 ```
 
 ### Challenge 5:
+
 Write a program to reverse individual words in a string, where each word may be delimited by a dot, comma, space or tab, like www.google.com should become www.elgoog.moc.
+
 ```c++
 #include <iostream>
 #include <cstring>
@@ -464,8 +484,11 @@ int main()
 ```
 
 # 10. Solutions for Pre-processor Challenges
+
 ### Challenge 1:
+
 Write a macro to calculate the simple interest from principal, rate of interest and time
+
 ```c++
 #include <iostream>
 #define interest(p, r, t) ((p * r * t) / 100.0)
@@ -479,9 +502,223 @@ int main()
 ```
 
 # 11. Solutions for Structure Challenges
+
 - Have been done in [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c).
 
 # 12. Solutions for Classes & Objects Challenges
+
+### Challenge 1:
+
+Create a class named "Student" with a string variable 'name' and an integer variable 'roll_no'. Assign the value of roll_nbo as '2' and that name as "John" by create a object from class student.
+
+```c++
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+class Student
+{
+public:
+    int roll_no;
+    string name;
+};
+
+int main()
+{
+    Student s;
+    s.name = "John";
+    s.roll_no = 2;
+    cout << s.name << " " << s.roll_no << endl;
+
+    return 0;
+}
+```
+
+### Challenge 2:
+
+Assign and print the roll number, phone number, and address of two students having names "Sam" and "John" respectively by creating two objects of the class "Student"
+
+```c++
+#include <iostream>
+using namespace std;
+
+class Student
+{
+public:
+    int roll_no;
+    int phone_no;
+    string name;
+    string address;
+};
+
+int main()
+{
+    Student s, j;
+    s.name = "Sam";
+    s.roll_no = 1;
+    s.phone_no = 2;
+    s.address = "ABC";
+
+    j.name = "John";
+    j.roll_no = 1;
+    j.phone_no = 2;
+    j.address = "ABC";
+
+    cout << s.name << " " << s.roll_no << " " << s.phone_no << " " << s.address << endl;
+    cout << j.name << " " << j.roll_no << " " << j.phone_no << " " << j.address << endl;
+
+    return 0;
+}
+```
+
+### Challenge 3:
+
+Write a program to print the area and perimeter of of a triable having sides of 3 4 5 units by creating a class named "Triangle" with constructor having the three sides as its parameters.
+
+```c++
+#include <iostream>
+using namespace std;
+
+class Triangle
+{
+private:
+    int a, b, c;
+
+public:
+    Triangle()
+    {
+        a = 3;
+        b = 4;
+        c = 5;
+    }
+    Triangle(int a, int b, int c)
+    {
+        this->a = a;
+        this->b = b;
+        this->c = c;
+    }
+    int Area() { return 1; }
+    int Peri() { return a + b + c; }
+};
+
+int main()
+{
+    Triangle t;
+    cout << t.Area() << " " << t.Peri() << endl;
+    Triangle t1(1, 2, 3);
+    cout << t1.Area() << " " << t1.Peri() << endl;
+
+    return 0;
+}
+```
+
+### Challenge 4:
+
+Write a program to print the area of a rectangle by creating a class named "Area" taking a values of its length and breadth as parameters of its constructor and having a function named "returnArea" which returns the area of a rectangle.
+
+```c++
+#include <iostream>
+using namespace std;
+
+class Rectangle
+{
+private:
+    int length;
+    int breadth;
+
+public:
+    // default constructor
+    Rectangle()
+    {
+        length = 1;
+        breadth = 2;
+    };
+
+    // parameterized constructor
+    void setDim(int l, int b)
+    {
+        this->length = l;
+        this->breadth = b;
+    }
+
+    int getArea()
+    {
+        return length * breadth;
+    }
+};
+
+int main()
+{
+    Rectangle r;
+    r.setDim(3, 4);
+    cout << r.getArea() << endl;
+
+    return 0;
+}
+```
+
+### Challenge 5:
+
+Write a program by creating an 'Employee' class having the following functions and print the final salary.
+
+- 1 - 'getInfo()' which takes the salary, number of hours of work per day of employee as parameters
+- 2 - 'AddSal()' which adds $10 to the salary of the employee if it is less than $500.
+- 3 - 'AddWork()' which adds $5 to the salary of the employee if the number of hours of work per day is more than 6 hours.
+```c++
+#include <iostream>
+using namespace std;
+
+class Employee
+{
+private:
+    int salary;
+    int hour;
+
+public:
+    Employee()
+    {
+        salary = 0;
+        hour = 0;
+    };
+    Employee(int s, int h)
+    {
+        this->salary = s;
+        this->hour = h;
+    }
+    void getInfo(int *s, int *h) // return multiple values
+    {
+        *s = this->salary;
+        *h = this->hour;
+    }
+    void AddSal()
+    {
+        if (this->salary < 500)
+        {
+            this->salary += 10;
+        }
+    }
+    void AddWork()
+    {
+        if (this->hour > 6)
+        {
+            this->salary += 5;
+        }
+    }
+};
+
+int main()
+{
+    Employee e(1, 7);
+    int s, h;
+    e.getInfo(&s, &h);
+    cout << s << " " << h << endl;
+
+    e.AddSal();
+    e.AddWork();
+    e.getInfo(&s, &h);
+    cout << s << " " << h << endl;
+}
+```
 
 # 13. Solutions for Subclass Challenges
 
