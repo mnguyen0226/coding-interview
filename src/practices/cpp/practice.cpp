@@ -4,31 +4,21 @@ using namespace std;
 
 int main()
 {
-    int year = 0;
-    cout << "Please enter a year: ";
-    cin >> year;
+    for (int i = 100; i <= 500; i++)
+    {
+        int num = i;
 
-    if (year % 100 == 0)
-    {
-        if (year % 400 == 0)
+        int first = num / 100;
+        num = num % 100;
+
+        int second = num / 10;
+        int third = num % 10;
+
+        if (first * first * first + second * second * second + third * third * third == i)
         {
-            cout << "The year is leap year." << endl;
-        }
-        else
-        {
-            cout << "The year is not leap year." << endl;
-        }
-    }
-    else
-    {
-        if (year % 4 == 0)
-        {
-            cout << "The year is leap year." << endl;
-        }
-        else
-        {
-            cout << "The year is not leap year." << endl;
+            cout << "Number: " << i << endl;
         }
     }
+
     return 0;
 }
