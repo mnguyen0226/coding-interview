@@ -55,3 +55,5 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 - Sorting & Searching
 
 ## Machine Learning & Deep Learning
+- Coursera Deep Learning Course
+- FastAI ML + DL Courses - Pytorch Practice
