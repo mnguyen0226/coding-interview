@@ -71,6 +71,54 @@ int main()
 ```
 
 # 3. Solutions for Operators Challenges
+### Challenge 1:
+Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of a rectangle.
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int l, b;
+    cout << "Please enter the length and breadth: ";
+    cin >> l >> b;
+    cout << "The Area is: " << l * b << endl;
+    cout << "The Perimeter is: " << 2 * (l + b) << endl;
+    return 0;
+}
+```
+
+### Challenge 2:
+Write a program to calculate the sum of the first and the second last digit of a 5 digit.
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num;
+    cout << "Please enter a 5-digit number: ";
+    cin >> num;
+
+    int first = num / 10000;
+    num = num % 10000;
+
+    int second = num / 1000;
+    num = num % 1000;
+
+    int third = num / 100;
+    num = num % 100;
+
+    int fourth = num / 10;
+    int fifth = num % 10;
+
+    int result = first + fourth;
+    cout << "The result is: " << result << endl;
+
+    return 0;
+}
+```
 
 # 4. Solutions for Decide if/else Challenges
 
