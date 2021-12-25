@@ -1,53 +1,27 @@
 #include <iostream>
 using namespace std;
 
-class Employee
+class Parent
 {
-private:
-    int salary;
-    int hour;
-
 public:
-    Employee()
-    {
-        salary = 0;
-        hour = 0;
-    };
-    Employee(int s, int h)
-    {
-        this->salary = s;
-        this->hour = h;
-    }
-    void getInfo(int *s, int *h) // return multiple values
-    {
-        *s = this->salary;
-        *h = this->hour;
-    }
-    void AddSal()
-    {
-        if (this->salary < 500)
-        {
-            this->salary += 10;
-        }
-    }
-    void AddWork()
-    {
-        if (this->hour > 6)
-        {
-            this->salary += 5;
-        }
-    }
+    Parent(){}; // constructor
+    void func1() { cout << "This is a parent class" << endl; }
+};
+
+class Child : public Parent
+{
+public:
+    Child(){}; // constructor
+    void func2() { cout << "This is a child class" << endl; }
 };
 
 int main()
 {
-    Employee e(1, 7);
-    int s, h;
-    e.getInfo(&s, &h);
-    cout << s << " " << h << endl;
+    Parent p;
+    Child c;
+    p.func1();
+    c.func2();
+    c.func1();
 
-    e.AddSal();
-    e.AddWork();
-    e.getInfo(&s, &h);
-    cout << s << " " << h << endl;
+    return 0;
 }

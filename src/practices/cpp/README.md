@@ -664,6 +664,7 @@ Write a program by creating an 'Employee' class having the following functions a
 - 1 - 'getInfo()' which takes the salary, number of hours of work per day of employee as parameters
 - 2 - 'AddSal()' which adds $10 to the salary of the employee if it is less than $500.
 - 3 - 'AddWork()' which adds $5 to the salary of the employee if the number of hours of work per day is more than 6 hours.
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -721,6 +722,57 @@ int main()
 ```
 
 # 13. Solutions for Subclass Challenges
+
+### Challenge 1:
+
+Create a class with a function the prints "This is parent class" and its subclass with another function that prints "this is a child class. Now, create an object for each class and call.
+
+- 1. function of the parent class by the object of the parent class.
+- 2. function of the child class by the object of child class.
+- 3. function of the parent class by the object of the child class.
+
+```c++
+#include <iostream>
+using namespace std;
+
+class Parent
+{
+public:
+    Parent(){}; // constructor
+    void func1() { cout << "This is a parent class" << endl; }
+};
+
+class Child : public Parent
+{
+public:
+    Child(){}; // constructor
+    void func2() { cout << "This is a child class" << endl; }
+};
+
+int main()
+{
+    Parent p;
+    Child c;
+    p.func1();
+    c.func2();
+    c.func1();
+
+    return 0;
+}
+```
+
+### Challenge 2: 
+```
+Create a class named 'Member' having the following members:
+Data members
+1 - Name
+2 - Age
+3 - Phone number
+4 - Address
+It also has a function named 'printSalary' which prints the salary of the members.
+Two classes 'Employee' and 'Manager' inherits the 'Member' class. The 'Employee' and 'Manager' classes have data members 'specialization' and 'department' respectively. Now, assign name, age, phone number, address and salary to an employee and a manager by making an object of both of these classes and print the same.
+```
+
 
 # 14. Solutions for Constructor Overloading Challenges
 
