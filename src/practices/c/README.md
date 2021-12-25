@@ -1219,3 +1219,117 @@ int main()
 ```
 
 # 11. Solutions for Structure Challenges
+### Challenge 1:
+Write a program to store and print the roll number, name, age, and marks of a student using structure
+```c++
+#include <stdio.h>
+
+struct Student
+{
+    int roll_no;
+    char name[100];
+    int age;
+    int marks;
+};
+
+int main()
+{
+    struct Student s = {1, "Minh", 19, 22};
+    printf("Student Info: %d, %s, %d, %d", s.roll_no, s.name, s.age, s.marks);
+    return 0;
+}
+```
+
+### Challenge 2: 
+Write a program to add two distances in the inch-feet using structure. THe values of the distances is to be taken from the user.
+```c++
+#include <stdio.h>
+
+struct distance
+{
+    int feet;
+    int inch;
+};
+
+struct distance add_distance(struct distance a, struct distance b)
+{
+    struct distance total;
+    total.feet = a.feet + b.feet;
+
+    if (a.inch + b.inch >= 12)
+    {
+        total.feet = total.feet + ((a.inch + b.inch) / 12);
+        total.inch = (a.inch + b.inch) - (((a.inch + b.inch) / 12) * 12);
+    }
+    else
+    {
+        total.inch = a.inch + b.inch;
+    }
+    return total;
+}
+
+int main()
+{
+    struct distance a, b, added;
+    a = {12, 1};
+    b = {1, 3};
+    added = add_distance(a, b);
+    printf("Feets: %d, Inches: %d", added.feet, added.inch);
+
+    return 0;
+}
+```
+
+### Challenge 3:
+Write a program to add, subtract, and multiply two complex numbers using structures to function.
+```c++
+#include <stdio.h>
+
+struct Complex
+{
+    int real;
+    int imaginary;
+};
+
+struct Complex add(struct Complex a, struct Complex b)
+{
+    struct Complex r;
+    r.real = a.real + b.real;
+    r.imaginary = a.imaginary + b.imaginary;
+    return r;
+}
+
+struct Complex sub(struct Complex a, struct Complex b)
+{
+    struct Complex r;
+    r.real = a.real - b.real;
+    r.imaginary = a.imaginary - b.imaginary;
+    return r;
+}
+
+struct Complex multi(struct Complex a, struct Complex b)
+{
+    struct Complex r;
+    r.real = a.real * b.real;
+    r.imaginary = a.imaginary * b.imaginary;
+    return r;
+}
+
+int main()
+{
+    struct Complex a, b, r;
+    a = {1, 2};
+    b = {2, 3};
+
+    r = add(a, b);
+    printf("Add - real: %d, - imaginary: %d\n", r.real, r.imaginary);
+
+    r = sub(a, b);
+    printf("Sub - real: %d, - imaginary: %d\n", r.real, r.imaginary);
+
+    r = multi(a, b);
+    printf("Multi - real: %d, - imaginary: %d\n", r.real, r.imaginary);
+
+    return 0;
+}
+```
