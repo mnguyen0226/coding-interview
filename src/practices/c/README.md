@@ -1,6 +1,7 @@
 # 1. Solutions for Print Challenges
 
-### Challenge 1: 
+### Challenge 1:
+
 ```
 Write a C program to print
 *
@@ -9,6 +10,7 @@ Write a C program to print
 ****
 on screen.
 ```
+
 ```c++
 #include <stdio.h>
 
@@ -23,7 +25,9 @@ int main(){
 ```
 
 ### Challenge 2:
+
 Store two integers in two variables x and y. Print the sum of the two.
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -36,7 +40,9 @@ int main(){
 ```
 
 ### Challenge 3:
+
 Store two integers in two variables x and y. Print the product of the two.
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -49,14 +55,16 @@ int main(){
 ```
 
 ### Challenge 4:
+
 ```
 Print the following pattern on the screen
 ****
- ** 
-  *  
- ** 
+ **
+  *
+ **
 ****
 ```
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -64,16 +72,18 @@ int main(){
     printf(" ** \n");
     printf("  *\n");
     printf("****\n");
-    return 0; 
+    return 0;
 }
 ```
 
 ### Challenge 5:
+
 Write a C program to take two integers inputs from users and print the sum and priduct of them
+
 ```c++
 #include <stdio.h>
 int main(){
-    int x; 
+    int x;
     int y;
     printf("Please enter two values:");
     scanf("%d", &x);
@@ -84,7 +94,9 @@ int main(){
 ```
 
 # 2. Solutions for Data-Type Challenges
+
 ### Challenge 1:
+
 Write a C program to take an int, a float, and a char input from user and print them on the screen.
 
 ```c++
@@ -104,7 +116,9 @@ int main()
 ```
 
 ### Challenge 2:
+
 Take the values of length and breath of a rectangle from a user and print the area of it.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -121,6 +135,7 @@ int main()
 ```
 
 ### Challenge 3:
+
 Take a char input from user and print it's ASCII value
 
 ```c++
@@ -136,7 +151,9 @@ int main()
 ```
 
 ### Challenge 4:
+
 Take a float input from the uder and type case it to and int and print it on the screen.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -152,7 +169,9 @@ int main()
 ```
 
 ### Challenge 5:
+
 Take value of length and breadth of a rectangle from the user as float. Find its area and print it on the screen after type casting it to int.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -169,7 +188,9 @@ int main()
 ```
 
 # 3. Solutions for Operators Challenges
+
 ### Challenge 1:
+
 ```c++
 #include <stdio.h>
 int main()
@@ -184,7 +205,9 @@ int main()
 ```
 
 ### Challenge 2:
+
 The total number of students in a class are 45 or out which 25 are boys. If 80% of the total student secured grade A out of which 15 are boys, then write a program to calculate the total number of girls getting A.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -203,7 +226,9 @@ int main()
 ```
 
 ### Challenge 3:
+
 Write a program to calculate the sum of the first and the second last digit of a 5 digit number entered from the keyboard.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -232,7 +257,9 @@ int main()
 ```
 
 ### Challenge 4:
+
 Supose you entered a 4 digit number. Write a program to display a number whose digits are 2 greater than the corresponding digits of the entered number
+
 ```c++
 #include <stdio.h>
 int main()
@@ -245,7 +272,7 @@ int main()
     int first = d / 1000; // get the number at the first position
     first += 2; // increment by 2
     first = first % 10; // in case that value is more than 10 then we interested in the last value only
-    first *= 1000; 
+    first *= 1000;
     final += first; // add to the final value
     d = d % 1000; // get the mod of the rest of 3 values
 
@@ -274,7 +301,9 @@ int main()
 ```
 
 ### Challenge 5:
+
 Write a program to calculate the sum of the digits of a 3-digit number which is entered from the keyboard.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -299,7 +328,9 @@ int main()
 ```
 
 ### Challenge 6:
+
 Write a program to reverse a 3-digit number which is entered from keyboard.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -324,8 +355,11 @@ int main()
 ```
 
 # 4. Solutions for Decide If/Else Challenges
+
 ### Challenge 1:
+
 Take values of length and breadth of a rectangle from user and check if it is square or not
+
 ```c++
 #include <stdio.h>
 int main()
@@ -348,7 +382,9 @@ int main()
 ```
 
 ### Challenge 2:
+
 Take two int values from user and print greatest among them
+
 ```c++
 #include <stdio.h>
 int main()
@@ -371,10 +407,12 @@ int main()
 ```
 
 ### Challenge 3:
+
 A shop will give discount of 10% if the cost of purchased quantity is more than 1000.
 Ask user for quantity
 Suppose, one unit will cost 100.
 Judge and print total cost for user.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -396,7 +434,9 @@ int main()
 ```
 
 ### Challenge 4:
+
 A company decided to give bonus of 5% to employee if his/her year of service is more than 5 years. Ask user for their salary and year of service and print the net bonus amount.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -421,7 +461,9 @@ int main()
 ```
 
 ### Challenge 5:
+
 Write a C program to check if a year is a leap year or not. If a year is divisible by 4 then it is a leap year, but if the year is century year like 2000, 1900, 2100 then it must be divisible by 400
+
 ```c++
 #include <stdio.h>
 int main()
@@ -460,7 +502,9 @@ int main()
 ```
 
 ### Challenge 5:
+
 A 4 digit number is entered through keyboard. Write a C program to print a new number with digits reversed as of original one.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -481,13 +525,15 @@ int main()
 
     final = fourth * 1000 + third * 100 + second * 10 + first;
     printf("Final is % d", final);
-    
+
     return 0;
 }
 ```
 
-### Challenge 6: 
+### Challenge 6:
+
 Write a C program to check whether an entered character is lowercase of uppercase.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -509,8 +555,11 @@ int main()
 ```
 
 # 5. Solutions for Loop Challenges
+
 ### Challenge 1:
+
 This will print infinitely
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -521,8 +570,10 @@ int main(){
 }
 ```
 
-### Challenge 2: 
+### Challenge 2:
+
 This will print z: 12 (0 3 6 9 12)
+
 ```c++
 #include <stdio.h>
 int main( )
@@ -535,7 +586,8 @@ int main( )
 }
 ```
 
-### Challenge 3: 
+### Challenge 3:
+
 ```
 Print the following patterns using loop :
 a.
@@ -544,13 +596,14 @@ a.
 ***
 ****
 ```
+
 ```c++
 #include <stdio.h>
 int main()
 {
     for (int i = 0; i < 4; i++) //row
     {
-        for (int j = 0; j < 4; j++) //col 
+        for (int j = 0; j < 4; j++) //col
         {
             if (j <= i)
             {
@@ -564,8 +617,10 @@ int main()
 }
 ```
 
-### Challenge 4: 
+### Challenge 4:
+
 Write a C program to calculate factorial of a number.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -584,7 +639,9 @@ int main()
 ```
 
 ### Challenge 5:
+
 Write a C program to find the GCD and LCM of the given two number.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -615,6 +672,7 @@ int main()
 ```
 
 ### Challenge 6:
+
 A three digit number is called Armstrong number if sum of sube of its digit is equal to number itself. For instance 153 is arm strong number because 1^3 + 5^3 + 3^3 = 153. Write all arm strong numbers between 100 to 500.
 
 ```c++
@@ -640,7 +698,9 @@ int main()
 # 6. Solutions for Functions Challenges
 
 ### Challenge 1:
+
 Write a function to calculate area and perimeter of a rectangle.
+
 ```c++
 #include <stdio.h>
 void calculate(int a, int b)
@@ -655,7 +715,9 @@ int main(){
 ```
 
 ### Challenge 2:
+
 Write a function to calculate the fibonacci series.
+
 ```c++
 #include <stdio.h>
 
@@ -676,8 +738,11 @@ int main(){
 ```
 
 # 7. Solutions for Pointer Challenges
+
 ### Challenge 1:
+
 Write a program to print the value of the address of the pointer to a variable whose value is input from user.
+
 ```c++
 #include <stdio.h>
 
@@ -692,7 +757,9 @@ int main(){
 ```
 
 ### Challenge 2:
+
 Write a program to print a number which is entered from keyboard using pointer.
+
 ```c++
 #include <stdio.h>
 
@@ -708,8 +775,11 @@ int main(){
 ```
 
 # 8. Solutions for Array Challenges
+
 ### Challenge 1:
+
 Take 10 integer inputs from user and store themn in an array and print them on screen.
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -719,7 +789,7 @@ int main(){
     while(count < 10){
         printf("Enter a number: ");
         scanf("%d", &num);
-        A[count] = num; 
+        A[count] = num;
         count++;
     }
 
@@ -732,7 +802,9 @@ int main(){
 ```
 
 ### Challenge 2:
+
 Take 10 integer inputs from user and store them in an array. Then copy all element in another array in reverse order.
+
 ```c++
 #include <stdio.h>
 
@@ -756,7 +828,9 @@ int main(){
 ```
 
 ### Challenge 3:
+
 Find the largest and smallest elements of an array.
+
 ```c++
 #include <stdio.h>
 
@@ -784,8 +858,11 @@ int main()
 ```
 
 # 9. Solutions for Strings Challenges
+
 ### Challenge 1:
+
 Write a program to print a string entered by user.
+
 ```c++
 #include <stdio.h>
 int main(){
@@ -798,7 +875,9 @@ int main(){
 ```
 
 ### Challenge 2:
+
 Write a program to find the length of the string "refrigerator".
+
 ```c++
 #include<stdio.h>
 
@@ -812,7 +891,9 @@ int main(){
 ```
 
 ### Challenge 3:
+
 Write a program to enter a string s1 and copy it to another string s2.
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -828,7 +909,9 @@ int main()
 ```
 
 ### Challenge 4:
+
 Write a program to compare if two strings entered by user are equal or not without using the predefined string functions.
+
 ```c++
 #include <stdio.h>
 int main()
@@ -859,7 +942,9 @@ int main()
 ```
 
 ### Challenge 5:
+
 Write a program to check if the word 'orange' is present in the sentence "This is orange juice".
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -890,7 +975,9 @@ int main()
 ```
 
 ### Challenge 6:
+
 Write a program that takes your full name as input and displays the abbreviations of the first and the middle names except the last name which is displayed as it is. For example, if you name is Minh Tran Binh Nguyen, then the output should be M. T. B. Nguyen.
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -921,7 +1008,9 @@ int main()
 ```
 
 ### Challenge 7:
+
 Write down the name of 10 of your friends in an array, then sort those in alphabetically ascending order.
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -954,8 +1043,10 @@ int main()
 }
 ```
 
-### Challenge 8: 
+### Challenge 8:
+
 Write a program to delete all the consonenets from the string "Hello, have a good day".
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -983,7 +1074,9 @@ int main()
 ```
 
 ### Challenge 9:
+
 Wriote a program to delete the word "the" in the sentence "this is the line in the cage".
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -1002,14 +1095,16 @@ int main()
         }
         pch = strtok(NULL, " ");
     }
-    printf("%s", new_s); 
+    printf("%s", new_s);
 
     return 0;
 }
 ```
 
 ### Challenge 10:
+
 Write a program to reverse a string with and without using strrev.
+
 ```c++
 // Without strrev()
 #include <stdio.h>
@@ -1050,7 +1145,9 @@ int main()
 ```
 
 ### Challenge 11:
+
 Check the occurrence of the letter 'e' and the word 'is' in the sentence "This is umbrella" without using predefined String functions.
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -1083,7 +1180,9 @@ int main()
 ```
 
 ### Challenge 12:
+
 Write a program to check if a given string is a palindrome.
+
 ```c++
 #include <stdio.h>
 #include <string.h>
@@ -1124,7 +1223,7 @@ int main()
 
     for (i = 0; i < strlen(s1) / 2; i++) // traverse half of the string
     {
-        if (s1[i] != s1[strlen(s1) - i - 1]) 
+        if (s1[i] != s1[strlen(s1) - i - 1])
         {
             pali = 0;
             break;
@@ -1138,28 +1237,34 @@ int main()
 ```
 
 # 10. Solutions for Pre-processor Challenges
+
 - In simple terms, a C Preprocessor is just a text substitution tool and it instructs the compiler to do required pre-processing before the actual compilation
-- Example: 
-    - #include: Inserts a particular header from another file.
-    - #define: Substitutes a preprocessor macro.
-    - #undef: Undefines a preprocessor macro.
+- Example:
+
+  - #include: Inserts a particular header from another file.
+  - #define: Substitutes a preprocessor macro.
+  - #undef: Undefines a preprocessor macro.
 
 - Macro vs Functions?
-    - A macro is a name given to a block of C statements as a pre-processor directive. Being a pre-processor, the block of code is communicated to the compiler before entering into the actual coding (main () function). A macro is defined with the pre-processor directive. Macros are pre-processed which means that all the macros would be processed before your program compiles. However, functions are not preprocessed but compiled.
-    - Example:
-    ```c++
 
-    #include<stdio.h>
-    #define NUMBER 10
-    int main()
-    {
-        printf("%d", NUMBER);
-        return 0;
-    }
-    ```
+  - A macro is a name given to a block of C statements as a pre-processor directive. Being a pre-processor, the block of code is communicated to the compiler before entering into the actual coding (main () function). A macro is defined with the pre-processor directive. Macros are pre-processed which means that all the macros would be processed before your program compiles. However, functions are not preprocessed but compiled.
+  - Example:
 
-### Challenge 1: 
+  ```c++
+
+  #include<stdio.h>
+  #define NUMBER 10
+  int main()
+  {
+      printf("%d", NUMBER);
+      return 0;
+  }
+  ```
+
+### Challenge 1:
+
 Write a macro to calculate the area and perimeter of a rectangle.
+
 ```c++
 #include <stdio.h>
 #define area(l, b) (l * b)
@@ -1175,7 +1280,9 @@ int main()
 ```
 
 ### Challenge 2:
+
 Write a macro to compare two numbers.
+
 ```c++
 #include <stdio.h>
 #define compare(a, b) (a > b ? a : b)
@@ -1190,7 +1297,9 @@ int main()
 ```
 
 ### Challenge 3:
+
 Write a macro to find the average of two numbers
+
 ```c++
 #include <stdio.h>
 #define average(a,b)((a+b)/2.0)
@@ -1205,7 +1314,9 @@ int main()
 ```
 
 ### Challenge 4:
+
 Write a macro to find absolute value of a number
+
 ```c++
 #include <stdio.h>
 #define abs(a) (a < 0 ? (-1 * a) : a)
@@ -1219,8 +1330,11 @@ int main()
 ```
 
 # 11. Solutions for Structure Challenges
+
 ### Challenge 1:
+
 Write a program to store and print the roll number, name, age, and marks of a student using structure
+
 ```c++
 #include <stdio.h>
 
@@ -1240,8 +1354,10 @@ int main()
 }
 ```
 
-### Challenge 2: 
+### Challenge 2:
+
 Write a program to add two distances in the inch-feet using structure. THe values of the distances is to be taken from the user.
+
 ```c++
 #include <stdio.h>
 
@@ -1281,7 +1397,9 @@ int main()
 ```
 
 ### Challenge 3:
+
 Write a program to add, subtract, and multiply two complex numbers using structures to function.
+
 ```c++
 #include <stdio.h>
 

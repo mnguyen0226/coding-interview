@@ -1,5 +1,7 @@
 # 1. Solutions for Print Challenges
+
 ### Challenge 1:
+
 ```
 Write a C++ program to print
 *
@@ -8,21 +10,24 @@ Write a C++ program to print
 ****
 on screen
 ```
+
 ```c++
 #include <iostream>
 using namespace std;
 
 int main(){
     cout << "*" << endl;
-    cout << "**" << endl; 
-    cout << "***" << endl; 
-    cout << "****" << endl; 
+    cout << "**" << endl;
+    cout << "***" << endl;
+    cout << "****" << endl;
     return 0;
 }
 ```
 
 ### Challenge 2:
+
 Store an integer in a variable x and print it on the screen.
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -39,8 +44,11 @@ int main()
 ```
 
 # 2. Solutions for Variables & Literals Challenges
+
 ### Challenge 1:
+
 Store two integers in two variable x and y. Print the product of the two.
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -56,7 +64,9 @@ int main(){
 ```
 
 ### Challenge 2:
+
 Print the SDCII value of the character 'h'
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -71,8 +81,11 @@ int main()
 ```
 
 # 3. Solutions for Operators Challenges
+
 ### Challenge 1:
+
 Length and breadth of a rectangle are 5 and 7 respectively. Write a program to calculate the area and perimeter of a rectangle.
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -89,7 +102,9 @@ int main()
 ```
 
 ### Challenge 2:
+
 Write a program to calculate the sum of the first and the second last digit of a 5 digit.
+
 ```c++
 #include <iostream>
 
@@ -121,6 +136,47 @@ int main()
 ```
 
 # 4. Solutions for Decide if/else Challenges
+
+### Challenge 1:
+
+Write a program to check if a year is leap year or not. If a year is divisible by 4 then it is a leap year but if the year is a century like 2000, 1900, 2100, then it must be divisible by 400.
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int year = 0;
+    cout << "Please enter a year: ";
+    cin >> year;
+
+    if (year % 100 == 0)
+    {
+        if (year % 400 == 0)
+        {
+            cout << "The year is leap year." << endl;
+        }
+        else
+        {
+            cout << "The year is not leap year." << endl;
+        }
+    }
+    else
+    {
+        if (year % 4 == 0)
+        {
+            cout << "The year is leap year." << endl;
+        }
+        else
+        {
+            cout << "The year is not leap year." << endl;
+        }
+    }
+    return 0;
+}
+```
 
 # 5. Solutions for Loops Challenges
 
