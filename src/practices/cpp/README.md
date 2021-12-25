@@ -464,6 +464,19 @@ int main()
 ```
 
 # 10. Solutions for Pre-processor Challenges
+### Challenge 1:
+Write a macro to calculate the simple interest from principal, rate of interest and time
+```c++
+#include <iostream>
+#define interest(p, r, t) ((p * r * t) / 100.0)
+using namespace std;
+int main()
+{
+    double d = interest(1.0, 2.0, 3.0);
+    cout << d << endl;
+    return 0;
+}
+```
 
 # 11. Solutions for Structure Challenges
 
