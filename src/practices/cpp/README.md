@@ -290,6 +290,35 @@ int main(){
 ```
 
 # 8. Solutions for Array Challenges
+### Challenge 1: 
+Take 10 integer inputs from user and store then in an array and print them on screen.
+```c++
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int A[10];
+
+    // input
+    for (int i = 0; i < 10; i++)
+    {
+        cout << "Please enter 10 variables: ";
+        cin >> A[i];
+    }
+
+    // display
+    for (int i = 0; i < 10; i++)
+    {
+        cout << A[i] << " ";
+    }
+
+    return 0;
+}
+```
+
+### Challenge 2:
+If the input array is [10, 12, 20, 30, 25, 40, 32, 31, 35, 50, 60], your program should be able to find that the subarray lies between the indexes 3 and 8.
 
 # 9. Solutions for String Challenges
 
