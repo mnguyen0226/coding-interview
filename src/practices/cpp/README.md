@@ -179,8 +179,11 @@ int main()
 ```
 
 # 5. Solutions for Loops Challenges
+
 ### Challenge 1:
+
 A three digit number is called Armstrong number if sum of sube of its digit is equal to number itself
+
 ```c++
 #include <iostream>
 
@@ -208,7 +211,66 @@ int main()
 }
 ```
 
+### Challenge 2:
+Using recursion, define a function to know the nth term of the Fibonacci series.
+```c++
+#include <iostream>
+using namespace std;
+int Fib(int n)
+{
+    if (n == 0 || n == 1)
+    {
+        return n;
+    }
+    return Fib(n - 1) + Fib(n - 2);
+}
+
+int main()
+{
+    int n;
+    cout << "Please enter nth term: ";
+    cin >> n;
+    cout << "Fibonacci Series Results: " << Fib(n) << endl;
+
+    return 0;
+}
+```
+
+### Challenege 3: 
+Define a function named "perfect" that determines if parameter number is a perfect number. Use this function in a program that determines and prints all the perfect numbers between 1 and 1000.
+
 # 6. Solutions for Functions Challenges
+
+### Challenge 1:
+
+Write a program to print the circumference and area of a circle of radius entered by user by defining your own function.
+
+```c++
+#include <iostream>
+using namespace std;
+
+double Area(double r)
+{
+    return 3.14 * r * r;
+}
+
+double Circum(double r)
+{
+    return 3.14 * r * 2;
+}
+
+int main()
+{
+    double r;
+    cout << "Please enter your radius: ";
+    cin >> r;
+    double area = Area(r);
+    double circ = Circum(r);
+
+    cout << "The area is: " << area << " circumference: " << circ << endl;
+    return 0;
+}
+```
 
 # 7. Solutions for Pointers Challenges
 
