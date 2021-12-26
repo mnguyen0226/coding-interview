@@ -25,6 +25,10 @@
 - About:
 - Implementation:
 - Time Complexity:
+    - Access: 
+    - Search:
+    - Insert:
+    - Remove:
 
 ### Linked Lists
 
