@@ -852,8 +852,11 @@ int main()
 ```
 
 # 14. Solutions for Constructor Overloading Challenges
+
 ### Challenge 1:
+
 Write a program to print the names of students by creating a Student class. If no name is passed while creating an object of the Student class, then the name should be "Unknown", otherwise, the name should be equal to the String value passed while creating the object of Student class.
+
 ```c++
 #include <iostream>
 
@@ -891,6 +894,7 @@ int main()
 ```
 
 ### Challenge 2:
+
 ```
 Create a class named 'Rectangle' with two data members- length and breadth and a function to calculate the area which is 'length*breadth'. The class has three constructors which are :
 1 - having no parameter - values of both length and breadth are assigned zero.
@@ -898,6 +902,7 @@ Create a class named 'Rectangle' with two data members- length and breadth and a
 3 - having one number as parameter - both length and breadth are assigned that number.
 Now, create objects of the 'Rectangle' class having none, one and two parameters and print their areas.
 ```
+
 ```c++
 #include <iostream>
 using namespace std;
@@ -946,7 +951,3 @@ int main()
     return 0;
 }
 ```
-
-# 15. Solutions for Array of objects Challenges
-
-# 16. Solutions for Multiple inheritance Challenges
