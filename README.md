@@ -134,7 +134,7 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 
 ## 4. Machine Learning & Deep Learning (heavily focus after able to practice LeetCode Medium)
 
-### Coursera Deep Learning Course (completed).
+### Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
 
 ### FastAI ML Course - Pytorch practice:
 
