@@ -1,74 +1,46 @@
 #include <iostream>
-
 using namespace std;
 
-class Member
+class Rectangle
 {
-public:
-    string name;
-    int age;
-    int phone;
-    string address;
-    int salary;
+private:
+    int length;
+    int breadth;
 
+public:
     // default constructor
-    Member(){};
-
-    // parameterized constructor
-    Member(string n, int a, int p, string ad, int s)
+    Rectangle()
     {
-        this->name = n;
-        this->age = a;
-        this->phone = p;
-        this->address = ad;
-        this->salary = s;
+        this->length = 0;
+        this->breadth = 0;
     }
 
-    void printSalary()
+    // paramtereized constructor
+    Rectangle(int l, int b)
     {
-        cout << "Salary: " << this->salary << endl;
+        this->length = l;
+        this->breadth = b;
     }
-};
 
-class Employee : public Member
-{
-private:
-    string specialization;
-    string department;
-
-public:
-    Employee(string n, int a, int p, string ad, int s)
+    // customed constructor
+    Rectangle(int i)
     {
-        this->name = n;
-        this->age = a;
-        this->phone = p;
-        this->address = ad;
-        this->salary = s;
-    };
-};
+        this->length = i;
+        this->breadth = i;
+    }
 
-class Manager : public Member
-{
-private:
-    string specialization;
-    string department;
-
-public:
-    Manager(string n, int a, int p, string ad, int s)
+    int Area()
     {
-        this->name = n;
-        this->age = a;
-        this->phone = p;
-        this->address = ad;
-        this->salary = s;
-    };
+        return this->breadth * this->length;
+    }
 };
 
 int main()
 {
-    Employee e("A", 1, 2, "asd", 4);
-    Manager m("A", 1, 2, "asd", 5);
-    e.printSalary();
-    m.printSalary();
+    Rectangle r1, r2(1, 2), r3(1);
+    cout << "Rectange 1: " << r1.Area() << endl;
+    cout << "Rectange 2: " << r2.Area() << endl;
+    cout << "Rectange 3: " << r3.Area() << endl;
+
     return 0;
 }

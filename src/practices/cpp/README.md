@@ -852,6 +852,100 @@ int main()
 ```
 
 # 14. Solutions for Constructor Overloading Challenges
+### Challenge 1:
+Write a program to print the names of students by creating a Student class. If no name is passed while creating an object of the Student class, then the name should be "Unknown", otherwise, the name should be equal to the String value passed while creating the object of Student class.
+```c++
+#include <iostream>
+
+using namespace std;
+
+class Student
+{
+private:
+    string name;
+
+public:
+    // default constructor
+    Student() { this->name = "Unknown"; }
+
+    // parameterized constructor
+    Student(string n)
+    {
+        this->name = n;
+    }
+
+    void print_name()
+    {
+        cout << "Name: " << this->name << endl;
+    }
+};
+
+int main()
+{
+    Student s, s1("ABC");
+    s.print_name();
+    s1.print_name();
+
+    return 0;
+}
+```
+
+### Challenge 2:
+```
+Create a class named 'Rectangle' with two data members- length and breadth and a function to calculate the area which is 'length*breadth'. The class has three constructors which are :
+1 - having no parameter - values of both length and breadth are assigned zero.
+2 - having two numbers as parameters - the two numbers are assigned as length and breadth respectively.
+3 - having one number as parameter - both length and breadth are assigned that number.
+Now, create objects of the 'Rectangle' class having none, one and two parameters and print their areas.
+```
+```c++
+#include <iostream>
+using namespace std;
+
+class Rectangle
+{
+private:
+    int length;
+    int breadth;
+
+public:
+    // default constructor
+    Rectangle()
+    {
+        this->length = 0;
+        this->breadth = 0;
+    }
+
+    // paramtereized constructor
+    Rectangle(int l, int b)
+    {
+        this->length = l;
+        this->breadth = b;
+    }
+
+    // customed constructor
+    Rectangle(int i)
+    {
+        this->length = i;
+        this->breadth = i;
+    }
+
+    int Area()
+    {
+        return this->breadth * this->length;
+    }
+};
+
+int main()
+{
+    Rectangle r1, r2(1, 2), r3(1);
+    cout << "Rectange 1: " << r1.Area() << endl;
+    cout << "Rectange 2: " << r2.Area() << endl;
+    cout << "Rectange 3: " << r3.Area() << endl;
+
+    return 0;
+}
+```
 
 # 15. Solutions for Array of objects Challenges
 
