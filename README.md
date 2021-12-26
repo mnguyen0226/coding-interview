@@ -15,23 +15,100 @@
 ## 2. DSA
 
 ## Data Structures in C, C++
-- [C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
-- [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
-- Array
-- Linked Lists
-- Doubly Linked List
-- Circular Linked List
-- Stacks
-- Queue
-- Trees
-- Binary Trees
-- BST
-- Red-Black Tree
-- AVL Trees
-- Splay Trees
-- Heap
-- Priority Queues
-- Graph
+
+### [C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
+
+### [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
+
+### Array
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Linked Lists
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Doubly Linked List
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Circular Linked List
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Stacks
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Queue
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Trees
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Binary Trees
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### BST
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Red-Black Tree
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### AVL Trees
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Splay Trees
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Heap
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Priority Queues
+
+- About:
+- Implementation:
+- Time Complexity:
+
+### Graph
+
+- About:
+- Implementation:
+- Time Complexity:
 
 ### Algorithms in C, C++
 
