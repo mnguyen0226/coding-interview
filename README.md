@@ -1,6 +1,6 @@
 # Coding Interview Practice for SWE & MLE
 
-## Study Guide
+## 1. Study Guide
 
 - What are the most relevant problems?
 - Understand the goal of practicing coding interview
@@ -12,13 +12,11 @@
   - Try to code the problem on paper from scratch => Find what you don't understand about the problem.
   - Document the problem on Excel.
 
-### Basic C++, C Review
+## 2. DSA
 
+## Data Structures in C, C++
 - [C++](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
 - [C](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
-
-### Data Structures in C, C++
-
 - Array
 - Linked Lists
 - Doubly Linked List
@@ -39,7 +37,7 @@
 
 - Algorithms Coursera (TBD)
 
-## CTCI Questions
+## 3. CTCI Questions
 
 Write out question. Take picture of thought process -> README. Solve. Take note on Google Sheet
 
@@ -53,7 +51,7 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 - Systems Designs & Scalability
 - Sorting & Searching
 
-## Machine Learning & Deep Learning (heavily focus after able to practice LeetCode Medium)
+## 4. Machine Learning & Deep Learning (heavily focus after able to practice LeetCode Medium)
 
 - Coursera Deep Learning Course (completed).
 - FastAI ML Course - Pytorch practice:
