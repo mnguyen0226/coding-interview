@@ -15,8 +15,8 @@
 ## 2. DSA
 
 ## Data Structures in C, C++
-- [C++](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
-- [C](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
+- [C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
+- [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
 - Array
 - Linked Lists
 - Doubly Linked List
