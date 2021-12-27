@@ -14,7 +14,7 @@
 
 ## 2. DSA
 
-## Data Structures in C, C++
+## Data Structures in C & C++
 
 ### [C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
 
@@ -169,7 +169,7 @@
   - Insert:
   - Remove: 
 
-### Algorithms in C, C++
+## Algorithms in C & C++
 
 - Algorithms Coursera (TBD)
 
