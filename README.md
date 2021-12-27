@@ -20,99 +20,154 @@
 
 ### [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
 
-### Array
+### [Big-O](https://www.bigocheatsheet.com/)
 
-- About:
-- Implementation:
-- Time Complexity:
-  - Access:
-  - Search:
-  - Insert:
-  - Remove:
+### Array
+- Time Complexity - Worst Case:
+  - Access: O(1)
+  - Search: O(n)
+  - Insert: O(n)
+  - Remove: O(n)
 
 ### Linked Lists
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Doubly Linked List
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Circular Linked List
 
 - About:
 - Implementation:
-- Time Complexity:
-
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
+  
 ### Stacks
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Queue
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Trees
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Binary Trees
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### BST
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Red-Black Tree
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### AVL Trees
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Splay Trees
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Heap
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Priority Queues
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Graph
 
 - About:
 - Implementation:
-- Time Complexity:
+- Time Complexity - Worst Case:
+  - Access: 
+  - Search: 
+  - Insert:
+  - Remove: 
 
 ### Algorithms in C, C++
 
