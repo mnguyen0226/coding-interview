@@ -263,7 +263,7 @@
 
 ## 3. CTCI Questions
 
-Write out question. Take picture of thought process -> README. Solve. Take note on Google Sheet
+Tips: Write out question. Take picture of thought process -> README. Solve. Take note on Google Sheet
 
 - Array & Strings
 - Linked Lists
@@ -279,7 +279,7 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 
 ### :heavy_check_mark:Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
 
-### FastAI ML Course - Pytorch practice:
+### :question:FastAI ML Course - Pytorch practice:
 
 - Introduction to Random Forest.
 - Random Forest Deep Dive.
@@ -294,7 +294,7 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 - Embeddings
 - Complete Rossmann, Ethical Issues
 
-### Fast AI DL Course - Pytorch practice:
+### :question:Fast AI DL Course - Pytorch practice:
 
 - Recognizaing Cats & Dogs.
 - Improving your image classifier.
@@ -311,10 +311,10 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 - CycleGANs, Data ethics, Style transfer.
 - Super resolution; Segmentation with Unets
 
-### Kaggle
+### :question:Kaggle
 
-### Deep Learning for Coder - Pytorch book (TBD)
+### :question:Deep Learning for Coder - Pytorch book (TBD)
 
-### MLOps Coursera (TBD)
+### :question:MLOps Coursera (TBD)
 
-### Reinforcement Learning Coursera (TBD)
+### :question:Reinforcement Learning Coursera (TBD)
