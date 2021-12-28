@@ -34,6 +34,15 @@
 
 - About: A linked list is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list. This is also called "Singly Linked List" in which each node points to the next node and the last node points to null.
 - Implementation: C, C++.
+- Operations:
+
+```c++
+void insert_at_beginning(LinkedList *l, Node *n);
+void insert_at_last(LinkedList *l, Node *n);
+void insert_node_after(Node *n, Node *a);
+void delete_node(LinkedList *l, Node *n);
+```
+
 - Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
@@ -72,7 +81,7 @@
   - Insert: O(1)
   - Remove: O(1)
 
-### Queue
+### Queues
 
 - About:
 - Implementation:
@@ -102,7 +111,7 @@
   - Insert:
   - Remove:
 
-### BST
+### Binary Search Trees
 
 - About:
 - Implementation:
@@ -162,7 +171,7 @@
   - Insert:
   - Remove:
 
-### Graph
+### Graphs
 
 - About:
 - Implementation:
