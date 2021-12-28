@@ -16,7 +16,7 @@
 
 ## Data Structures in C & C++
 
-### [C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
+### :heavy_check_mark:[C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
 
 ### [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
 
@@ -24,7 +24,7 @@
 
 ### Array
 
-- __Time Complexity - Worst Case:__
+- Time Complexity - Worst Case:
   - Access: O(1)
   - Search: O(n)
   - Insert: O(n)
