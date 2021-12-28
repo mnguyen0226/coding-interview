@@ -55,20 +55,22 @@
 - About: A linked list in which each node points to the next node and the last node points back to the first node.
 - Implementation: C, C++
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search:
-  - Insert:
-  - Remove:
+  - Access: O(n)
+  - Search: O(n)
+  - Insert: O(1)
+  - Remove: O(1)
 
 ### Stacks
 
 - About:
-- Implementation:
+  - A Stack is a collection of elements, with two principle operations: _push_, which adds to the collection, and _pop_, which removes the most recently added element.
+  - Last In, First Out (LIFO) data structure: the most recently added object is the first to be removed.
+- Implementation: C, C++
 - Time Complexity - Worst Case:
-  - Access:
-  - Search:
-  - Insert:
-  - Remove:
+  - Access: O(n)
+  - Search: O(n)
+  - Insert: O(1)
+  - Remove: O(1)
 
 ### Queue
 
