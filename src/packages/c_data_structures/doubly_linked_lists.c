@@ -148,7 +148,38 @@ int main()
     b->prev = a;
 
     c->prev = b;
-    c->next = NULL;
+
+    // prints out linked list
+    traversal(l);
+
+    // creates a new node
+    Node *z;
+
+    // tests insert
+    z = new_node(0);
+    insert_at_front(l, z);
+    z = new_node(-10);
+    insert_at_front(l, z);
+    z = new_node(100);
+    insert_at_tail(l, z);
+    z = new_node(30);
+    insert_node_after(z, a);
+    z = new_node(40);
+    insert_node_after(z, a->next);
+    z = new_node(500);
+    insert_node_after(z, a->next->next);
+
+    // prints out linked list
+    traversal(l);
+
+    // tests delete
+    delete_node(l, l->head);
+    delete_node(l, z);
+
+    // prints out linked list
+    traversal(l);
+
+
 
     return 0;
 }
