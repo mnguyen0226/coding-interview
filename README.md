@@ -24,7 +24,7 @@
 
 ### Array
 
-- Time Complexity - Worst Case:
+- __Time Complexity - Worst Case:__
   - Access: O(1)
   - Search: O(n)
   - Insert: O(n)
