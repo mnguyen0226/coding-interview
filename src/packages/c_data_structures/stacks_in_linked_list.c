@@ -129,11 +129,12 @@ int pop(Stack *s)
 
 /**
  * @brief Returns the top of the stacks
- * 
+ *
  * @param s - input stacks
- * @return int 
+ * @return int
  */
-int get_top(Stack *s){
+int get_top(Stack *s)
+{
     return s->top->data;
 }
 

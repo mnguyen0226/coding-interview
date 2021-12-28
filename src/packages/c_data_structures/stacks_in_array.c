@@ -63,7 +63,7 @@ int pop()
  */
 int get_top()
 {
-    return S[top-1];
+    return S[top - 1];
 }
 
 /*User Interface*/

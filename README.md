@@ -119,6 +119,9 @@
   ```c++
   void push(Stack *s, Node *n);
   int pop(Stack *s);
+  int get_top(Stack *s);
+int is_empty(Stack *s)
+
   ```
 
 - Time Complexity - Worst Case:
