@@ -12,7 +12,7 @@
   - Try to code the problem on paper from scratch => Find what you don't understand about the problem.
   - Document the problem on Excel.
 
-## 2. DSA
+## 2. Data Structures & Algorithms
 
 ## Data Structures in C & C++
 
@@ -37,9 +37,16 @@
 - Operations:
 
   ```c++
-  void insert_at_beginning(LinkedList *l, Node *n);
+  // inserts a node at the begin 
+  void insert_at_beginning(LinkedList *l, Node *n); 
+
+  // inserts a node at the end 
   void insert_at_last(LinkedList *l, Node *n);
+
+  // inserts a node after any node
   void insert_node_after(Node *n, Node *a);
+
+  // deletes a node 
   void delete_node(LinkedList *l, Node *n);
   ```
 
@@ -56,9 +63,16 @@
 - Operations:
 
   ```c++
+  // inserts a node at the front/head
   void insert_at_front(DoublyLinkedList *l, Node *n);
+
+  // inserts a node at the tail/end 
   void insert_at_tail(DoublyLinkedList *l, Node *n);
+
+  // inserts a node after any node 
   void insert_node_after(Node *n, Node *a);
+
+  // deletes a node
   void delete_node(DoublyLinkedList *l, Node *n);
   ```
 
@@ -75,8 +89,13 @@
 - Operations:
 
   ```c++
+  // inserts a node after a node
   void insert_after(Node *n, Node *a);
+
+  // inserts a node at the last/head 
   void insert_at_last(CircularLinkedList *c, Node *n);
+
+  // delete a node
   void delete_node(CircularLinkedList *c, Node *n);
   ```
 
@@ -90,7 +109,7 @@
 
 - About:
   - A Stack is a collection of elements, with two principle operations: _push_, which adds to the collection, and _pop_, which removes the most recently added element.
-  - Last In, First Out (LIFO) data structure: the most recently added object is the first to be removed.
+  - **Last In, First Out (LIFO)** data structure: the most recently added object is the first to be removed.
   - Stack is a Abstract Data Type (ADT) because it works on LIFO policy which provides operations like push, pop,... for users to interact with the data. We can implement Stacks in both array or linked list.
 - Implementation:
   - With array in C, C++
@@ -110,13 +129,20 @@
 
 ### Queues
 
-- About:
+- About: 
+  - A Queue is a collection of element, with two principle operations: _enqueue_, which inserts an element into the queue, and _dequeue_, which removes an element from the queue.
+  - **First In, First Out (FIFO)** data structure: the oldest added object is the first to be removed.
+  - Similar to Stack, Queue is also an ADT.
 - Implementation:
+  - With array in C, C++
+  - With linked list in C, C++
+- Operations:
+
 - Time Complexity - Worst Case:
-  - Access:
-  - Search:
-  - Insert:
-  - Remove:
+  - Access: O(n)
+  - Search: O(n)
+  - Insert: O(1)
+  - Remove: O(1)
 
 ### Trees
 

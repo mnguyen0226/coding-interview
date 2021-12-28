@@ -127,6 +127,16 @@ int pop(Stack *s)
     }
 }
 
+/**
+ * @brief Returns the top of the stacks
+ * 
+ * @param s - input stacks
+ * @return int 
+ */
+int get_top(Stack *s){
+    return s->top->data;
+}
+
 /*User Interface*/
 int main()
 {
@@ -146,6 +156,8 @@ int main()
     traversal(s);
     pop(s);
     traversal(s);
+
+    printf("Top Elements is: %d", get_top(s));
 
     return 0;
 }

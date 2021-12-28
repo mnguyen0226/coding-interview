@@ -56,6 +56,16 @@ int pop()
     }
 }
 
+/**
+ * @brief Get the top object
+ *
+ * @return int
+ */
+int get_top()
+{
+    return S[top-1];
+}
+
 /*User Interface*/
 int main()
 {
@@ -78,6 +88,8 @@ int main()
         // note that we keep S[0] == 0 for indicator that stack underflow
         printf("%d\n", S[i + 1]);
     }
+
+    printf("Top Elements is: %d", get_top());
 
     return 0;
 }
