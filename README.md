@@ -52,7 +52,7 @@
 
 ### Circular Linked List
 
-- About: 123
+- About: 
 - Implementation:
 - Time Complexity - Worst Case:
   - Access: 
