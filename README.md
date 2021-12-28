@@ -18,11 +18,11 @@
 
 ### :heavy_check_mark:[C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
 
-### [C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
+### :heavy_check_mark:[C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
 
-### [Big-O](https://www.bigocheatsheet.com/)
+### :heavy_check_mark:[Big-O](https://www.bigocheatsheet.com/)
 
-### Array
+### :heavy_check_mark:Array
 
 - Time Complexity - Worst Case:
   - Access: O(1)
@@ -30,7 +30,7 @@
   - Insert: O(n)
   - Remove: O(n)
 
-### Linked Lists
+### :heavy_check_mark:Linked Lists
 
 - About: A linked list is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list. This is also called "Singly Linked List" in which each node points to the next node and the last node points to null.
 - Implementation: C, C++
@@ -56,7 +56,7 @@
   - Insert: O(1)
   - Remove: O(1)
 
-### Doubly Linked List
+### :heavy_check_mark:Doubly Linked List
 
 - About: A linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null. Compared to Singly Linked List, Doubly Linked List requires extra space because it stores one extra pointer for each node. However, Doubly Linked List is comparatively more efficient than singly linked list because we can iterate in both direction.
 - Implementation: C, C++
@@ -82,7 +82,7 @@
   - Insert: O(1)
   - Remove: O(1)
 
-### Circular Linked List
+### :heavy_check_mark:Circular Linked List
 
 - About: A linked list in which each node points to the next node and the last node points back to the first node.
 - Implementation: C, C++
@@ -105,7 +105,7 @@
   - Insert: O(1)
   - Remove: O(1)
 
-### Stacks
+### :heavy_check_mark:Stacks
 
 - About:
   - A Stack is a collection of elements, with two principle operations: _push_, which adds to the collection, and _pop_, which removes the most recently added element.
@@ -136,7 +136,7 @@
   - Insert: O(1)
   - Remove: O(1)
 
-### Queues
+### :heavy_check_mark:Queues
 
 - About:
   - A Queue is a collection of element, with two principle operations: _enqueue_, which inserts an element into the queue, and _dequeue_, which removes an element from the queue.
@@ -167,7 +167,7 @@
   - Insert: O(1)
   - Remove: O(1)
 
-### Trees
+### :heavy_check_mark:Trees
 
 - About:
 - Implementation:
@@ -177,7 +177,7 @@
   - Insert:
   - Remove:
 
-### Binary Trees
+### :heavy_check_mark:Binary Trees
 
 - About:
 - Implementation:
@@ -187,7 +187,7 @@
   - Insert:
   - Remove:
 
-### Binary Search Trees
+### :heavy_check_mark:Binary Search Trees
 
 - About:
 - Implementation:
@@ -197,7 +197,7 @@
   - Insert:
   - Remove:
 
-### Red-Black Tree
+### :heavy_check_mark:Red-Black Tree
 
 - About:
 - Implementation:
@@ -207,7 +207,7 @@
   - Insert:
   - Remove:
 
-### AVL Trees
+### :heavy_check_mark:AVL Trees
 
 - About:
 - Implementation:
@@ -217,7 +217,7 @@
   - Insert:
   - Remove:
 
-### Splay Trees
+### :heavy_check_mark:Splay Trees
 
 - About:
 - Implementation:
@@ -227,7 +227,7 @@
   - Insert:
   - Remove:
 
-### Heap
+### :heavy_check_mark:Heap
 
 - About:
 - Implementation:
@@ -237,7 +237,7 @@
   - Insert:
   - Remove:
 
-### Priority Queues
+### :heavy_check_mark:Priority Queues
 
 - About:
 - Implementation:
@@ -247,7 +247,7 @@
   - Insert:
   - Remove:
 
-### Graphs
+### :heavy_check_mark:Graphs
 
 - About:
 - Implementation:
@@ -277,7 +277,7 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 
 ## 4. Machine Learning & Deep Learning (TBD)
 
-### Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
+### :heavy_check_mark:Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
 
 ### FastAI ML Course - Pytorch practice:
 
