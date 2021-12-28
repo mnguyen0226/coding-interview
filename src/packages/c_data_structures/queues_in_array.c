@@ -18,7 +18,7 @@ typedef struct Queue
  */
 Queue *new_queue(int size)
 {
-    Queue *q = (Queue *)malloc(sizeof(Queue) + size*sizeof(int));
+    Queue *q = (Queue *)malloc(sizeof(Queue) + size * sizeof(int));
 
     // initially, the queue will be empty, both head and tain will point in the same index 1
     q->head = 1;
@@ -131,6 +131,17 @@ void traverse(Queue *q)
     }
 }
 
+/**
+ * @brief Returns but not removes the front of the queue
+ * 
+ * @param q 
+ * @return int 
+ */
+int front(Queue *q)
+{
+    return q->Q[q->head];
+}
+
 /*User Interface*/
 int main()
 {
@@ -153,6 +164,8 @@ int main()
     enqueue(q, 60);
     enqueue(q, 70);
     traverse(q);
+    
+    printf("Front of queue is: %d", front(q));
 
     return 0;
 }
