@@ -198,8 +198,10 @@
 ### :heavy_check_mark:Binary Trees
 
 - About:
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/bt_vs_full_bt.png)
   - *A Binary Tree* is a tree data structure in which each node has at most two children, which are reffered to as the left and right child.
   - *A Full Binary Tree* is a binary tree in which every ndoe has 2 children excep the leaves.
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
   - *A Complete Binary Tree* is a binary tree which is completely filled with a possible exception at the bottom level, ie, the last level may not be completely filled and the bottom level is filled from left to right.
   - *A Perfect Binary Tree* is a binary tree that has each leaf is at the same level and all the interior nodes have two children.
 
