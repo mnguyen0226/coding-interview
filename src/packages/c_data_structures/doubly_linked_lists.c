@@ -74,7 +74,7 @@ void insert_at_front(DoublyLinkedList *l, Node *n)
 }
 
 void insert_at_tail(DoublyLinkedList *l, Node *n){
-    
+    Node* temp = (struct Node *)malloc(sizeof(Node))
 }
 
 /*User Interface*/

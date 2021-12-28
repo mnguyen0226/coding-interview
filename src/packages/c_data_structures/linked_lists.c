@@ -10,18 +10,18 @@ typedef struct Node
 
 typedef struct LinkedList
 {
-    struct Node *head;
+    Node *head;
 } LinkedList;
 
 /**
  * @brief Creates a new node from input int data
  *
  * @param data - input int data
- * @return struct Node* - a new node that stored int data
+ * @return Node* - a new node that stored int data
  */
 Node *new_node(int data)
 {
-    struct Node *z = (struct Node *)malloc(sizeof(struct Node));
+    Node *z = (Node *)malloc(sizeof(Node));
     z->data = data;
     z->next = NULL;
     return z;
@@ -35,8 +35,8 @@ Node *new_node(int data)
  */
 LinkedList *new_list(int data)
 {
-    struct Node *a = new_node(data);
-    LinkedList *l = (struct LinkedList *)malloc(sizeof(LinkedList));
+    Node *a = new_node(data);
+    LinkedList *l = (LinkedList *)malloc(sizeof(LinkedList));
     l->head = a; // let the linked list pointer points to the first node
     return l;
 }
@@ -48,7 +48,7 @@ LinkedList *new_list(int data)
  */
 void traversal(LinkedList *l)
 {
-    Node *temp = (struct Node *)malloc(sizeof(struct Node));
+    Node *temp = (Node *)malloc(sizeof(Node));
     temp = l->head; // create a temp node for traversal
     while (temp != NULL)
     { // while there is still a next node
@@ -78,7 +78,7 @@ void insert_at_beginning(LinkedList *l, Node *n)
  */
 void insert_at_last(LinkedList *l, Node *n)
 {
-    Node *temp = (struct Node *)malloc(sizeof(Node)); // create a temporary node for traversal to the end;
+    Node *temp = (Node *)malloc(sizeof(Node)); // create a temporary node for traversal to the end;
     temp = l->head;
     while (temp->next != NULL)
     {
@@ -107,7 +107,7 @@ void insert_node_after(Node *n, Node *a)
  */
 void delete_node(LinkedList *l, Node *n)
 {
-    Node *temp = (struct Node *)malloc(sizeof(Node));
+    Node *temp = (Node *)malloc(sizeof(Node));
     temp = l->head;
 
     // case 1: if the node to be deleted is a head node
@@ -152,7 +152,7 @@ int main()
     traversal(l);
 
     // create a new node
-    struct Node *z;
+    Node *z;
 
     // test insert
     z = new_node(0);
