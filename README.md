@@ -92,9 +92,16 @@ void delete_node(CircularLinkedList *c, Node *n);
   - A Stack is a collection of elements, with two principle operations: _push_, which adds to the collection, and _pop_, which removes the most recently added element.
   - Last In, First Out (LIFO) data structure: the most recently added object is the first to be removed.
   - Stack is a Abstract Data Type (ADT) because it works on LIFO policy which provides operations like push, pop,... for users to interact with the data. We can implement Stacks in both array or linked list.
-- Implementation: 
-  - Array in C, C++
-  - Linked List in C, C++
+- Implementation:
+  - With array in C, C++
+  - With linked list in C, C++
+- Operations:
+
+```c++
+void push(Stack *s, Node *n);
+int pop(Stack *s);
+```
+
 - Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
