@@ -1,6 +1,6 @@
 # Coding Interview Practice for SWE & MLE
 
-- This repository is for my personal usages & preparation for SWE and MLE interviews.
+This repository is for my personal usages & preparation for SWE and MLE interviews.
 
 ## 1. Study Guide
 
@@ -53,10 +53,10 @@
   ```
 
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access: O(n)
-  - Search: O(n)
-  - Insert: O(1)
-  - Remove: O(1)
+  - Access: `O(n)`
+  - Search: `O(n)`
+  - Insert: `O(1)`
+  - Remove: `O(1)`
 
 ### :heavy_check_mark:Doubly Linked List
 
@@ -79,10 +79,10 @@
   ```
 
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access: O(n)
-  - Search: O(n)
-  - Insert: O(1)
-  - Remove: O(1)
+  - Access: `O(n)`
+  - Search: `O(n)`
+  - Insert: `O(1)`
+  - Remove: `O(1)`
 
 ### :heavy_check_mark:Circular Linked List
 
@@ -102,10 +102,10 @@
   ```
 
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access: O(n)
-  - Search: O(n)
-  - Insert: O(1)
-  - Remove: O(1)
+  - Access: `O(n)`
+  - Search: `O(n)`
+  - Insert: `O(1)`
+  - Remove: `O(1)`
 
 ### :heavy_check_mark:Stacks
 
@@ -133,10 +133,10 @@
   ```
 
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access: O(n)
-  - Search: O(n)
-  - Insert: O(1)
-  - Remove: O(1)
+  - Access: `O(n)`
+  - Search: `O(n)`
+  - Insert: `O(1)`
+  - Remove: `O(1)`
 
 ### :heavy_check_mark:Queues
 
@@ -164,10 +164,10 @@
   ```
 
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access: O(n)
-  - Search: O(n)
-  - Insert: O(1)
-  - Remove: O(1)
+  - Access: `O(n)`
+  - Search: `O(n)`
+  - Insert: `O(1)`
+  - Remove: `O(1)`
 
 ### :heavy_check_mark:Trees
 
@@ -175,23 +175,24 @@
   - Tree is a non-linear data structure. Tree stores data in a hierarchical order.
 - Terminologies:<br>
   ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/resize_tree_structure.png)
-  - *Root:* The topmost node of the hierarchy is called the root of the tree.
-  - *Child:* Nodes next in the hierachy are the children of the previous node.
-  - *Parent:* The node just previous to the current node is the parent of the current node.
-  - *Siblings:* Nodes with the same parent are called siblings.
-  - *Ancestors:* nodes which are higher in the hierarchy are ancestors of the given node.
-  - *Descendents:* Nodes which are lower in the hierarchy are descendants of a given node.
-  - *Internal Nodes:* Nodes with at least one child are internal nodes.
-  - *External Nodes/Leaves:* Nodes which don't have any child are called leaves of tree.
-  - *Edge:* The link bedtween two nodes are called edge.
+
+  - _Root:_ The topmost node of the hierarchy is called the root of the tree.
+  - _Child:_ Nodes next in the hierachy are the children of the previous node.
+  - _Parent:_ The node just previous to the current node is the parent of the current node.
+  - _Siblings:_ Nodes with the same parent are called siblings.
+  - _Ancestors:_ nodes which are higher in the hierarchy are ancestors of the given node.
+  - _Descendents:_ Nodes which are lower in the hierarchy are descendants of a given node.
+  - _Internal Nodes:_ Nodes with at least one child are internal nodes.
+  - _External Nodes/Leaves:_ Nodes which don't have any child are called leaves of tree.
+  - _Edge:_ The link bedtween two nodes are called edge.
     ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_level_height.png)
-  - *Level:* The root of a tree is at level 0 and the nodes whose parent is root are at level 1 and so on.
-  - *Height:* The height of a node is the number of nodes (excluding the node) on the longest path from the node to a leaf.
-  - *Height of a tree:* It is the height of its root.
+  - _Level:_ The root of a tree is at level 0 and the nodes whose parent is root are at level 1 and so on.
+  - _Height:_ The height of a node is the number of nodes (excluding the node) on the longest path from the node to a leaf.
+  - _Height of a tree:_ It is the height of its root.
     ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_depth_degree.png)
-  - *Depth:* The depth of a node is the number of nodes (excluding the node) on the path from the root to the node.
-  - *Node Degree:* It is the max number of children a node has.
-  - *Tree Degree:* It is the max number of node degree. 3 for the image above.
+  - _Depth:_ The depth of a node is the number of nodes (excluding the node) on the path from the root to the node.
+  - _Node Degree:_ It is the max number of children a node has.
+  - _Tree Degree:_ It is the max number of node degree. 3 for the image above.
 
 - Implementation: C, C++
 
@@ -199,11 +200,12 @@
 
 - About:<br>
   ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/bt_vs_full_bt.png)
-  - *A Binary Tree* is a tree data structure in which each node has at most two children, which are reffered to as the left and right child.
-  - *A Full Binary Tree* is a binary tree in which every ndoe has 2 children excep the leaves.
-  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
-  - *A Complete Binary Tree* is a binary tree which is completely filled with a possible exception at the bottom level, ie, the last level may not be completely filled and the bottom level is filled from left to right.
-  - *A Perfect Binary Tree* is a binary tree that has each leaf is at the same level and all the interior nodes have two children.
+
+  - _A Binary Tree_ is a tree data structure in which each node has at most two children, which are reffered to as the left and right child.
+  - _A Full Binary Tree_ is a binary tree in which every ndoe has 2 children excep the leaves.
+    ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
+  - _A Complete Binary Tree_ is a binary tree which is completely filled with a possible exception at the bottom level, ie, the last level may not be completely filled and the bottom level is filled from left to right.
+  - _A Perfect Binary Tree_ is a binary tree that has each leaf is at the same level and all the interior nodes have two children.
 
 - Implementation:
 - :runner::clock1230: Time Complexity - Worst Case:
@@ -300,7 +302,7 @@ Tips: Write out question. Take picture of thought process -> README. Solve. Take
 - Systems Designs & Scalability
 - Sorting & Searching
 
-## 4. Machine Learning & Deep Learning (TBD)
+## 4. Machine Learning & Deep Learning
 
 ### :heavy_check_mark:Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
 
