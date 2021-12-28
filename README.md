@@ -24,7 +24,7 @@
 
 ### :heavy_check_mark:Array
 
-- :runner::clock1230:Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access: O(1)
   - Search: O(n)
   - Insert: O(n)
