@@ -172,6 +172,10 @@
 - About: 
   - Tree is a non-linear data structure.
   - Tree stores data in a hierarchical order.
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_structures.PNG)
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_level_height.png)
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_depth_degree.png)
+  - 123
 - Implementation: C, C++
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
