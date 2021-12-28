@@ -20,7 +20,7 @@
 
 ### :heavy_check_mark:[C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
 
-### :runner::heavy_check_mark:[Big-O](https://www.bigocheatsheet.com/)
+### :runner::clock1230:[Big-O](https://www.bigocheatsheet.com/)
 
 ### :heavy_check_mark:Array
 
