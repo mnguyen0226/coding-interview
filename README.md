@@ -74,11 +74,11 @@ void delete_node(DoublyLinkedList *l, Node *n);
 - Implementation: C, C++
 - Operations:
 
-```c++
-void insert_after(Node *n, Node *a);
-void insert_at_last(CircularLinkedList *c, Node *n);
-void delete_node(CircularLinkedList *c, Node *n);
-```
+  ```c++
+  void insert_after(Node *n, Node *a);
+  void insert_at_last(CircularLinkedList *c, Node *n);
+  void delete_node(CircularLinkedList *c, Node *n);
+  ```
 
 - Time Complexity - Worst Case:
   - Access: O(n)
