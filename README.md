@@ -1,5 +1,7 @@
 # Coding Interview Practice for SWE & MLE
 
+- This repository is for my personal usages & preparation for SWE and MLE interviews.
+
 ## 1. Study Guide
 
 - What are the most relevant problems?
@@ -169,14 +171,27 @@
 
 ### :heavy_check_mark:Trees
 
-- About: 
-  - Tree is a non-linear data structure.
-  - Tree stores data in a hierarchical order.
-  - 
-![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/resize_tree_structure.png)
-![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_level_height.png)
-![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_depth_degree.png)
-  - 123
+- About:
+  - Tree is a non-linear data structure. Tree stores data in a hierarchical order.
+- Terminologies:
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/resize_tree_structure.png)
+  - Root: The topmost node of the hierarchy is called the root of the tree.
+  - Child: Nodes next in the hierachy are the children of the previous node.
+  - Parent: The node just previous to the current node is the parent of the current node.
+  - Siblings: Nodes with the same parent are called siblings.
+  - Ancestors: nodes which are higher in the hierarchy are ancestors of the given node.
+  - Descendents: Nodes which are lower in the hierarchy are descendants of a given node.
+  - Internal Nodes: Nodes with at least one child are internal nodes.
+  - External Nodes/Leaves: Nodes which don't have any child are called leaves of tree.
+  - Edge: The link bedtween two nodes are called edge.
+    ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_level_height.png)
+  - Level: The root of a tree is at level 0 and the nodes whose parent is root are at level 1 and so on.
+  - Height: The height of a node is the number of nodes (excluding the node) on the longest path from the node to a leaf.
+  - Height of a tree: It is the height of its root.
+    ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/tree_depth_degree.png)
+  - Depth: The depth of a node is the number of nodes (excluding the node) on the path from the root to the node.
+  - Node Degree: It is the max number of children a node has.
+  - Tree Degree: It is the max number of node degree. 3 for the image above.
 - Implementation: C, C++
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
