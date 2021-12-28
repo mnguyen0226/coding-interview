@@ -194,15 +194,15 @@
   - *Tree Degree:* It is the max number of node degree. 3 for the image above.
 
 - Implementation: C, C++
-- :runner::clock1230: Time Complexity - Worst Case:
-  - Access:
-  - Search:
-  - Insert:
-  - Remove:
 
 ### :heavy_check_mark:Binary Trees
 
 - About:
+  - *A Binary Tree* is a tree data structure in which each node has at most two children, which are reffered to as the left and right child.
+  - *A Full Binary Tree* is a binary tree in which every ndoe has 2 children excep the leaves.
+  - *A Complete Binary Tree* is a binary tree which is completely filled with a possible exception at the bottom level, ie, the last level may not be completely filled and the bottom level is filled from left to right.
+  - *A Perfect Binary Tree* is a binary tree that has each leaf is at the same level and all the interior nodes have two children.
+
 - Implementation:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
