@@ -117,11 +117,17 @@
 - Operations:
 
   ```c++
+  // adds a new element to the stack's top
   void push(Stack *s, Node *n);
-  int pop(Stack *s);
-  int get_top(Stack *s);
-int is_empty(Stack *s)
 
+  // removes and returns the top-most from the stack
+  int pop(Stack *s);
+
+  // return the top-most but not removes from the stack
+  int get_top(Stack *s);
+
+  // check whether any elements in the stack or not
+  int is_empty(Stack *s)
   ```
 
 - Time Complexity - Worst Case:
