@@ -23,6 +23,7 @@
 ### [Big-O](https://www.bigocheatsheet.com/)
 
 ### Array
+
 - Time Complexity - Worst Case:
   - Access: O(1)
   - Search: O(n)
@@ -31,8 +32,8 @@
 
 ### Linked Lists
 
-- About: A Linked List is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list.
-- Implementation:
+- About: A Linked List is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list. This is also called "Singly Linked List" in which each node points to the next node and the last node points to null.
+- Implementation: C, C++.
 - Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
@@ -41,133 +42,133 @@
 
 ### Doubly Linked List
 
-- About:
-- Implementation:
+- About: A linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null. Compared to Singly Linked List, Doubly Linked List requires extra space because it stores one extra pointer for each node. However, Doubly Linked List is comparatively more efficient than singly linked list because we can iterate in both direction.
+- Implementation: C, C++
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
-  - Insert:
-  - Remove: 
+  - Access: O(n)
+  - Search: O(n)
+  - Insert: O(1)
+  - Remove: O(1)
 
 ### Circular Linked List
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
-  
+  - Remove:
+
 ### Stacks
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Queue
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Trees
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Binary Trees
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### BST
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Red-Black Tree
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### AVL Trees
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Splay Trees
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Heap
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Priority Queues
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ### Graph
 
 - About:
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
+  - Access:
+  - Search:
   - Insert:
-  - Remove: 
+  - Remove:
 
 ## Algorithms in C & C++
 
