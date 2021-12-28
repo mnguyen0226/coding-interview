@@ -174,8 +174,9 @@
 - About:
   - Tree is a non-linear data structure. Tree stores data in a hierarchical order.
 - Terminologies:
-  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/resize_tree_structure.png)<br>
-  
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/resize_tree_structure.png)<br><br>
+
+
   - Root: The topmost node of the hierarchy is called the root of the tree.
   - Child: Nodes next in the hierachy are the children of the previous node.
   - Parent: The node just previous to the current node is the parent of the current node.
@@ -193,6 +194,7 @@
   - Depth: The depth of a node is the number of nodes (excluding the node) on the path from the root to the node.
   - Node Degree: It is the max number of children a node has.
   - Tree Degree: It is the max number of node degree. 3 for the image above.
+
 - Implementation: C, C++
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
