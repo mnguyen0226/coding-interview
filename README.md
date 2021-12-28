@@ -173,10 +173,8 @@
 
 - About:
   - Tree is a non-linear data structure. Tree stores data in a hierarchical order.
-- Terminologies:
-  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/resize_tree_structure.png)<br><br>
-
-
+- Terminologies:<br>
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/resize_tree_structure.png)
   - Root: The topmost node of the hierarchy is called the root of the tree.
   - Child: Nodes next in the hierachy are the children of the previous node.
   - Parent: The node just previous to the current node is the parent of the current node.
