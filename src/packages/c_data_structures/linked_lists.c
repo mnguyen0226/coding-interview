@@ -136,7 +136,7 @@ void delete_node(LinkedList *l, Node *n)
 /* User Interface */
 int main()
 {
-    // create a new linked list with nodes
+    // creates a new linked list with nodes
     LinkedList *l = new_list(10);
     Node *a, *b, *c;
     a = new_node(20);
@@ -148,13 +148,13 @@ int main()
     a->next = b;
     b->next = c;
 
-    // print out linked list
+    // prints out linked list
     traversal(l);
 
-    // create a new node
+    // creates a new node
     Node *z;
 
-    // test insert
+    // tests insert
     z = new_node(0);
     insert_at_beginning(l, z);
     z = new_node(-10);
@@ -168,14 +168,14 @@ int main()
     z = new_node(500);
     insert_node_after(z, a->next->next);
 
-    // print out linked list
+    // prints out linked list
     traversal(l);
 
-    // test delete
+    // tests delete
     delete_node(l, l->head);
     delete_node(l, z);
 
-    // print out linked list
+    // prints out linked list
     traversal(l);
 
     return 0;
