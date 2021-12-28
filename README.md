@@ -37,16 +37,16 @@
 - Operations:
 
   ```c++
-  // inserts a node at the begin 
-  void insert_at_beginning(LinkedList *l, Node *n); 
+  // inserts a node at the begin
+  void insert_at_beginning(LinkedList *l, Node *n);
 
-  // inserts a node at the end 
+  // inserts a node at the end
   void insert_at_last(LinkedList *l, Node *n);
 
   // inserts a node after any node
   void insert_node_after(Node *n, Node *a);
 
-  // deletes a node 
+  // deletes a node
   void delete_node(LinkedList *l, Node *n);
   ```
 
@@ -66,10 +66,10 @@
   // inserts a node at the front/head
   void insert_at_front(DoublyLinkedList *l, Node *n);
 
-  // inserts a node at the tail/end 
+  // inserts a node at the tail/end
   void insert_at_tail(DoublyLinkedList *l, Node *n);
 
-  // inserts a node after any node 
+  // inserts a node after any node
   void insert_node_after(Node *n, Node *a);
 
   // deletes a node
@@ -92,7 +92,7 @@
   // inserts a node after a node
   void insert_after(Node *n, Node *a);
 
-  // inserts a node at the last/head 
+  // inserts a node at the last/head
   void insert_at_last(CircularLinkedList *c, Node *n);
 
   // delete a node
@@ -138,7 +138,7 @@
 
 ### Queues
 
-- About: 
+- About:
   - A Queue is a collection of element, with two principle operations: _enqueue_, which inserts an element into the queue, and _dequeue_, which removes an element from the queue.
   - **First In, First Out (FIFO)** data structure: the oldest added object is the first to be removed.
   - Similar to Stack, Queue is also an ADT.
@@ -146,12 +146,21 @@
   - With array in C, C++
   - With linked list in C, C++
 - Operations:
+
   ```c++
-  enqueue
-  is empty
-  isfull
-  front
+  // adds an item to the tail of queue
+  void enqueue(Queue *q, Node *n);
+
+  // returns and deletes the front element front queue
+  int dequeue(Queue *q);
+
+  // checks whether the queue has any element or not
+  int is_empty(Queue *q);
+
+  // returns but not deletes the front element of the queue
+  int front(Queue *q);
   ```
+
 - Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
