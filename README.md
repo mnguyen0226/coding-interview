@@ -50,7 +50,7 @@
   void delete_node(LinkedList *l, Node *n);
   ```
 
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
   - Insert: O(1)
@@ -76,7 +76,7 @@
   void delete_node(DoublyLinkedList *l, Node *n);
   ```
 
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
   - Insert: O(1)
@@ -99,7 +99,7 @@
   void delete_node(CircularLinkedList *c, Node *n);
   ```
 
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
   - Insert: O(1)
@@ -130,7 +130,7 @@
   int is_empty(Stack *s)
   ```
 
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
   - Insert: O(1)
@@ -161,7 +161,7 @@
   int front(Queue *q);
   ```
 
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
   - Insert: O(1)
@@ -171,7 +171,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -181,7 +181,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -191,7 +191,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -201,7 +201,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -211,7 +211,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -221,7 +221,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -231,7 +231,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -241,7 +241,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
@@ -251,7 +251,7 @@
 
 - About:
 - Implementation:
-- Time Complexity - Worst Case:
+- :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
