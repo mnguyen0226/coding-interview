@@ -146,7 +146,12 @@
   - With array in C, C++
   - With linked list in C, C++
 - Operations:
-
+  ```c++
+  enqueue
+  is empty
+  isfull
+  front
+  ```
 - Time Complexity - Worst Case:
   - Access: O(n)
   - Search: O(n)
