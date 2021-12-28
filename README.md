@@ -20,11 +20,11 @@
 
 ### :heavy_check_mark:[C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
 
-### :runner::clock1230:[Big-O](https://www.bigocheatsheet.com/)
+### :heavy_check_mark:[Big-O](https://www.bigocheatsheet.com/)
 
 ### :heavy_check_mark:Array
 
-- :clock12:Time Complexity - Worst Case:
+- :runner::clock1230:Time Complexity - Worst Case:
   - Access: O(1)
   - Search: O(n)
   - Insert: O(n)
