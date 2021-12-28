@@ -31,13 +31,13 @@
 
 ### Linked Lists
 
-- About:
+- About: A Linked List is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list.
 - Implementation:
 - Time Complexity - Worst Case:
-  - Access: 
-  - Search: 
-  - Insert:
-  - Remove: 
+  - Access: O(n)
+  - Search: O(n)
+  - Insert: O(1)
+  - Remove: O(1)
 
 ### Doubly Linked List
 
@@ -187,7 +187,7 @@ Write out question. Take picture of thought process -> README. Solve. Take note 
 - Systems Designs & Scalability
 - Sorting & Searching
 
-## 4. Machine Learning & Deep Learning (heavily focus after able to practice LeetCode Medium)
+## 4. Machine Learning & Deep Learning (TBD)
 
 ### Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
 
