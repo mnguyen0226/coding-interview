@@ -169,8 +169,10 @@
 
 ### :heavy_check_mark:Trees
 
-- About:
-- Implementation:
+- About: 
+  - Tree is a non-linear data structure.
+  - Tree stores data in a hierarchical order.
+- Implementation: C, C++
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
