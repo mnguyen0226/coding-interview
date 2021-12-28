@@ -32,7 +32,7 @@
 
 ### Linked Lists
 
-- About: A Linked List is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list. This is also called "Singly Linked List" in which each node points to the next node and the last node points to null.
+- About: A linked list is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list. This is also called "Singly Linked List" in which each node points to the next node and the last node points to null.
 - Implementation: C, C++.
 - Time Complexity - Worst Case:
   - Access: O(n)
@@ -52,8 +52,8 @@
 
 ### Circular Linked List
 
-- About: 123456
-- Implementation:
+- About: A linked list in which each node points to the next node and the last node points back to the first node.
+- Implementation: C, C++
 - Time Complexity - Worst Case:
   - Access: 
   - Search:
