@@ -36,12 +36,12 @@
 - Implementation: C, C++
 - Operations:
 
-```c++
-void insert_at_beginning(LinkedList *l, Node *n);
-void insert_at_last(LinkedList *l, Node *n);
-void insert_node_after(Node *n, Node *a);
-void delete_node(LinkedList *l, Node *n);
-```
+  ```c++
+  void insert_at_beginning(LinkedList *l, Node *n);
+  void insert_at_last(LinkedList *l, Node *n);
+  void insert_node_after(Node *n, Node *a);
+  void delete_node(LinkedList *l, Node *n);
+  ```
 
 - Time Complexity - Worst Case:
   - Access: O(n)
@@ -55,12 +55,12 @@ void delete_node(LinkedList *l, Node *n);
 - Implementation: C, C++
 - Operations:
 
-```c++
-void insert_at_front(DoublyLinkedList *l, Node *n);
-void insert_at_tail(DoublyLinkedList *l, Node *n);
-void insert_node_after(Node *n, Node *a);
-void delete_node(DoublyLinkedList *l, Node *n);
-```
+  ```c++
+  void insert_at_front(DoublyLinkedList *l, Node *n);
+  void insert_at_tail(DoublyLinkedList *l, Node *n);
+  void insert_node_after(Node *n, Node *a);
+  void delete_node(DoublyLinkedList *l, Node *n);
+  ```
 
 - Time Complexity - Worst Case:
   - Access: O(n)
@@ -97,10 +97,10 @@ void delete_node(DoublyLinkedList *l, Node *n);
   - With linked list in C, C++
 - Operations:
 
-```c++
-void push(Stack *s, Node *n);
-int pop(Stack *s);
-```
+  ```c++
+  void push(Stack *s, Node *n);
+  int pop(Stack *s);
+  ```
 
 - Time Complexity - Worst Case:
   - Access: O(n)
