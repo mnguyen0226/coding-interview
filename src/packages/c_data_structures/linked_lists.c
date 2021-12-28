@@ -48,7 +48,7 @@ LinkedList *new_list(int data)
  */
 void traversal(LinkedList *l)
 {
-    struct Node *temp = (struct Node *)malloc(sizeof(struct Node));
+    Node *temp = (struct Node *)malloc(sizeof(struct Node));
     temp = l->head; // create a temp node for traversal
     while (temp != NULL)
     { // while there is still a next node
@@ -78,7 +78,7 @@ void insert_at_beginning(LinkedList *l, Node *n)
  */
 void insert_at_last(LinkedList *l, Node *n)
 {
-    struct Node *temp = (struct Node *)malloc(sizeof(Node)); // create a temporary node for traversal to the end;
+    Node *temp = (struct Node *)malloc(sizeof(Node)); // create a temporary node for traversal to the end;
     temp = l->head;
     while (temp->next != NULL)
     {
@@ -107,7 +107,7 @@ void insert_node_after(Node *n, Node *a)
  */
 void delete_node(LinkedList *l, Node *n)
 {
-    struct Node *temp = (struct Node *)malloc(sizeof(Node));
+    Node *temp = (struct Node *)malloc(sizeof(Node));
     temp = l->head;
 
     // case 1: if the node to be deleted is a head node
