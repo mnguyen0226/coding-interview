@@ -1,5 +1,7 @@
 # Coding Interview Practice for SWE & MLE
 
+![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/dsa_wallpaper.jpg)
+
 This repository is for my personal usages & preparation for SWE and MLE interviews.
 
 ## 1. Study Guide
