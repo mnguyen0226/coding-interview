@@ -217,10 +217,10 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   void in_order_traversal(Node *n);
   ```
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access:
-  - Search:
-  - Insert:
-  - Remove:
+  - Access: `O(n)`
+  - Search: `O(n)`
+  - Insert: `O(n)`
+  - Remove: `O(n)`
 
 ### :heavy_check_mark:Binary Search Trees
 
