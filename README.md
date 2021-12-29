@@ -22,16 +22,16 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 ### :heavy_check_mark:[C Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/c)
 
-### :heavy_check_mark:[Big-O](https://www.bigocheatsheet.com/)
+### :heavy_check_mark:[Big-O Cheatsheet](https://www.bigocheatsheet.com/)
 
 ### :heavy_check_mark: Array
 
 - About: Array is a data structure thast stores a fixed-size sequential collection of elements of the same type.
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access: O(1)
-  - Search: O(n)
-  - Insert: O(n)
-  - Remove: O(n)
+  - Access: `O(1)`
+  - Search: `O(n)`
+  - Insert: `O(n)`
+  - Remove: `O(n)`
 
 ### :heavy_check_mark: Linked Lists
 
@@ -316,11 +316,11 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 ### :question: Trie
 
-### :question: Cartesian Tree
+### :question: Cartesian Trees
 
-### :question: B-Tree
+### :question: B-Trees
 
-### :question: KD Tree
+### :question: KD Trees
 
 ### :question: Fenwick Trees
 
@@ -396,7 +396,7 @@ Tips: Write out question. Take picture of thought process -> README. Solve. Take
 - Systems Designs & Scalability
 - Sorting & Searching
 
-## 5. Machine Learning & Deep Learning
+## 5. Machine Learning & Deep Learning 
 
 ### :heavy_check_mark: Coursera Deep Learning Course [(Link + Completion Certification)](https://github.com/mnguyen0226/deep-learning-coursera).
 
