@@ -353,7 +353,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Insert:
   - Remove:
 
-### :heavy_check_mark: Hashing
+### :soon: Hashing
 
 - About:
 - Implementation:
