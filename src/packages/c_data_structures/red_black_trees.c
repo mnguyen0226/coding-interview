@@ -227,6 +227,159 @@ void insert_node(RBTree *rbt, Node *n)
     insertion_fixup(rbt, n);
 }
 
+/**
+ * @brief v is either left or right node of u. This function move right/left subtree of u to replace to u
+ *
+ * @param rbt - input RBTree
+ * @param u - any node in RBTree
+ * @param v - left or right node of u
+ */
+void rb_transplant(RBTree *rbt, Node *u, Node *v)
+{
+    if (u->parent == rbt->NIL)
+        rbt->root = v;
+    else if (u == u->parent->left)
+        u->parent->left = v;
+    else
+        u->parent->right = v;
+    v->parent = u->parent;
+}
+
+/**
+ * @brief Finds the node with min values in the tree from node n
+ *
+ * @param rbt - input RBTree
+ * @param n - root node
+ * @return Node*
+ */
+Node *find_min_node(RBTree *rbt, Node *n)
+{
+    while (n->left != rbt->NIL)
+        n = n->left;
+    return n;
+}
+
+/**
+ * @brief After rotation, fix the RBTree to maintain the rules
+ *
+ * @param rbt
+ * @param n
+ */
+void deletion_fixup(RBTree *rbt, Node *n)
+{
+    while (n != rbt->root && n->color == Black)
+    {
+        if (n == n->parent->left)
+        {
+            Node *w = n->parent->right;
+            if (w->color == Red)
+            {
+                w->color = Black;
+                n->parent->color = Red;
+                left_rotate(rbt, n->parent);
+                w = n->parent->right;
+            }
+            if (w->left->color == Black && w->right->color == Black)
+            {
+                w->color = Red;
+                n = n->parent;
+            }
+            else
+            {
+                if (w->right->color == Black)
+                {
+                    w->left->color = Black;
+                    w->color = Red;
+                    right_rotate(rbt, w);
+                    w = n->parent->right;
+                }
+                w->color = n->parent->color;
+                n->parent->color = Black;
+                w->right->color = Black;
+                left_rotate(rbt, n->parent);
+                n = rbt->root;
+            }
+        }
+        else
+        {
+            Node *w = n->parent->left;
+            if (w->color == Red)
+            {
+                w->color = Black;
+                n->parent->color = Red;
+                right_rotate(rbt, n->parent);
+                w = n->parent->left;
+            }
+            if (w->right->color == Black && w->left->color == Black)
+            {
+                w->color = Red;
+                n = n->parent;
+            }
+            else
+            {
+                if (w->left->color == Black)
+                {
+                    w->right->color = Black;
+                    w->color = Red;
+                    left_rotate(rbt, w);
+                    w = n->parent->left;
+                }
+                w->color = n->parent->color;
+                n->parent->color = Black;
+                w->left->color = Black;
+                right_rotate(rbt, n->parent);
+                n = rbt->root;
+            }
+        }
+    }
+    n->color = Black;
+}
+
+void delete_node(RBTree *rbt, Node *n)
+{
+    Node *y = n;
+    Node *x;
+    enum COLOR y_orignal_color = y->color;
+    if (n->left == rbt->NIL)
+    {
+        x = n->right;
+        rb_transplant(rbt, n, n->right);
+    }
+    else if (n->right == rbt->NIL)
+    {
+        x = n->left;
+        rb_transplant(rbt, n, n->left);
+    }
+    else
+    {
+        y = minimum(rbt, n->right);
+        y_orignal_color = y->color;
+        x = y->right;
+        if (y->parent == n)
+        {
+            x->parent = n;
+        }
+        else
+        {
+            rb_transplant(rbt, y, y->right);
+            y->right = n->right;
+            y->right->parent = y;
+        }
+        rb_transplant(rbt, n, y);
+        y->left = n->left;
+        y->left->parent = y;
+        y->color = n->color;
+    }
+    if (y_orignal_color == Black)
+        rb_delete_fixup(rbt, x);
+}
+
+/**
+ * @brief Prints sorted order
+ *
+ * @param rbt - input rbtree
+ * @param n - root node
+ */
 void in_order_traversal(RBTree *rbt, Node *n)
 {
     if (n != rbt->NIL)
@@ -270,6 +423,11 @@ int main()
     insert_node(rbt, k);
     insert_node(rbt, l);
     insert_node(rbt, m);
+
+    in_order_traversal(rbt, rbt->root);
+
+    delete_node(rbt, a);
+    delete_node(rbt, m);
 
     in_order_traversal(rbt, rbt->root);
 

@@ -265,7 +265,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Insert: `O(log(n))`
   - Remove: `O(log(n))`
 
-### :heavy_check_mark: Red-Black Tree
+### :heavy_check_mark::heavy_exclamation_mark: Red-Black Tree
 
 - About:
   - Red-Black Tree is a type of self-balanceing binary seach tree. Each node has an extra bit, which represents its color red or black.
@@ -274,7 +274,8 @@ This repository is for my personal usage & preparation for SWE and MLE interview
     - _External Property:_ Every external node is black.
     - _Red Property:_ The children of a red node is black.
     - _Depth Property:_ All external nodes have the same black depth.
-    - Insertion: Any newly added node is red. but we have to rebalance the tree again so there be no consecutive red node if the parent of the new node is red.
+  - Insertion: Any newly added node is red. but we have to rebalance the tree again so there be no consecutive red node if the parent of the new node is red.
+  - Deletion: Similar to BST, we also need a function to check and fix violations.
 - Implementation: C, C++
 - Operations:
 
