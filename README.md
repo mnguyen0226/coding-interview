@@ -224,14 +224,16 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 ### :heavy_check_mark:Binary Search Trees (BST)
 
-- About: 
+- About:
   - A BST is a special kind of binary tree in which the values of all the nodes of the left sub-tree of any node of the tree are smaller than the value of the node. Also, the values of all the nodes of the right sub-tree of any node are greater than the value of the node.
   - In-order traversal of BST prints all the data in sorted order.
   - To find the max/min element in BST, we have to find the right-most/left-most element respectively.
 - Implementation: C, C++
 - Operations:
   ```c++
-
+  void insert_node(BST *bst, Node *n);
+  void delete_node(BST *bst, Node *n);
+  void in_order_traversal(BST *bst, Node *n);
   ```
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access: `O(log(n))`
