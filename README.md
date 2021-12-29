@@ -329,7 +329,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 - Algorithms Coursera (TBD)
 
-### Sort Algorithms
+### :question: Sort Algorithms
 
 #### Quick Sort
 
@@ -357,13 +357,31 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 #### Cube Sort
 
-### Graph Algorithms
+### :question: Graph Algorithms
+
+#### Depth First Search
+
+#### Breadth First Search
+
+#### Topological Sort
+
+#### Dijkstra's Algorithm
+
+#### Bellman-Ford Algorithm
+
+#### Floyd-Warshall Algorithm
+
+#### Prim's Algorithm
+
+## 3. :question: Other Topics
+
+### Run-time Analysis Deep-Dive
 
 ### Greedy Algorithms
 
 ### Bitmasks
 
-## 3. CTCI Questions
+## 4. CTCI Questions
 
 Tips: Write out question. Take picture of thought process -> README. Solve. Take note on Google Sheet
 
@@ -377,7 +395,7 @@ Tips: Write out question. Take picture of thought process -> README. Solve. Take
 - Systems Designs & Scalability
 - Sorting & Searching
 
-## 4. Machine Learning & Deep Learning
+## 5. Machine Learning & Deep Learning
 
 ### :heavy_check_mark:Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
 
