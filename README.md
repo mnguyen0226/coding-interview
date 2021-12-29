@@ -398,9 +398,9 @@ Tips: Write out question. Take picture of thought process -> README. Solve. Take
 
 ## 5. Machine Learning & Deep Learning
 
-### :heavy_check_mark:Coursera Deep Learning Course [(completed)](https://github.com/mnguyen0226/deep-learning-coursera).
+### :heavy_check_mark: Coursera Deep Learning Course [(Link + Completion Certification)](https://github.com/mnguyen0226/deep-learning-coursera).
 
-### :question:FastAI ML Course - Pytorch practice:
+### :question: FastAI ML Course - Pytorch practice:
 
 - Introduction to Random Forest.
 - Random Forest Deep Dive.
@@ -415,7 +415,7 @@ Tips: Write out question. Take picture of thought process -> README. Solve. Take
 - Embeddings
 - Complete Rossmann, Ethical Issues
 
-### :question:Fast AI DL Course - Pytorch practice:
+### :question: Fast AI DL Course - Pytorch practice:
 
 - Recognizaing Cats & Dogs.
 - Improving your image classifier.
@@ -432,10 +432,10 @@ Tips: Write out question. Take picture of thought process -> README. Solve. Take
 - CycleGANs, Data ethics, Style transfer.
 - Super resolution; Segmentation with Unets
 
-### :question:Kaggle
+### :question: Kaggle
 
-### :question:Deep Learning for Coder - Pytorch book (TBD)
+### :question: Deep Learning for Coder - Pytorch book (TBD)
 
-### :question:MLOps Coursera (TBD)
+### :question: MLOps Coursera (TBD)
 
-### :question:Reinforcement Learning Coursera (TBD)
+### :question: Reinforcement Learning Coursera (TBD)
