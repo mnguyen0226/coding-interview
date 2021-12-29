@@ -276,7 +276,7 @@ void deletion_fixup(RBTree *rbt, Node *n)
             {
                 w->color = Black;
                 n->parent->color = Red;
-                left_rotate(rbt, n->parent);
+                left_rotation(rbt, n->parent);
                 w = n->parent->right;
             }
             if (w->left->color == Black && w->right->color == Black)
@@ -290,13 +290,13 @@ void deletion_fixup(RBTree *rbt, Node *n)
                 {
                     w->left->color = Black;
                     w->color = Red;
-                    right_rotate(rbt, w);
+                    right_rotation(rbt, w);
                     w = n->parent->right;
                 }
                 w->color = n->parent->color;
                 n->parent->color = Black;
                 w->right->color = Black;
-                left_rotate(rbt, n->parent);
+                left_rotation(rbt, n->parent);
                 n = rbt->root;
             }
         }
@@ -307,7 +307,7 @@ void deletion_fixup(RBTree *rbt, Node *n)
             {
                 w->color = Black;
                 n->parent->color = Red;
-                right_rotate(rbt, n->parent);
+                right_rotation(rbt, n->parent);
                 w = n->parent->left;
             }
             if (w->right->color == Black && w->left->color == Black)
@@ -321,13 +321,13 @@ void deletion_fixup(RBTree *rbt, Node *n)
                 {
                     w->right->color = Black;
                     w->color = Red;
-                    left_rotate(rbt, w);
+                    left_rotation(rbt, w);
                     w = n->parent->left;
                 }
                 w->color = n->parent->color;
                 n->parent->color = Black;
                 w->left->color = Black;
-                right_rotate(rbt, n->parent);
+                right_rotation(rbt, n->parent);
                 n = rbt->root;
             }
         }
@@ -335,6 +335,12 @@ void deletion_fixup(RBTree *rbt, Node *n)
     n->color = Black;
 }
 
+/**
+ * @brief Deletes any node in RBTree
+ *
+ * @param rbt - input RBTree
+ * @param n - node to be deleted 
+ */
 void delete_node(RBTree *rbt, Node *n)
 {
     Node *y = n;
@@ -352,7 +358,7 @@ void delete_node(RBTree *rbt, Node *n)
     }
     else
     {
-        y = minimum(rbt, n->right);
+        y = find_min_node(rbt, n->right);
         y_orignal_color = y->color;
         x = y->right;
         if (y->parent == n)
@@ -371,7 +377,7 @@ void delete_node(RBTree *rbt, Node *n)
         y->color = n->color;
     }
     if (y_orignal_color == Black)
-        rb_delete_fixup(rbt, x);
+        deletion_fixup(rbt, x);
 }
 
 /**
