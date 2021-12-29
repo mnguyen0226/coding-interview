@@ -24,15 +24,16 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 ### :heavy_check_mark:[Big-O](https://www.bigocheatsheet.com/)
 
-### :heavy_check_mark:Array
+### :heavy_check_mark: Array
 
+- About: Array is a data structure thast stores a fixed-size sequential collection of elements of the same type.
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access: O(1)
   - Search: O(n)
   - Insert: O(n)
   - Remove: O(n)
 
-### :heavy_check_mark:Linked Lists
+### :heavy_check_mark: Linked Lists
 
 - About: A linked list is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list. This is also called "Singly Linked List" in which each node points to the next node and the last node points to null.
 - Implementation: C, C++
@@ -58,7 +59,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(1)`
   - Remove: `O(1)`
 
-### :heavy_check_mark:Doubly Linked List
+### :heavy_check_mark: Doubly Linked List
 
 - About: A linked list in which each node has two pointers, p and n, such that p points to the previous node and n points to the next node; the last node's n pointer points to null. Compared to Singly Linked List, Doubly Linked List requires extra space because it stores one extra pointer for each node. However, Doubly Linked List is comparatively more efficient than singly linked list because we can iterate in both direction.
 - Implementation: C, C++
@@ -84,7 +85,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(1)`
   - Remove: `O(1)`
 
-### :heavy_check_mark:Circular Linked List
+### :heavy_check_mark: Circular Linked List
 
 - About: A linked list in which each node points to the next node and the last node points back to the first node.
 - Implementation: C, C++
@@ -109,7 +110,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 ### :question: Skip List
 
-### :heavy_check_mark:Stacks
+### :heavy_check_mark: Stacks
 
 - About:
   - A Stack is a collection of elements, with two principle operations: _push_, which adds to the collection, and _pop_, which removes the most recently added element.
@@ -140,7 +141,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(1)`
   - Remove: `O(1)`
 
-### :heavy_check_mark:Queues
+### :heavy_check_mark: Queues
 
 - About:
   - A Queue is a collection of element, with two principle operations: _enqueue_, which inserts an element into the queue, and _dequeue_, which removes an element from the queue.
@@ -171,7 +172,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(1)`
   - Remove: `O(1)`
 
-### :heavy_check_mark:Trees
+### :heavy_check_mark: Trees
 
 - About:
   - Tree is a non-linear data structure. Tree stores data in a hierarchical order.
@@ -198,7 +199,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 - Implementation: C, C++
 
-### :heavy_check_mark:Binary Trees
+### :heavy_check_mark: Binary Trees
 
 - About:<br>
   ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/bt_vs_full_bt.png)
@@ -224,7 +225,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(n)`
   - Remove: `O(n)`
 
-### :heavy_check_mark:Binary Search Trees (BST)
+### :heavy_check_mark: Binary Search Trees (BST)
 
 - About:
   - A BST is a special kind of binary tree in which the values of all the nodes of the left sub-tree of any node of the tree are smaller than the value of the node. Also, the values of all the nodes of the right sub-tree of any node are greater than the value of the node.
@@ -243,7 +244,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(log(n))`
   - Remove: `O(log(n))`
 
-### :heavy_check_mark:Red-Black Tree
+### :heavy_check_mark: Red-Black Tree
 
 - About:
   - Red-Black Tree is a type of self-balance binary tree.
@@ -253,7 +254,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
     - All leaves are black.
     - Both children of a red node are black, ie, there can't be consecutive red nodes.
     - All simple paths from a node to descendant leaves contain the same number of black nodes.
-  - 
+  -
 - Implementation:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
@@ -261,7 +262,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
-### :heavy_check_mark:AVL Trees - Self-Balanced Trees
+### :heavy_check_mark: AVL Trees - Self-Balanced Trees
 
 - About:
 - Implementation:
@@ -271,7 +272,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
-### :heavy_check_mark:Splay Trees
+### :heavy_check_mark: Splay Trees
 
 - About:
 - Implementation:
@@ -281,7 +282,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
-### :heavy_check_mark:Heap
+### :heavy_check_mark: Heap
 
 - About:
 - Implementation:
@@ -291,7 +292,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
-### :heavy_check_mark:Priority Queues
+### :heavy_check_mark: Priority Queues
 
 - About:
 - Implementation:
@@ -301,7 +302,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
-### :heavy_check_mark:Graphs
+### :heavy_check_mark: Graphs
 
 - About:
 - Implementation:
@@ -311,7 +312,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
-### Hashing
+### :heavy_check_mark: Hashing
 
 ### :question: Trie
 
