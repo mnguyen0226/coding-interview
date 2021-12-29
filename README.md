@@ -298,7 +298,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Insert: `O(log(n))`
   - Remove: `O(log(n))`
 
-### :soon: AVL Trees - Self-Balanced Trees
+### :soon: AVL Trees
 
 - About:
 - Implementation:
