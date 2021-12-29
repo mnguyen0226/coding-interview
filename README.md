@@ -200,6 +200,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 - About:<br>
   ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/bt_vs_full_bt.png)
+
   - _A Binary Tree_ is a tree data structure in which each node has at most two children, which are reffered to as the left and right child.
   - _A Full Binary Tree_ is a binary tree in which every ndoe has 2 children excep the leaves.
     ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
@@ -209,6 +210,12 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 - Implementation:
   - With array in C, C++
   - with linked list in C, C++
+- Operations:
+  ```c++
+  void pre_order_traversal(Node *n);
+  void post_order_traversal(Node *n);
+  void in_order_traversal(Node *n);
+  ```
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
