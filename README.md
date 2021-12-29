@@ -298,50 +298,55 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Insert: `O(log(n))`
   - Remove: `O(log(n))`
 
-### :heavy_check_mark: AVL Trees - Self-Balanced Trees
+### :soon: AVL Trees - Self-Balanced Trees
 
 - About:
 - Implementation:
+- Operations:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
   - Remove:
 
-### :heavy_check_mark: Splay Trees
+### :soon: Splay Trees
 
 - About:
 - Implementation:
+- Operations:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
   - Remove:
 
-### :heavy_check_mark: Heap
+### :soon: Heap
 
 - About:
 - Implementation:
+- Operations:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
   - Remove:
 
-### :heavy_check_mark: Priority Queues
+### :soon: Priority Queues
 
 - About:
 - Implementation:
+- Operations:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
   - Insert:
   - Remove:
 
-### :heavy_check_mark: Graphs
+### :soon: Graphs
 
 - About:
 - Implementation:
+- Operations:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
   - Search:
@@ -350,17 +355,80 @@ This repository is for my personal usage & preparation for SWE and MLE interview
 
 ### :heavy_check_mark: Hashing
 
+- About:
+- Implementation:
+- Operations:
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access:
+  - Search:
+  - Insert:
+  - Remove
+
 ### :question: Trie
+
+- About:
+- Implementation:
+- Operations:
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access:
+  - Search:
+  - Insert:
+  - Remove
 
 ### :question: Cartesian Trees
 
+- About:
+- Implementation:
+- Operations:
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access:
+  - Search:
+  - Insert:
+  - Remove
+
 ### :question: B-Trees
+
+- About:
+- Implementation:
+- Operations:
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access:
+  - Search:
+  - Insert:
+  - Remove
 
 ### :question: KD Trees
 
+- About:
+- Implementation:
+- Operations:
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access:
+  - Search:
+  - Insert:
+  - Remove
+
 ### :question: Fenwick Trees
 
+- About:
+- Implementation:
+- Operations:
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access:
+  - Search:
+  - Insert:
+  - Remove
+
 ### :question: Segment Trees
+
+- About:
+- Implementation:
+- Operations:
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access:
+  - Search:
+  - Insert:
+  - Remove
 
 ## Algorithms in C & C++
 
