@@ -193,6 +193,12 @@ void insertion_fixup(RBTree *rbt, Node *n)
     rbt->root->color = Black;
 }
 
+/**
+ * @brief Inserts any node in RBTree
+ * 
+ * @param rbt - input RBTree
+ * @param n - node to be inserted
+ */
 void insert_node(RBTree *rbt, Node *n)
 {
     Node *y = rbt->NIL; // used for the parent of added node
@@ -234,7 +240,7 @@ void insert_node(RBTree *rbt, Node *n)
  * @param u - any node in RBTree
  * @param v - left or right node of u
  */
-void rb_transplant(RBTree *rbt, Node *u, Node *v)
+void transplant(RBTree *rbt, Node *u, Node *v)
 {
     if (u->parent == rbt->NIL)
         rbt->root = v;
@@ -349,12 +355,12 @@ void delete_node(RBTree *rbt, Node *n)
     if (n->left == rbt->NIL)
     {
         x = n->right;
-        rb_transplant(rbt, n, n->right);
+        transplant(rbt, n, n->right);
     }
     else if (n->right == rbt->NIL)
     {
         x = n->left;
-        rb_transplant(rbt, n, n->left);
+        transplant(rbt, n, n->left);
     }
     else
     {
@@ -367,11 +373,11 @@ void delete_node(RBTree *rbt, Node *n)
         }
         else
         {
-            rb_transplant(rbt, y, y->right);
+            transplant(rbt, y, y->right);
             y->right = n->right;
             y->right->parent = y;
         }
-        rb_transplant(rbt, n, y);
+        transplant(rbt, n, y);
         y->left = n->left;
         y->left->parent = y;
         y->color = n->color;

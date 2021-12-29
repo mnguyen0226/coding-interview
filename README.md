@@ -267,6 +267,8 @@ This repository is for my personal usage & preparation for SWE and MLE interview
 
 ### :heavy_check_mark::heavy_exclamation_mark: Red-Black Tree
 
+![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/rb_tree.png)
+
 - About:
   - Red-Black Tree is a type of self-balanceing binary seach tree. Each node has an extra bit, which represents its color red or black.
   - Properties that ensure the tree's height maintains at `O(log(n))`
@@ -278,6 +280,17 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Deletion: Similar to BST, we also need a function to check and fix violations.
 - Implementation: C, C++
 - Operations:
+
+  ```c++
+  // inserts a node
+  void insert_node(RBTree *rbt, Node *n)
+
+  // deletes a node
+  void delete_node(RBTree *rbt, Node *n)
+
+  // prints sorted order
+  void in_order_traversal(RBTree *rbt, Node *n)
+  ```
 
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access: `O(log(n))`
