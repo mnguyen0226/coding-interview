@@ -329,57 +329,57 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
 - Algorithms Coursera (TBD)
 
-### :question: Sort Algorithms
+### Sort Algorithms
 
-#### Quick Sort
+#### :question: Quick Sort
 
-#### Merge Sort
+#### :question: Merge Sort
 
-#### Tim Sort
+#### :question: Tim Sort
 
-#### Heap Sort
+#### :question: Heap Sort
 
-#### Bubble Sort
+#### :question: Bubble Sort
 
-#### Insertion Sort
+#### :question: Insertion Sort
 
-#### Selection Sort
+#### :question: Selection Sort
 
-#### Tree Sort
+#### :question: Tree Sort
 
-#### Shell Sort
+#### :question: Shell Sort
 
-#### Bucket Sort
+#### :question: Bucket Sort
 
-#### Radix Sort
+#### :question: Radix Sort
 
-#### Counting Sort
+#### :question: Counting Sort
 
-#### Cube Sort
+#### :question: Cube Sort
 
-### :question: Graph Algorithms
+### Graph Algorithms
 
-#### Depth First Search
+#### :question: Depth First Search
 
-#### Breadth First Search
+#### :question: Breadth First Search
 
-#### Topological Sort
+#### :question: Topological Sort
 
-#### Dijkstra's Algorithm
+#### :question: Dijkstra's Algorithm
 
-#### Bellman-Ford Algorithm
+#### :question: Bellman-Ford Algorithm
 
-#### Floyd-Warshall Algorithm
+#### :question: Floyd-Warshall Algorithm
 
-#### Prim's Algorithm
+#### :question: Prim's Algorithm
 
-## 3. :question: Other Topics
+## 3. Other Topics
 
-### Run-time Analysis Deep-Dive
+### :question: Run-time Analysis Deep-Dive
 
-### Greedy Algorithms
+### :question: Greedy Algorithms
 
-### Bitmasks
+### :question: Bitmasks
 
 ## 4. CTCI Questions
 
