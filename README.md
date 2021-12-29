@@ -203,7 +203,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
   - _A Binary Tree_ is a tree data structure in which each node has at most two children, which are reffered to as the left and right child.
   - _A Full Binary Tree_ is a binary tree in which every ndoe has 2 children excep the leaves.
-    ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
+  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
   - _A Complete Binary Tree_ is a binary tree which is completely filled with a possible exception at the bottom level, ie, the last level may not be completely filled and the bottom level is filled from left to right.
   - _A Perfect Binary Tree_ is a binary tree that has each leaf is at the same level and all the interior nodes have two children.
 
