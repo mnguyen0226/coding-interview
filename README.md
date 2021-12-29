@@ -2,7 +2,7 @@
 
 ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/dsa_wallpaper.jpg)
 
-This repository is for my personal usages & preparation for SWE and MLE interviews.
+This repository is for my personal usage & preparation for SWE and MLE interviews.
 
 ## 1. Study Guide
 
@@ -216,11 +216,18 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - With array in C, C++
   - with linked list in C, C++
 - Operations:
+
   ```c++
+  // prints binary tree pre-order
   void pre_order_traversal(Node *n);
+
+  // prints binary tree post-order
   void post_order_traversal(Node *n);
+
+  // prints binary tree in-order
   void in_order_traversal(Node *n);
   ```
+
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access: `O(n)`
   - Search: `O(n)`
@@ -235,12 +242,24 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - To find the max/min element in BST, we have to find the right-most/left-most element respectively.
 - Implementation: C, C++
 - Operations:
+
   ```c++
+  // inserts a new node in BST
   void insert_node(BST *bst, Node *n);
+
+  // deletes any node in the BST
   void delete_node(BST *bst, Node *n);
+
+  // prints sorted order
   void in_order_traversal(BST *bst, Node *n);
   ```
+
 - :runner::clock1230: Time Complexity - Worst Case:
+  - Access: `O(n)`
+  - Search: `O(n)`
+  - Insert: `O(n)`
+  - Remove: `O(n)`
+- :runner::clock1230: Time Complexity - Average Case:
   - Access: `O(log(n))`
   - Search: `O(log(n))`
   - Insert: `O(log(n))`
@@ -249,20 +268,21 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 ### :heavy_check_mark: Red-Black Tree
 
 - About:
-  - Red-Black Tree is a type of self-balance binary tree.
+  - Red-Black Tree is a type of self-balanceing binary seach tree. Each node has an extra bit, which represents its color red or black.
   - Properties that ensure the tree's height maintains at `O(log(n))`
-    - Every node is colored either red or black.
-    - Root of the tree is black.
-    - All leaves are black.
-    - Both children of a red node are black, ie, there can't be consecutive red nodes.
-    - All simple paths from a node to descendant leaves contain the same number of black nodes.
-  -
-- Implementation:
+    - _Root Property:_ The root is black.
+    - _External Property:_ Every external node is black.
+    - _Red Property:_ The children of a red node is black.
+    - _Depth Property:_ All external nodes have the same black depth.
+    - Insertion: Any newly added node is red. but we have to rebalance the tree again so there be no consecutive red node if the parent of the new node is red.
+- Implementation: C, C++
+- Operations:
+
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access:
-  - Search:
-  - Insert:
-  - Remove:
+  - Access: `O(log(n))`
+  - Search: `O(log(n))`
+  - Insert: `O(log(n))`
+  - Remove: `O(log(n))`
 
 ### :heavy_check_mark: AVL Trees - Self-Balanced Trees
 
@@ -398,7 +418,7 @@ Tips: Write out question. Take picture of thought process -> README. Solve. Take
 - Systems Designs & Scalability
 - Sorting & Searching
 
-## 5. Machine Learning & Deep Learning 
+## 5. Machine Learning & Deep Learning
 
 ### :heavy_check_mark: Coursera Deep Learning Course [(Link + Completion Certification)](https://github.com/mnguyen0226/deep-learning-coursera).
 
