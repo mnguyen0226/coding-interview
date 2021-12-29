@@ -283,13 +283,13 @@ This repository is for my personal usage & preparation for SWE and MLE interview
 
   ```c++
   // inserts a node
-  void insert_node(RBTree *rbt, Node *n)
+  void insert_node(RBTree *rbt, Node *n);
 
   // deletes a node
-  void delete_node(RBTree *rbt, Node *n)
+  void delete_node(RBTree *rbt, Node *n);
 
   // prints sorted order
-  void in_order_traversal(RBTree *rbt, Node *n)
+  void in_order_traversal(RBTree *rbt, Node *n);
   ```
 
 - :runner::clock1230: Time Complexity - Worst Case:
