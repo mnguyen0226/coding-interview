@@ -107,6 +107,8 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(1)`
   - Remove: `O(1)`
 
+### :question: Skip List
+
 ### :heavy_check_mark:Stacks
 
 - About:
@@ -244,6 +246,14 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 ### :heavy_check_mark:Red-Black Tree
 
 - About:
+  - Red-Black Tree is a type of self-balance binary tree.
+  - Properties that ensure the tree's height maintains at `O(log(n))`
+    - Every node is colored either red or black.
+    - Root of the tree is black.
+    - All leaves are black.
+    - Both children of a red node are black, ie, there can't be consecutive red nodes.
+    - All simple paths from a node to descendant leaves contain the same number of black nodes.
+  - 
 - Implementation:
 - :runner::clock1230: Time Complexity - Worst Case:
   - Access:
@@ -301,9 +311,57 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
+### Hashing
+
+### :question: Trie
+
+### :question: Cartesian Tree
+
+### :question: B-Tree
+
+### :question: KD Tree
+
+### :question: Fenwick Trees
+
+### :question: Segment Trees
+
 ## Algorithms in C & C++
 
 - Algorithms Coursera (TBD)
+
+### Sort Algorithms
+
+#### Quick Sort
+
+#### Merge Sort
+
+#### Tim Sort
+
+#### Heap Sort
+
+#### Bubble Sort
+
+#### Insertion Sort
+
+#### Selection Sort
+
+#### Tree Sort
+
+#### Shell Sort
+
+#### Bucket Sort
+
+#### Radix Sort
+
+#### Counting Sort
+
+#### Cube Sort
+
+### Graph Algorithms
+
+### Greedy Algorithms
+
+### Bitmasks
 
 ## 3. CTCI Questions
 
