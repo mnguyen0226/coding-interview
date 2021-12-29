@@ -203,7 +203,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
 
   - _A Binary Tree_ is a tree data structure in which each node has at most two children, which are reffered to as the left and right child.
   - _A Full Binary Tree_ is a binary tree in which every ndoe has 2 children excep the leaves.
-  ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
+    ![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/complete_bt_vs_perfect_bt.png)
   - _A Complete Binary Tree_ is a binary tree which is completely filled with a possible exception at the bottom level, ie, the last level may not be completely filled and the bottom level is filled from left to right.
   - _A Perfect Binary Tree_ is a binary tree that has each leaf is at the same level and all the interior nodes have two children.
 
@@ -222,15 +222,15 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert: `O(n)`
   - Remove: `O(n)`
 
-### :heavy_check_mark:Binary Search Trees
+### :heavy_check_mark:Binary Search Trees (BST)
 
-- About:
-- Implementation:
+- About: A BST is a special kind of binary tree in which the values of all the nodes of the left sub-tree of any node of the tree are smaller than the value of the node. Also, the values of all the nodes of the right sub-tree of any node are greater than the value of the node.
+- Implementation: C, C++
 - :runner::clock1230: Time Complexity - Worst Case:
-  - Access:
-  - Search:
-  - Insert:
-  - Remove:
+  - Access: `O(log(n))`
+  - Search: `O(log(n))`
+  - Insert: `O(log(n))`
+  - Remove: `O(log(n))`
 
 ### :heavy_check_mark:Red-Black Tree
 
@@ -242,7 +242,7 @@ This repository is for my personal usages & preparation for SWE and MLE intervie
   - Insert:
   - Remove:
 
-### :heavy_check_mark:AVL Trees
+### :heavy_check_mark:AVL Trees - Self-Balanced Trees
 
 - About:
 - Implementation:
