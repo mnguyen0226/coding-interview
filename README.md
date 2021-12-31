@@ -52,7 +52,6 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Dynamic Programming
   - Greedy Algorithms & Invariant
   - Graphs
-  - Parallel Programming
 
 - Algorithms:
   - BFT
