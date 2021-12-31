@@ -16,6 +16,27 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Try to code the problem on paper from scratch => Find what you don't understand about the problem.
   - Document the problem on Excel.
 
+### Must Covered DSA:
+- Data Structures:
+  - Linked Lists
+  - Trees, Tries, Graph
+  - Stacks, Queues
+  - Heaps
+  - Vector / ArrayLists
+  - Hash Tables
+- Algorithms:
+  - BFT
+  - DFS
+  - Binary Search
+  - Merge Sort
+  - Quick Sort
+- Concepts:
+  - Bit Manipulation
+  - Memory (Stacks vs Heaps)
+  - Recursion
+  - Dynamic Programming
+  - Big O Time Space
+
 ## 2. Data Structures & Algorithms
 
 ## Data Structures in C & C++
