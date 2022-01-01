@@ -15,6 +15,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Read Solution.
   - Try to code the problem on paper from scratch => Find what you don't understand about the problem.
   - Document the problem on Excel.
+  - [Blind](https://leetcode.com/discuss/general-discussion/460599/blind-75-leetcode-questions)
 
 ### [How to Prep](https://www.youtube.com/watch?v=7UlslIXHNsw&t=2s&ab_channel=EngineeringwithUtsav):
 
@@ -39,18 +40,17 @@ This repository is for my personal usage & preparation for SWE and MLE interview
 - Data Structures:
   - Arrays
   - Strings
-  - Hash Tables
+  - Hash Tables (?)
   - Linked Lists
   - Stacks & Queues
   - Binary Tree
   - Trie
   - BST
-  - Heaps
-  - Searching
-  - Sorting
-  - Recursion
-  - Dynamic Programming
-  - Greedy Algorithms & Invariant
+  - Heaps (?)
+  - Searching & Sorting (?)
+  - Recursion (?)
+  - Dynamic Programming (?)
+  - Greedy Algorithms & Invariant (?)
   - Graphs
 
 - Algorithms:
