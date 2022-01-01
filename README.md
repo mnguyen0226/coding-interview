@@ -85,6 +85,17 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Insert: `O(n)`
   - Remove: `O(n)`
 
+### :heavy_check_mark: Vectors
+
+- About: Vectors are similar to dynamic arrays with the ability to resize itself automatically when an element is inserted or delete, with their storage being handled automatically by the container. Vector elements are placed in contiguous storage so that they can be acessed or traversed using iterators. In vectors, data is inserted at the end. Inserting at the end takes differential time, as sometimes there may be a need of extending the array. Removing the last element takes only constant time because no resizing happens. Inserting or erasing at beginning or in the middle is linear time
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access: `O(1)`
+  - Search: `O(n)`
+  - Insert: `O(n)`
+  - Remove: `O(n)`
+
+
+
 ### :heavy_check_mark: Linked Lists
 
 - About: A linked list is a linear collection of data elements, called nodes, each pointing to the next node by means of a pointer. It is a data structure consisting of a group of nodes which together represent a sequence. Generally, we call the first node of a linked list the "head" of the linked list, and we always keep the access of the head of the linked list so that we have access to all the nodes of a linked list. This is also called "Singly Linked List" in which each node points to the next node and the last node points to null.
