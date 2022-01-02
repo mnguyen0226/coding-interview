@@ -10,16 +10,6 @@ using namespace std;
  */
 void run_iterator()
 {
-    // Functions:
-    // begin() - returns an iterator pointing to  the first element in the vector.
-    // end() - returns an iterator pointing to the theoretical element that follows the last element in the vector.
-    // rbegin() - returnsa reverse iterator pointing to the last element in the vector (reverse beginning).
-    // rend() - returns a reverse iterator pointing to the last element preceding the first elelemt in the vector (considered as reverse end).
-    // cbegin() - returns a constant iterator pointing to the theoretical element preceding the first element in the vector (considered as reverse end).
-    // cend() - returns a constant iterator pointing to the theoretical element that follows the last element in the vector.
-    // crbegin() - return the constant reverse iterator pointing to the last element in the vector (reverse beginning). It moves from last to first element.
-    // crend() - returns a constant reverse iterator pointing to the theoretical element preceding the first element in the vector (considered as reversed end).
-
     vector<int> v1;
 
     // inserts items into vector
@@ -153,11 +143,22 @@ void run_access_elements()
     }
 }
 
+void run_modifiers(){
+    // Functions:
+    // assign() - Assigns new value to the vector elemenets to replacing old ones.
+    // push_back() - Pushs the elements into a vector from the back.
+    // pop_back() - Used to pop or remove elements from a vector from the back.
+    // insert() - Inserts new elements before the element at the specified position
+    // erase() - Used to remove elements from a container from the specified position or range.
+    // swap() - Used to swap the contents of one vector with another vector of same type
+}
+
 /*User Interface*/
 int main()
 {
     // run_iterator();
     // run_capacity();
-    run_access_elements();
+    // run_access_elements();
+    run_modifiers();
     return 0;
 }
