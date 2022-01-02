@@ -4,6 +4,11 @@
 
 ## :heavy_check_mark: `<array>`
 
+| Operators | Meaning                        |
+| --------- | ------------------------------ |
+| begin     | Returns iterator to beginning. |
+| end       | Returns iterator to end.       |
+
 ## :heavy_check_mark: `<deque>`
 
 ## :heavy_check_mark: `<forward_list>`
