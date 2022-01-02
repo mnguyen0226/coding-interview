@@ -482,7 +482,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Remove
 
 ## Containers in C++
-List of operators.
+List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/packages/cpp_data_structures/containers).
 
 ### :heavy_check_mark: `<array>`
 - Illustration: C++
