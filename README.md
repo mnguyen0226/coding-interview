@@ -38,6 +38,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
 ### Must Covered DSA:
 
 - Data Structures:
+
   - Arrays
   - Strings
   - Hash Tables (?)
@@ -84,17 +85,6 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Search: `O(n)`
   - Insert: `O(n)`
   - Remove: `O(n)`
-
-### :heavy_check_mark: Vectors
-
-- About: Vectors are similar to dynamic arrays with the ability to resize itself automatically when an element is inserted or delete, with their storage being handled automatically by the container. Vector elements are placed in contiguous storage so that they can be acessed or traversed using iterators. In vectors, data is inserted at the end. Inserting at the end takes differential time, as sometimes there may be a need of extending the array. Removing the last element takes only constant time because no resizing happens. Inserting or erasing at beginning or in the middle is linear time
-- :runner::clock1230: Time Complexity - Worst Case:
-  - Access: `O(1)`
-  - Search: `O(n)`
-  - Insert: `O(n)`
-  - Remove: `O(n)`
-
-
 
 ### :heavy_check_mark: Linked Lists
 
@@ -490,6 +480,21 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Search:
   - Insert:
   - Remove
+
+## Containers in C & C++
+
+### :heavy_check_mark: <array>
+
+
+### :heavy_check_mark: <vector>
+
+- About: Vectors are similar to dynamic arrays with the ability to resize itself automatically when an element is inserted or delete, with their storage being handled automatically by the container. Vector elements are placed in contiguous storage so that they can be acessed or traversed using iterators. In vectors, data is inserted at the end. Inserting at the end takes differential time, as sometimes there may be a need of extending the array. Removing the last element takes only constant time because no resizing happens. Inserting or erasing at beginning or in the middle is linear time
+- Illustration: C++
+- :runner::clock1230: Time Complexity - Worst Case:
+  - Access: `O(1)`
+  - Search: `O(n)`
+  - Insert: `O(n)`
+  - Remove: `O(n)`
 
 ## Algorithms in C & C++
 
