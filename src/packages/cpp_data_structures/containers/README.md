@@ -70,4 +70,7 @@
     insert(); // Inserts new elements before the element at the specified position.
     erase(); // Used to remove elements from a container from the specified position or range.
     swap(); // Used to swap the contents of one vector with another vector of same type.
+    clear(); // Used to remove all the elements of the vector containers
+    emplace(); // Extends the containers by inserting new element at position.
+    emplace_back(); // Used to insert a new element into the vector container, the new element is added to the end of the vector.
 ```
