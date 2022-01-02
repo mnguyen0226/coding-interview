@@ -53,15 +53,6 @@ void run_iterator()
  */
 void run_capacity()
 {
-    // Functions:
-    // size() - Returns the number of elements in the vector.
-    // max_size() - Returns the max number of elements that the vector can hold.
-    // capacity() - Returns the size of the of the storage space currently allocated to the vector expressed as number of elements.
-    // resize(n) - Resizes the container so that it contains "n" elements.
-    // empty() - Returns whether the container is empty.
-    // shrink_to_fit() - Reduces the capacity of the container to fit its size and destroys all elements beyong the capacity.
-    // reverse() - Requests that the vector capacity be at least enough to contain n elements.
-
     vector<int> v1;
     for (int i = 1; i <= 5; i++)
     {
@@ -115,13 +106,7 @@ void run_capacity()
  */
 void run_access_elements()
 {
-    // Functions:
-    // reference operator [g] - Returns a reference to the element at position g in the vector.
-    // at(g) - Returns a reference to the eleemnt at position 'g' in the vector.
-    // front() - Return the first element in the vector.
-    // back() - Returns a reference to the last element in the vector.
-    // data() - Returns a direct pointer to the memory array used internally by the vector to store its own elements
-    vector<int> v1;
+     vector<int> v1;
 
     // populates the vector
     for (int i = 1; i <= 5; i++)
@@ -144,13 +129,8 @@ void run_access_elements()
 }
 
 void run_modifiers(){
-    // Functions:
-    // assign() - Assigns new value to the vector elemenets to replacing old ones.
-    // push_back() - Pushs the elements into a vector from the back.
-    // pop_back() - Used to pop or remove elements from a vector from the back.
-    // insert() - Inserts new elements before the element at the specified position
-    // erase() - Used to remove elements from a container from the specified position or range.
-    // swap() - Used to swap the contents of one vector with another vector of same type
+
+    
 }
 
 /*User Interface*/
