@@ -5,7 +5,7 @@
 using namespace std;
 
 /**
- * @brief Illustrates the iterating functions of vector
+ * @brief Illustrates the iterating functions of vector.
  *
  */
 void run_iterator()
@@ -57,6 +57,10 @@ void run_iterator()
     cout << endl;
 }
 
+/**
+ * @brief Illustrates the capacity functions of vector.
+ * 
+ */
 void run_capacity()
 {
     // Functions:
@@ -115,6 +119,10 @@ void run_capacity()
     cout << endl;
 }
 
+/**
+ * @brief Illustrates the run access element of vector
+ * 
+ */
 void run_access_elements()
 {
     // Functions:
@@ -124,6 +132,25 @@ void run_access_elements()
     // back() - Returns a reference to the last element in the vector.
     // data() - Returns a direct pointer to the memory array used internally by the vector to store its own elements
     vector<int> v1;
+
+    // populates the vector
+    for (int i = 1; i <= 5; i++)
+    {
+        v1.push_back(i);
+    }
+    cout << "Size: " << v1.size() << endl;
+    cout << "Reference operator: " << v1[2] << endl;
+    cout << "At: " << v1.at(2) << endl;
+    cout << "Front: " << v1.front() << endl;
+    cout << "Back: " << v1.back() << endl;
+
+    // get the pointer to the first position of the vector
+    int *pos = v1.data();
+    while (*pos <= v1.size() && *pos != 0)
+    {
+        cout << *pos << " ";
+        pos++; // move address to the next element
+    }
 }
 
 /*User Interface*/
@@ -131,5 +158,6 @@ int main()
 {
     // run_iterator();
     // run_capacity();
+    run_access_elements();
     return 0;
 }

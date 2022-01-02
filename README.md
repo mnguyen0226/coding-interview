@@ -482,26 +482,37 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Remove
 
 ## Containers in C++
+List of operators.
 
 ### :heavy_check_mark: `<array>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<deque>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<forward_list>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<list>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<map>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<queue>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<set>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<stack>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<unordered_map>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<unordered_set>`
+- Illustration: C++
 
 ### :heavy_check_mark: `<vector>`
 
