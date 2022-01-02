@@ -481,7 +481,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
   - Insert:
   - Remove
 
-## Containers in C & C++
+## Containers in C++
 
 ### :heavy_check_mark: `<array>`
 
