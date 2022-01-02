@@ -483,10 +483,27 @@ This repository is for my personal usage & preparation for SWE and MLE interview
 
 ## Containers in C & C++
 
-### :heavy_check_mark: <array>
+### :heavy_check_mark: `<array>`
 
+### :heavy_check_mark: `<deque>`
 
-### :heavy_check_mark: <vector>
+### :heavy_check_mark: `<forward_list>`
+
+### :heavy_check_mark: `<list>`
+
+### :heavy_check_mark: `<map>`
+
+### :heavy_check_mark: `<queue>`
+
+### :heavy_check_mark: `<set>`
+
+### :heavy_check_mark: `<stack>`
+
+### :heavy_check_mark: `<unordered_map>`
+
+### :heavy_check_mark: `<unordered_set>`
+
+### :heavy_check_mark: `<vector>`
 
 - About: Vectors are similar to dynamic arrays with the ability to resize itself automatically when an element is inserted or delete, with their storage being handled automatically by the container. Vector elements are placed in contiguous storage so that they can be acessed or traversed using iterators. In vectors, data is inserted at the end. Inserting at the end takes differential time, as sometimes there may be a need of extending the array. Removing the last element takes only constant time because no resizing happens. Inserting or erasing at beginning or in the middle is linear time
 - Illustration: C++
