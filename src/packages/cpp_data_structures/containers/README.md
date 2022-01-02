@@ -26,8 +26,21 @@
 
 - Iterators:
 
+| Operators | Meaning |
+| --------------- | --------------- |
+| begin | Row 1 Column 2 |
+| end | Row 2 Column 2 |
+| rbegin | Row 3 Column 2 |
+| rend | Row 3 Column 2 |
+| cbegin | Row 3 Column 2 |
+| cend | Row 3 Column 2 |
+| crbegin | Row 3 Column 2 |
+| crend | Row 3 Column 2 |
+
+
+
 ```c++
-    begin(); // Returns an iterator pointing to  the first element in the vector.
+    begin(); // Returns iterator to beginning
     end(); // Returns an iterator pointing to the theoretical element that follows the last element in the vector.
     rbegin(); // Returns a reverse iterator pointing to the last element in the vector (reverse beginning).
     rend(); // Returns a reverse iterator pointing to the last element preceding the first elelemt in the vector (considered as reverse end).
