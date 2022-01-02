@@ -2,34 +2,18 @@
 
 [Source](https://www.cplusplus.com/reference/stl/).
 
-## :heavy_check_mark: `<array>`
+## Sequence Containers
+
+### :heavy_check_mark: 1. `<array>` - array
 
 | Operators | Meaning                        |
 | --------- | ------------------------------ |
 | begin     | Returns iterator to beginning. |
 | end       | Returns iterator to end.       |
 
-## :heavy_check_mark: `<deque>`
+### :heavy_check_mark: 2. `<vector>` - dynamic array
 
-## :heavy_check_mark: `<forward_list>`
-
-## :heavy_check_mark: `<list>`
-
-## :heavy_check_mark: `<map>`
-
-## :heavy_check_mark: `<queue>`
-
-## :heavy_check_mark: `<set>`
-
-## :heavy_check_mark: `<stack>`
-
-## :heavy_check_mark: `<unordered_map>`
-
-## :heavy_check_mark: `<unordered_set>`
-
-## :heavy_check_mark: `<vector>`
-
-### Iterators:
+#### Iterators:
 
 | Operators | Meaning                                              |
 | --------- | ---------------------------------------------------- |
@@ -42,7 +26,7 @@
 | crbegin   | Returns const_reverse_iterator to reverse beginning. |
 | crend     | Returns const_reverse_iterator to reverse end.       |
 
-### Capacity:
+#### Capacity:
 
 | Operators     | Meaning                                     |
 | ------------- | ------------------------------------------- |
@@ -54,7 +38,7 @@
 | reserve       | Requests a change in capacity.              |
 | shrink_to_fit | Shrink to fit.                              |
 
-### Element Access:
+#### Element Access:
 
 | Operators  | Meaning               |
 | ---------- | --------------------- |
@@ -64,7 +48,7 @@
 | back       | Access last element.  |
 | data       | Access data.          |
 
-### Modifiers:
+#### Modifiers:
 
 | Operators    | Meaning               |
 | ------------ | --------------------- |
@@ -77,3 +61,37 @@
 | clear        | Access data.          |
 | emplace      | Access data.          |
 | emplace_back | Access data.          |
+
+### :heavy_check_mark: 3. `<deque>` - double ended queue
+
+### :heavy_check_mark: 4. `<forward_list>` - forward list
+
+### :heavy_check_mark: 5. `<list>` - linked list
+
+## Containers Adaptors
+
+### :heavy_check_mark: 1. `<stack>` - LIFO stack
+
+### :heavy_check_mark: 2. `<queue>` - FIFO queue
+
+### :heavy_check_mark: 3. `<priority_queue>` - heap
+
+## Associative Containers
+
+### :heavy_check_mark: 1. `<set>` - tree
+
+### :heavy_check_mark: 2. `<multiset>` - Multiple-key set
+
+### :heavy_check_mark: 3. `<map>` - associative arrays
+
+### :heavy_check_mark: 4. `<multimap>` - Multiple-key map
+
+## Unordered Associative Containers
+
+### :heavy_check_mark: 1. `<unordered_set>` - unordered set
+
+### :heavy_check_mark: 2. `<unordered_multiset>` - unordered multiset
+
+### :heavy_check_mark: 3. `<unordered_map>` - unordered map
+
+### :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
