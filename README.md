@@ -4,7 +4,7 @@
 
 This repository is for my personal usage & preparation for SWE and MLE interviews.
 
-## 1. Data Structures & Algorithms
+## 1. Data Structures, Containers, & Algorithms
 
 ## Data Structures in C & C++
 
@@ -517,21 +517,7 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 ### :question: Bitmasks
 
-## 2. CTCI Questions
-
-Tips: Write out question. Take picture of thought process -> README. Solve. Take note on Google Sheet
-
-- Array & Strings
-- Linked Lists
-- Stacks & Queues
-- Trees & Graphs
-- Bit Manipulations
-- OOP Designs
-- Recursion & DP
-- Systems Designs & Scalability
-- Sorting & Searching
-
-## 3. Machine Learning & Deep Learning
+## 2. Machine Learning & Deep Learning
 
 ### :heavy_check_mark: Coursera Deep Learning Course [(Link + Completion Certification)](https://github.com/mnguyen0226/deep-learning-coursera).
 
