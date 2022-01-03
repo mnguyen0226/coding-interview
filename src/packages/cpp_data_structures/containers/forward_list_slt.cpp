@@ -216,11 +216,84 @@ void run_modifiers()
     cout << endl;
 }
 
+/*Determines negative numbers*/
+bool negative(int &value)
+{
+    return value < 0;
+}
+
+/**
+ * @brief Runs operators of operations for singly linked list
+ *
+ */
+void run_operations()
+{
+    cout << "\nTests splice_after() -----" << endl;
+    forward_list<int> list1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    forward_list<int> list2 = {-1, -2, -3, -4, -5};
+
+    // cut the list2 content to the front of list 1
+    list1.splice_after(list1.before_begin(), list2);
+
+    // cut the list 1 beginning to list 2
+    list2.splice_after(list2.before_begin(), list1, list1.before_begin());
+
+    cout << "List 1: ";
+    for (auto x : list1)
+        cout << x << " ";
+    cout << endl;
+
+    cout << "List 2: ";
+    for (auto x : list2)
+        cout
+            << x << " ";
+    cout << endl;
+
+    cout << "\nTests remove() -----" << endl;
+    list1.remove(6);
+    cout << "List 1: ";
+    for (auto x : list1)
+        cout << x << " ";
+    cout << endl;
+
+    cout << "\nTests remove_if() -----" << endl;
+    list1.remove_if(negative);
+    for (auto x : list1)
+        cout << x << " ";
+    cout << endl;
+
+    cout << "\nTests unique() -----" << endl;
+    forward_list<int> list3 = {1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 6, 7, 8, 9, -1, -2, -3};
+    list3.unique();
+    for (auto x : list3)
+        cout << x << " ";
+    cout << endl;
+
+    cout << "\nTests sort() and merge() -----" << endl;
+    forward_list<int> new_list_1 = {5, 4, 9, 7, 1, 3};
+    forward_list<int> new_list_2 = {10, 1563, 91, 111, -1};
+    new_list_1.sort();
+    new_list_2.sort();
+    new_list_2.merge(new_list_1); // merge AND sort automatically
+    cout << "List 2: ";
+    for (auto x : new_list_2)
+        cout << x << " ";
+    cout << endl;
+
+    cout << "\nTest reverse() -----" << endl;
+    new_list_2.reverse();
+    for (auto x : new_list_2)
+        cout << x << " ";
+    cout << endl;
+}
+
+/*User Interface*/
 int main()
 {
     // run_iterator();
     // run_capacity();
     // run_element_access();
-    run_modifiers();
+    // run_modifiers();
+    run_operations();
     return 0;
 }
