@@ -13,6 +13,7 @@
         "tuple": "cpp",
         "utility": "cpp",
         "ostream": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "forward_list": "cpp"
     }
 }

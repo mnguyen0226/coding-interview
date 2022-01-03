@@ -126,7 +126,7 @@
 | end           | Returns iterator to end.                    |
 | cbefore_begin | Returns const_iterator to before beginning. |
 | cbegin        | Retusns const_iterator to beginning.        |
-| cbegin        | Returns const_iterator to end.              |
+| cend          | Returns const_iterator to end.              |
 
 ### Capacity
 
@@ -149,7 +149,7 @@
 | emplace_front | Constructs and insert element at beginning. |
 | push_front    | Inserts element at beginning.               |
 | pop_front     | Deletes first element.                      |
-| emplace_after | Constructs and inserts element.             |
+| emplace_after | Constructs and inserts element at end.      |
 | insert_after  | Inserts elements.                           |
 | erase_after   | Erases elements.                            |
 | swap          | Swaps elements.                             |
