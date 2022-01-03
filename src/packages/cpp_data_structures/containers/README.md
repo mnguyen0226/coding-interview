@@ -1,6 +1,6 @@
 # C++ Containers Operators
 
-[Source](https://www.cplusplus.com/reference/stl/).
+[Reference](https://www.cplusplus.com/reference/stl/).
 
 # Sequence Containers
 
