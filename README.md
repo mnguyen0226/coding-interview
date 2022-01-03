@@ -6,7 +6,7 @@ This repository is for my personal usage & preparation for SWE and MLE interview
 
 ## 1. Data Structures, Containers, & Algorithms
 
-## Data Structures in C & C++
+## Data Structures from Scratch in C & C++
 
 ### :heavy_check_mark:[C++ Practice](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/main/src/practices/cpp)
 
@@ -472,29 +472,29 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
 
-## Algorithms in C & C++
+## Algorithms from Scratch in C & C++
 
 - Algorithms Coursera (TBD)
 
 ### Sort Algorithms
 
-#### :question: Quick Sort
+#### :soon: Quick Sort
 
-#### :question: Merge Sort
+#### :soon: Merge Sort
 
 #### :question: Tim Sort
 
-#### :question: Heap Sort
+#### :soon: Heap Sort
 
-#### :question: Bubble Sort
+#### :soon: Bubble Sort
 
-#### :question: Insertion Sort
+#### :soon: Insertion Sort
 
-#### :question: Selection Sort
+#### :soon: Selection Sort
 
 #### :question: Tree Sort
 
-#### :question: Shell Sort
+#### :soon: Shell Sort
 
 #### :question: Bucket Sort
 
@@ -506,19 +506,19 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 ### Graph Algorithms
 
-#### :question: Depth First Search
+#### :soon: Depth First Search
 
-#### :question: Breadth First Search
+#### :soon: Breadth First Search
 
 #### :question: Topological Sort
 
-#### :question: Dijkstra's Algorithm
+#### :soon: Dijkstra's Algorithm
 
 #### :question: Bellman-Ford Algorithm
 
 #### :question: Floyd-Warshall Algorithm
 
-#### :question: Prim's Algorithm
+#### :soon: Prim's Algorithm
 
 ## Other Topics
 
