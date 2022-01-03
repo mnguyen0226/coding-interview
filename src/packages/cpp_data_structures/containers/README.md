@@ -64,6 +64,55 @@
 
 ### :heavy_check_mark: 3. `<deque>` - double ended queue
 
+#### Iterators:
+
+| Operators | Meaning                                              |
+| --------- | ---------------------------------------------------- |
+| begin     | Returns iterator to beginning.                       |
+| end       | Returns iterator to end.                             |
+| rbegin    | Returns reverse iterator to reverse beginning.       |
+| rend      | Returns reverse iterator to reverse end.             |
+| cbegin    | Returns const_iterator to beginning.                 |
+| cend      | Returns const_iterator to end.                       |
+| crbegin   | Returns const_reverse_iterator to reverse beginning. |
+| crend     | Returns const_reverse_iterator to reverse end.       |
+
+#### Capacity:
+
+| Operators     | Meaning                        |
+| ------------- | ------------------------------ |
+| size          | Returns size.                  |
+| max_size      | Returns max size.              |
+| resize        | Changes size.                  |
+| empty         | Tests whether vector is empty. |
+| shrink_to_fit | Shrink to fit.                 |
+
+#### Element Access:
+
+| Operators  | Meaning               |
+| ---------- | --------------------- |
+| operator[] | Access element.       |
+| at         | Access element.       |
+| front      | Access first element. |
+| back       | Access last element.  |
+
+#### Modifiers:
+
+| Operators     | Meaning                                    |
+| ------------- | ------------------------------------------ |
+| assign        | Access container content.                  |
+| push_back     | Add element at the end.                    |
+| push_front    | Insert element at beginning.               |
+| pop_back      | Delete last element.                       |
+| pop_front     | Access first element.                      |
+| insert        | Insert elements.                           |
+| erase         | Erase elements.                            |
+| swap          | Swap elements.                             |
+| clear         | Clear elements.                            |
+| emplace       | Construct and insert element.              |
+| emplace_front | Construct and insert element at beginning. |
+| emplace_back  | Construct and insert element at end.       |
+
 ### :heavy_check_mark: 4. `<forward_list>` - forward list
 
 ### :heavy_check_mark: 5. `<list>` - linked list
