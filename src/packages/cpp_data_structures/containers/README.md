@@ -2,18 +2,18 @@
 
 [Source](https://www.cplusplus.com/reference/stl/).
 
-## Sequence Containers
+# Sequence Containers
 
-### :heavy_check_mark: 1. `<array>` - array
+## :heavy_check_mark: 1. `<array>` - array
 
 | Operators | Meaning                        |
 | --------- | ------------------------------ |
 | begin     | Returns iterator to beginning. |
 | end       | Returns iterator to end.       |
 
-### :heavy_check_mark: 2. `<vector>` - dynamic array
+## :heavy_check_mark: 2. `<vector>` - dynamic array
 
-#### Iterators:
+### Iterators:
 
 | Operators | Meaning                                              |
 | --------- | ---------------------------------------------------- |
@@ -26,7 +26,7 @@
 | crbegin   | Returns const_reverse_iterator to reverse beginning. |
 | crend     | Returns const_reverse_iterator to reverse end.       |
 
-#### Capacity:
+### Capacity:
 
 | Operators     | Meaning                                     |
 | ------------- | ------------------------------------------- |
@@ -38,7 +38,7 @@
 | reserve       | Requests a change in capacity.              |
 | shrink_to_fit | Shrink to fit.                              |
 
-#### Element Access:
+### Element Access:
 
 | Operators  | Meaning               |
 | ---------- | --------------------- |
@@ -48,7 +48,7 @@
 | back       | Access last element.  |
 | data       | Access data.          |
 
-#### Modifiers:
+### Modifiers:
 
 | Operators    | Meaning               |
 | ------------ | --------------------- |
@@ -62,9 +62,9 @@
 | emplace      | Access data.          |
 | emplace_back | Access data.          |
 
-### :heavy_check_mark: 3. `<deque>` - double ended queue
+## :heavy_check_mark: 3. `<deque>` - double ended queue
 
-#### Iterators:
+### Iterators:
 
 | Operators | Meaning                                              |
 | --------- | ---------------------------------------------------- |
@@ -77,7 +77,7 @@
 | crbegin   | Returns const_reverse_iterator to reverse beginning. |
 | crend     | Returns const_reverse_iterator to reverse end.       |
 
-#### Capacity:
+### Capacity:
 
 | Operators     | Meaning                        |
 | ------------- | ------------------------------ |
@@ -87,7 +87,7 @@
 | empty         | Tests whether vector is empty. |
 | shrink_to_fit | Shrink to fit.                 |
 
-#### Element Access:
+### Element Access:
 
 | Operators  | Meaning               |
 | ---------- | --------------------- |
@@ -96,7 +96,7 @@
 | front      | Access first element. |
 | back       | Access last element.  |
 
-#### Modifiers:
+### Modifiers:
 
 | Operators     | Meaning                                    |
 | ------------- | ------------------------------------------ |
@@ -113,34 +113,34 @@
 | emplace_front | Construct and insert element at beginning. |
 | emplace_back  | Construct and insert element at end.       |
 
-### :heavy_check_mark: 4. `<forward_list>` - forward list
+## :heavy_check_mark: 4. `<forward_list>` - forward list
 
-### :heavy_check_mark: 5. `<list>` - linked list
+## :heavy_check_mark: 5. `<list>` - linked list
 
-## Containers Adaptors
+# Containers Adaptors
 
-### :heavy_check_mark: 1. `<stack>` - LIFO stack
+## :heavy_check_mark: 1. `<stack>` - LIFO stack
 
-### :heavy_check_mark: 2. `<queue>` - FIFO queue
+## :heavy_check_mark: 2. `<queue>` - FIFO queue
 
-### :heavy_check_mark: 3. `<priority_queue>` - heap
+## :heavy_check_mark: 3. `<priority_queue>` - heap
 
-## Associative Containers
+# Associative Containers
 
-### :heavy_check_mark: 1. `<set>` - tree
+## :heavy_check_mark: 1. `<set>` - tree
 
-### :heavy_check_mark: 2. `<multiset>` - Multiple-key set
+## :heavy_check_mark: 2. `<multiset>` - Multiple-key set
 
-### :heavy_check_mark: 3. `<map>` - associative arrays
+## :heavy_check_mark: 3. `<map>` - associative arrays
 
-### :heavy_check_mark: 4. `<multimap>` - Multiple-key map
+## :heavy_check_mark: 4. `<multimap>` - Multiple-key map
 
-## Unordered Associative Containers
+# Unordered Associative Containers
 
-### :heavy_check_mark: 1. `<unordered_set>` - unordered set
+## :heavy_check_mark: 1. `<unordered_set>` - unordered set
 
-### :heavy_check_mark: 2. `<unordered_multiset>` - unordered multiset
+## :heavy_check_mark: 2. `<unordered_multiset>` - unordered multiset
 
-### :heavy_check_mark: 3. `<unordered_map>` - unordered map
+## :heavy_check_mark: 3. `<unordered_map>` - unordered map
 
-### :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
+## :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
