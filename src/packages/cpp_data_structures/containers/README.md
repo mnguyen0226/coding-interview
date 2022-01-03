@@ -98,22 +98,75 @@
 
 ### Modifiers:
 
-| Operators     | Meaning                                    |
-| ------------- | ------------------------------------------ |
-| assign        | Access container content.                  |
-| push_back     | Add element at the end.                    |
-| push_front    | Insert element at beginning.               |
-| pop_back      | Delete last element.                       |
-| pop_front     | Access first element.                      |
-| insert        | Insert elements.                           |
-| erase         | Erase elements.                            |
-| swap          | Swap elements.                             |
-| clear         | Clear elements.                            |
-| emplace       | Construct and insert element.              |
-| emplace_front | Construct and insert element at beginning. |
-| emplace_back  | Construct and insert element at end.       |
+| Operators     | Meaning                                     |
+| ------------- | ------------------------------------------- |
+| assign        | Access container content.                   |
+| push_back     | Adds element at the end.                    |
+| push_front    | Inserts element at beginning.               |
+| pop_back      | Deletes last element.                       |
+| pop_front     | Access first element.                       |
+| insert        | Inserts elements.                           |
+| erase         | Erases elements.                            |
+| swap          | Swaps elements.                             |
+| clear         | Clears content.                             |
+| emplace       | Constructs and insert element.              |
+| emplace_front | Constructs and insert element at beginning. |
+| emplace_back  | Constructs and insert element at end.       |
 
-## :heavy_check_mark: 4. `<forward_list>` - forward list
+## :heavy_check_mark: 4. `<forward_list>` - singly linked list
+
+- About: forward_list objects are thus more efficient than list objects, although they can only be iterated forwards. Compared to other base standard sequence containers (array, vector and deque), forward_list perform generally better in inserting, extracting and moving elements in any position within the container, and therefore also in algorithms that make intensive use of these, like sorting algorithms.
+
+### Iterators
+
+| Operators     | Meaning                                     |
+| ------------- | ------------------------------------------- |
+| before_begin  | Returns iterator to before beginning.       |
+| begin         | Returns iterator to beginning.              |
+| end           | Returns iterator to end.                    |
+| cbefore_begin | Returns const_iterator to before beginning. |
+| cbegin        | Retusns const_iterator to beginning.        |
+| cbegin        | Returns const_iterator to end.              |
+
+### Capacity
+
+| Operators | Meaning                       |
+| --------- | ----------------------------- |
+| empty     | Tests whether array is empty. |
+| max_size  | Returns maximum size.         |
+
+### Element Access
+
+| Operators | Meaning               |
+| --------- | --------------------- |
+| front     | Access first element. |
+
+### Modifiers
+
+| Operators     | Meaning                                     |
+| ------------- | ------------------------------------------- |
+| assign        | Assigns content.                            |
+| emplace_front | Constructs and insert element at beginning. |
+| push_front    | Inserts element at beginning.               |
+| pop_front     | Deletes first element.                      |
+| emplace_after | Constructs and inserts element.             |
+| insert_after  | Inserts elements.                           |
+| erase_after   | Erases elements.                            |
+| swap          | Swaps elements.                             |
+| clear         | Clears content.                             |
+| resize        | Changes size.                               |
+
+### Operations
+
+| Operators    | Meaning                                       |
+| ------------ | --------------------------------------------- |
+| splice_after | Transfers elements from another forward_list. |
+| remove       | Removes elements with specific value.         |
+| remove_if    | Removes elements fulfilling condition.        |
+| unique       | Removes duplicate values.                     |
+| merge        | Merges sorted list.                           |
+| sort         | Sorted elements in container.                 |
+| reverse      | Reverses the order of elements.               |
 
 ## :heavy_check_mark: 5. `<list>` - linked list
 
