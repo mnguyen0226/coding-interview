@@ -426,12 +426,9 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 1. `<array>` - array
 
-- Illustration: C++
-
 #### :heavy_check_mark: 2. `<vector>` - dynamic array
 
 - About: Vectors are similar to dynamic arrays with the ability to resize itself automatically when an element is inserted or delete, with their storage being handled automatically by the container. Vector elements are placed in contiguous storage so that they can be acessed or traversed using iterators. In vectors, data is inserted at the end. Inserting at the end takes differential time, as sometimes there may be a need of extending the array. Removing the last element takes only constant time because no resizing happens. Inserting or erasing at beginning or in the middle is linear time
-- Illustration: C++
 - :runner::clock1230: Time Complexity - Worst Case:
 
   - Access: `O(1)`
@@ -439,69 +436,39 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
   - Insert: `O(n)`
   - Remove: `O(n)`
 
-- Illustration: C++
-
 #### :heavy_check_mark: 3. `<deque>` - double ended queue
-
-- Illustration: C++
 
 #### :heavy_check_mark: 4. `<forward_list>` - forward list
 
-- Illustration: C++
-
 #### :heavy_check_mark: 5. `<list>` - linked list
-
-- Illustration: C++
 
 ### Containers Adaptors
 
 #### :heavy_check_mark: 1. `<stack>` - LIFO stack
 
-- Illustration: C++
-
 #### :heavy_check_mark: 2. `<queue>` - FIFO queue
 
-- Illustration: C++
-
 #### :heavy_check_mark: 3. `<priority_queue>` - heap
-
-- Illustration: C++
 
 ### Associative Containers
 
 #### :heavy_check_mark: 1. `<set>` - tree
 
-- Illustration: C++
-
 #### :heavy_check_mark: 2. `<multiset>` - Multiple-key set
-
-- Illustration: C++
 
 #### :heavy_check_mark: 3. `<map>` - associative arrays
 
-- Illustration: C++
-
 #### :heavy_check_mark: 4. `<multimap>` - Multiple-key map
-
-- Illustration: C++
 
 ### Unordered Associative Containers
 
 #### :heavy_check_mark: 1. `<unordered_set>` - unordered set
 
-- Illustration: C++
-
 #### :heavy_check_mark: 2. `<unordered_multiset>` - unordered multiset
-
-- Illustration: C++
 
 #### :heavy_check_mark: 3. `<unordered_map>` - unordered map
 
-- Illustration: C++
-
 #### :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
-
-- Illustration: C++
 
 ## Algorithms in C & C++
 
