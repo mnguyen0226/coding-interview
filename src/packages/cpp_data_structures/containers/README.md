@@ -232,6 +232,16 @@
 
 ## :heavy_check_mark: 1. `<stack>` - LIFO stack
 
+| Operators | Meaning                           |
+| --------- | --------------------------------- |
+| empty     | Tests whether container is empty. |
+| size      | Returns size.                     |
+| top       | Access next element.              |
+| push      | Inserts element.                  |
+| emplace   | Constructs and inserts element.   |
+| pop       | Removes top element.              |
+| swap      | Swap contents.                    |
+
 ## :heavy_check_mark: 2. `<queue>` - FIFO queue
 
 ## :heavy_check_mark: 3. `<priority_queue>` - heap
