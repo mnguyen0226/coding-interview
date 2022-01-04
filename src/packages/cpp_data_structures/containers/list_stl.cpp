@@ -48,6 +48,19 @@ void run_iterators()
  */
 void run_capacity()
 {
+    list<int> mylist = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+
+    // check empty
+    if (mylist.empty())
+        cout << "List is empty" << endl;
+    else
+        cout << "List is not empty" << endl;
+
+    // check size
+    cout << "Size: " << mylist.size() << endl;
+
+    // check max size
+    cout << "Max Size: " << mylist.max_size() << endl;
 }
 
 /**
@@ -56,6 +69,24 @@ void run_capacity()
  */
 void run_element_access()
 {
+    list<int> mylist = {1, 2, 3, 4, 5};
+
+    cout << "Front element: " << mylist.front() << endl;
+    cout << "Back element: " << mylist.back() << endl;
+}
+
+/**
+ * @brief forward traverse the linked list
+ *
+ * @param l
+ */
+void traverse_print(list<int> l)
+{
+    for (auto iter = l.begin(); iter != l.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
 }
 
 /**
@@ -64,6 +95,64 @@ void run_element_access()
  */
 void run_modifiers()
 {
+    list<int> mylist;
+    // tests assign, 1x100
+    mylist.assign(1, 100);
+    traverse_print(mylist);
+
+    // tests emplace_front
+    mylist.emplace_front(10);
+    mylist.emplace_front(20);
+    traverse_print(mylist);
+
+    // tests emplace_back
+    mylist.emplace_back(-1);
+    mylist.emplace_back(-2);
+    traverse_print(mylist);
+
+    // tests push_front
+    mylist.push_front(30);
+    mylist.push_front(40);
+    traverse_print(mylist);
+
+    // tests pop_front
+    mylist.pop_front();
+    traverse_print(mylist);
+
+    // tests push_back
+    mylist.push_back(-3);
+    mylist.push_back(-4);
+    traverse_print(mylist);
+
+    // tests pop_back
+    mylist.pop_back();
+    traverse_print(mylist);
+
+    // tests emplace
+    auto iter = mylist.begin();
+    iter++;
+    mylist.emplace(iter, 55555);
+    traverse_print(mylist);
+
+    // tests erase (at a position)
+    iter++;
+    mylist.erase(iter);
+    traverse_print(mylist);
+
+    // tests swap
+    list<int> list2;
+    list2.assign(5, 123);
+    list2.swap(mylist);
+    traverse_print(mylist);
+
+    // tests resize
+    mylist.resize(3);
+    traverse_print(mylist);
+
+    // tests clear
+    mylist.clear();
+    if (mylist.empty())
+        cout << "List is empty" << endl;
 }
 
 /**
@@ -77,10 +166,10 @@ void run_operation()
 /*User Interface*/
 int main()
 {
-    run_iterators();
+    // run_iterators();
     // run_capacity();
     // run_element_access();
-    // run_modifiers();
+    run_modifiers();
     // run_operation();
     return 0;
 }

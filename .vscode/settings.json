@@ -14,6 +14,7 @@
         "utility": "cpp",
         "ostream": "cpp",
         "deque": "cpp",
-        "forward_list": "cpp"
+        "forward_list": "cpp",
+        "list": "cpp"
     }
 }
