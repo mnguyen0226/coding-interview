@@ -269,7 +269,56 @@
 
 # Associative Containers
 
-## :heavy_check_mark: 1. `<set>` - tree
+## :heavy_check_mark: 1. `<set>` - binary search tree
+
+### Iterators
+
+| Operators | Meaning                                              |
+| --------- | ---------------------------------------------------- |
+| begin     | Returns iterator to beginning.                       |
+| end       | Returns iterator to end.                             |
+| rbegin    | Returns reverse iterator to reverse beginning.       |
+| rend      | Returns reverse iterator to reverse end.             |
+| cbegin    | Returns const_iterator to beginning.                 |
+| cend      | Returns const_iterator to end.                       |
+| crbegin   | Returns const_reverse_iterator to reverse beginning. |
+| crend     | Returns const_reverse_iterator to reverse end.       |
+
+### Capacity
+
+| Operators | Meaning                       |
+| --------- | ----------------------------- |
+| empty     | Tests whether array is empty. |
+| size      | Returns size.                 |
+| max_size  | Returns maximum size.         |
+
+### Modifiers
+
+| Operators    | Meaning                                 |
+| ------------ | --------------------------------------- |
+| insert       | Insert elemnent.                        |
+| erase        | Erase elements.                         |
+| swap         | Swap content.                           |
+| clear        | Clear content.                          |
+| emplace      | Constructs and insert element.          |
+| emplace_hint | Constructs and insert element with hint |
+
+### Observers
+
+| Operators   | Meaning                    |
+| ----------- | -------------------------- |
+| key_comp    | Returns comparison object. |
+| value_compt | Returns comparion object.  |
+
+### Operations:
+
+| Operators   | Meaning                                |
+| ----------- | -------------------------------------- |
+| find        | Gets iterator to elements.             |
+| count       | Counts elements with a specific value. |
+| lower_bound | Returns iterator to lower bound.       |
+| upper_bound | Returns iterator to upper bound.       |
+| equal_range | Get range of equal elements.           |
 
 ## :heavy_check_mark: 2. `<multiset>` - Multiple-key set
 
