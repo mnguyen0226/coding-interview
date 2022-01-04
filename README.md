@@ -452,6 +452,8 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 3. `<priority_queue>` - heap
 
+- About: Priority queue has its first element is always the greatest of the elements it contains, according to some strict weak ordering criterion. This data structure is similar to heap where elements can be inserted at any moment, and only the max heap element can be retrieved.
+
 ### Associative Containers
 
 #### :heavy_check_mark: 1. `<set>` - tree

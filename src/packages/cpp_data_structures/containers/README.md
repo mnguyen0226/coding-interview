@@ -257,6 +257,16 @@
 
 ## :heavy_check_mark: 3. `<priority_queue>` - heap
 
+| Operators | Meaning                           |
+| --------- | --------------------------------- |
+| empty     | Tests whether container is empty. |
+| size      | Returns size.                     |
+| top       | Access top element.               |
+| push      | Inserts element.                  |
+| emplace   | Constructs and inserts element.   |
+| pop       | Removes next element.             |
+| swap      | Swap contents.                    |
+
 # Associative Containers
 
 ## :heavy_check_mark: 1. `<set>` - tree
