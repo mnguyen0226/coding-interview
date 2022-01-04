@@ -12,6 +12,7 @@ void run_iterators()
 {
     list<int> mylist = {1, 2, 3, 4, 5, 6, 7, 8, 9};
 
+    cout << "Normal traversal: " << endl;
     // prints all elements in the doubly linked list
     for (auto iter = mylist.begin(); iter != mylist.end(); ++iter)
     {
@@ -20,7 +21,25 @@ void run_iterators()
     cout << endl;
 
     // prints all elements reversely
-    for(aut)
+    for (auto iter = mylist.cbegin(); iter != mylist.cend(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+
+    cout << "Reverse traversal: " << endl;
+    // prints reverse of a linked list
+    for (auto iter = mylist.rbegin(); iter != mylist.rend(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+
+    for (auto iter = mylist.crbegin(); iter != mylist.crend(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
 }
 
 /**
