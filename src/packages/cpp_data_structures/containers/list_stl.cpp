@@ -155,12 +155,49 @@ void run_modifiers()
         cout << "List is empty" << endl;
 }
 
+/*Determines negative numbers*/
+bool negative(int &value)
+{
+    return value < 0;
+}
+
 /**
  * @brief Runs operations functions for doubly linked list
  *
  */
 void run_operation()
 {
+    list<int> mylist1 = {1, 2, 3, 4, 5, 6, 7, 8, 9};
+    list<int> mylist2 = {-1, -2, 100};
+
+    // add mylist2 to begin of list 1 (similar to merge)
+    mylist1.splice(mylist1.begin(), mylist2);
+    cout << "Splice: " << endl;
+    traverse_print(mylist1);
+    traverse_print(mylist2);
+
+    mylist1.remove(100); // delete element with specific value
+    cout << "Remove: " << endl;
+    traverse_print(mylist1);
+
+    mylist1.remove_if(negative);
+    cout << "Remove if: " << endl;
+    traverse_print(mylist1);
+
+    mylist2 = {1, 1, 1, 1, 1};
+    mylist2.merge(mylist1);
+    cout << "Merge: " << endl;
+    traverse_print(mylist1);
+    traverse_print(mylist2);
+
+    mylist2.push_front(1000);
+    mylist2.sort();
+    cout << "Sort: " << endl;
+    traverse_print(mylist2);
+
+    mylist2.reverse();
+    cout << "Reverse: " << endl;
+    traverse_print(mylist2);
 }
 
 /*User Interface*/
@@ -169,7 +206,7 @@ int main()
     // run_iterators();
     // run_capacity();
     // run_element_access();
-    run_modifiers();
-    // run_operation();
+    // run_modifiers();
+    run_operation();
     return 0;
 }
