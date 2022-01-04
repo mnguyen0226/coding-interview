@@ -442,7 +442,7 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 4. `<forward_list>` - singly linked list
 
-#### :heavy_check_mark: 5. `<list>` - linked list
+#### :heavy_check_mark: 5. `<list>` - doubly linked list
 
 ### Containers Adaptors
 

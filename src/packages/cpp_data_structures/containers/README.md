@@ -168,7 +168,65 @@
 | sort         | Sorted elements in container.                 |
 | reverse      | Reverses the order of elements.               |
 
-## :heavy_check_mark: 5. `<list>` - linked list
+## :heavy_check_mark: 5. `<list>` - doubly linked list
+
+### Iterators
+
+| Operators | Meaning                                              |
+| --------- | ---------------------------------------------------- |
+| begin     | Returns iterator to beginning.                       |
+| end       | Returns iterator to end.                             |
+| rbegin    | Returns reverse iterator to reverse beginning.       |
+| rend      | Returns reverse iterator to reverse end.             |
+| cbegin    | Returns const_iterator to beginning.                 |
+| cend      | Returns const_iterator to end.                       |
+| crbegin   | Returns const_reverse_iterator to reverse beginning. |
+| crend     | Returns const_reverse_iterator to reverse end.       |
+
+### Capacity
+
+| Operators | Meaning                       |
+| --------- | ----------------------------- |
+| empty     | Tests whether array is empty. |
+| size      | Returns size.                 |
+| max_size  | Returns maximum size.         |
+
+### Element Access
+
+| Operators | Meaning               |
+| --------- | --------------------- |
+| front     | Access first element. |
+| back      | Access last element.  |
+
+### Modifiers
+
+| Operators     | Meaning                                     |
+| ------------- | ------------------------------------------- |
+| assign        | Assigns content.                            |
+| emplace_front | Constructs and insert element at beginning. |
+| push_front    | Inserts element at beginning.               |
+| pop_front     | Deletes first element.                      |
+| emplace_back  | Constructs and insert element at beginning. |
+| push_back     | Adds element at the end                     |
+| pop_back      | Deletes last element.                       |
+| emplace       | Constructs and inserts element.             |
+| insert        | Inserts elements.                           |
+| erase         | Erases elements.                            |
+| swap          | Swaps elements.                             |
+| resize        | Changes size.                               |
+| clear         | Clears content.                             |
+
+### Operations
+
+| Operators | Meaning                                |
+| --------- | -------------------------------------- |
+| splice    | Transfers elements from list to list.  |
+| remove    | Removes elements with specific value.  |
+| remove_if | Removes elements fulfilling condition. |
+| unique    | Removes duplicate values.              |
+| merge     | Merges sorted list.                    |
+| sort      | Sorted elements in container.          |
+| reverse   | Reverses the order of elements.        |
 
 # Containers Adaptors
 
