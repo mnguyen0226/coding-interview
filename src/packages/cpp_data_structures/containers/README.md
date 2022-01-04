@@ -301,7 +301,7 @@
 | swap         | Swap content.                           |
 | clear        | Clear content.                          |
 | emplace      | Constructs and insert element.          |
-| emplace_hint | Constructs and insert element with hint |
+| emplace_hint | Constructs and insert element with hint.|
 
 ### Observers
 
