@@ -244,6 +244,17 @@
 
 ## :heavy_check_mark: 2. `<queue>` - FIFO queue
 
+| Operators | Meaning                           |
+| --------- | --------------------------------- |
+| empty     | Tests whether container is empty. |
+| size      | Returns size.                     |
+| front     | Access next element.              |
+| back      | Access last element.              |
+| push      | Inserts element.                  |
+| emplace   | Constructs and inserts element.   |
+| pop       | Removes next element.             |
+| swap      | Swap contents.                    |
+
 ## :heavy_check_mark: 3. `<priority_queue>` - heap
 
 # Associative Containers
