@@ -112,19 +112,34 @@ void run_modifiers()
 }
 
 /**
- * @brief Runs observers function for bst
- *
- */
-void run_observers()
-{
-}
-
-/**
  * @brief Runs operations function for bst
  *
  */
 void run_operations()
 {
+    set<int> s;
+
+    // populate the bst
+    for (int i = 1; i <= 5; i++)
+        s.insert(i);
+
+    auto iter = s.find(2);
+    s.erase(iter);
+
+    traversal(s);
+
+    // count elements with specific value
+    cout << "Number of 1 is, whether there is a 1: " << s.count(1) << endl;
+
+    set<int> bst;
+    for (int i = 1; i < 10; i++)
+        bst.insert(i * 10);
+
+    auto iter_low = bst.lower_bound(30);
+    auto iter_high = bst.upper_bound(60);
+
+    bst.erase(iter_low, iter_high);
+    traversal(bst);
 }
 
 /*User Interface*/
@@ -132,8 +147,7 @@ int main()
 {
     // run_iterators();
     // run_capacity();
-    run_modifiers();
-    // run_observers();
-    // run_operations();
+    // run_modifiers();
+    run_operations();
     return 0;
 }
