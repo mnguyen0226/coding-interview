@@ -470,6 +470,8 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 4. `<multimap>` - Multiple-key map
 
+- About: multi-map stores elements formed by a combination of a key value and a mapped value following a specific order, and where multiple elements can have equivalent keys.
+
 ### Unordered Associative Containers
 
 #### :heavy_check_mark: 1. `<unordered_set>` - unordered set
