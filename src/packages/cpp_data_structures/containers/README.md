@@ -485,6 +485,68 @@
 
 ## :heavy_check_mark: 1. `<unordered_set>` - unordered set
 
+### Capacity:
+
+| Operators | Meaning                       |
+| --------- | ----------------------------- |
+| empty     | Tests whether array is empty. |
+| size      | Returns size.                 |
+| max_size  | Returns maximum size.         |
+
+### Iterators:
+
+| Operators | Meaning                              |
+| --------- | ------------------------------------ |
+| begin     | Returns iterator to beginning.       |
+| end       | Returns iterator to end.             |
+| cbegin    | Returns const_iterator to beginning. |
+| cend      | Returns const_iterator to end.       |
+
+### Element Lookup:
+
+| Operators   | Meaning                                     |
+| ----------- | ------------------------------------------- |
+| find        | Gets iterator to element.                   |
+| count       | Counts elements with a specific key.        |
+| equal_range | Gets range of elements with a specific key. |
+
+### Modifiers:
+
+| Operators    | Meaning                                  |
+| ------------ | ---------------------------------------- |
+| emplace      | Constructs and insert element.           |
+| emplace_hint | Constructs and insert element with hint. |
+| insert       | Inserts elements.                        |
+| erase        | Erases elements.                         |
+| clear        | Clears content.                          |
+| swap         | Swap content.                            |
+
+### Buckets:
+
+| Operators        | Meaning                        |
+| ---------------- | ------------------------------ |
+| bucket_count     | Returns number of buckets.     |
+| max_bucket_count | Returns max number of buckets. |
+| bucket_size      | Returns bucket size.           |
+| bucket           | Locates element's bucket.      |
+
+### Hash Policy:
+
+| Operators       | Meaning                       |
+| --------------- | ----------------------------- |
+| load_factor     | Returns load factor.          |
+| max_load_factor | Gets or sets max load factor. |
+| rehash          | Sets number of buckets.       |
+| reserve         | Requests a capacity change.   |
+
+### Observers:
+
+| Operators     | Meaning                         |
+| ------------- | ------------------------------- |
+| hash_function | Gets hash function.             |
+| key_eq        | Gets key equivalence predicate. |
+| get_allocator | Gets allocator.                 |
+
 ## :heavy_check_mark: 2. `<unordered_multiset>` - unordered multiset
 
 ## :heavy_check_mark: 3. `<unordered_map>` - unordered map
