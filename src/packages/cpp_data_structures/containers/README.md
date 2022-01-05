@@ -1,5 +1,7 @@
 # C++ Containers Operators
 
+![alt-text](https://github.com/mnguyen0226/coding-interview-swe-ml/blob/main/docs/imgs/containers_wall_paper.jpg)
+
 [Reference](https://www.cplusplus.com/reference/stl/).
 
 # Sequence Containers
