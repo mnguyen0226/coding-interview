@@ -460,10 +460,13 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 - About: Sets are containers that store unique elements following a specific order. In a set, the value of an element also identifier it , and each value must be unique. THe value of eleemnts in a set cannot be modified once in the container (the elements are always const), but they can be inserted or removed from the container. The elements in a set are alawy as sorted follwoing a specific strict weak ordering criterion indicated by its internal comparison object.
 
-#### :heavy_check_mark: 2. `<multiset>` - Multiple-key set
-- About: Multisets are containers that store elements following a specific order, and where multiple elements can have equivalent value
+#### :heavy_check_mark: 2. `<multiset>` - Multiple-key set / bst
 
-#### :heavy_check_mark: 3. `<map>` - associative arrays
+- About: Multisets are containers that store elements following a specific order, and where multiple elements can have equivalent value. This container has the same operation as set/bst.
+
+#### :heavy_check_mark: 3. `<map>` - associative arrays / bst
+
+- Maps store elements formed by a combination of a key value and a mapped value, following a specific order. In a map, the key values are generally used to sort and uniquely identify the elements, while the mapped values store the content associated to this key. Internally, the elements in a map are always sorted by its key. Maps are implemented as bst.
 
 #### :heavy_check_mark: 4. `<multimap>` - Multiple-key map
 
