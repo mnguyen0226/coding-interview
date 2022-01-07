@@ -544,37 +544,9 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 ### :heavy_check_mark: Coursera Deep Learning Course [(Link + Completion Certification)](https://github.com/mnguyen0226/deep-learning-coursera).
 
-### :question: FastAI ML Course - Pytorch practice:
+### :question: FastAI ML Course - Pytorch practice (TBD)
 
-- Introduction to Random Forest.
-- Random Forest Deep Dive.
-- Performance, Validation, and Model Interpretation.
-- Feature Importance, Tree Interpreter.
-- Extrapolation and RF from Scratch/
-- Data Products and Live Coding.
-- RF from Scratch & Gradient Descent.
-- Gradient Descent & Logistic Regression.
-- Regularization, Learning Rate, and NLP
-- More NLP & Columnar Data.
-- Embeddings
-- Complete Rossmann, Ethical Issues
-
-### :question: Fast AI DL Course - Pytorch practice:
-
-- Recognizaing Cats & Dogs.
-- Improving your image classifier.
-- Understanding convolution.
-- Structured, time series, and language models.
-- Collaborative filtering, inside the training loop.
-- Interpreting embeddings, RNNs from scratch.
-- ResNet from scratch.
-- Object detection.
-- SSD: Single shot multibox detector.
-- NLP classification & transfer learning.
-- Neural translation, Multi-modal learning.
-- DarkNet, GANs.
-- CycleGANs, Data ethics, Style transfer.
-- Super resolution; Segmentation with Unets
+### :question: Fast AI DL Course - Pytorch practice (TBD)
 
 ### :question: Kaggle
 
