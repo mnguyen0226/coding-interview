@@ -207,6 +207,14 @@ void run_buckets()
 /**
  * @brief Runs hash policy functions for unordered list.
  *
+ * rehash()
+ * - Sets the number of buckets in the containers to n or more.
+ * - If n is greater than the current number of buckets in the container (bucket_count), a rehash is forced. The new bucket count can be either be equal or greater than n.
+ * - If n is lower than the current number of buckets in the container (bucket_count), the function may have no effect on the bucket count and may not fortce a rehash.
+ * - A rehash is the reconstruction of hash table: All the elements in the container are rearranged according to their hash value into the new set of buckets.
+ * This may alter the order of iteration of elements within the container.
+ * - Rehashes are automatically performed by the container whenever its load facto is going to surpass its max_load_facter in  an operation.
+ *
  */
 void run_hash_policy()
 {
@@ -215,16 +223,41 @@ void run_hash_policy()
     cout << "Loading Factor: " << name.load_factor() << endl;
     cout << "Max Loading Factor: " << name.max_load_factor() << endl;
 
-    // 
     cout << "Test rehash(): " << endl;
-}
+    unordered_set<int> myset;
+    cout << "Current bucket_count: " << myset.bucket_count() << endl;
+    myset.rehash(11);
+    myset.insert(1);
+    myset.insert(2);
+    myset.insert(100);
+    cout << "After rehash() current bucket bucket_count: " << myset.bucket_count() << endl;
 
-/**
- * @brief Runs observer functions for unordered list.
- *
- */
-void run_observer()
-{
+    // reserve() sets the number of buckets in the container (bucket_count) to the most approprate to contain at least n elements.
+    unordered_set<int> myintset;
+    myintset.reserve(6);
+    myintset.insert(1);
+    myintset.insert(123123);
+    myintset.insert(6);
+    myintset.insert(65);
+    myintset.insert(2);
+
+    cout << "myintset contains: ";
+    for (auto iter = myintset.begin(); iter != myintset.end(); iter++)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
+    cout << "Number of buckets: " << myintset.bucket_count() << endl;
+
+    for (int i = 0; i < myintset.bucket_count(); i++)
+    {
+        cout << "Bucket # " << i << " has a size: " << myintset.bucket_size(i) << " contains: ";
+        for (auto local_iter = myintset.begin(i); local_iter != myintset.end(i); local_iter++)
+        {
+            cout << *local_iter << " ";
+        }
+        cout << endl;
+    }
 }
 
 /*User Interface*/
@@ -237,6 +270,5 @@ int main()
     // run_modifiers();
     // run_buckets();
     run_hash_policy();
-    // run_observer();
     return 0;
 }
