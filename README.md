@@ -578,7 +578,8 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 ### :question: Kaggle
 
-### :question: Deep Learning for Coder - Pytorch book (TBD)
+### :question: Deep Learning Book (TBD)
+- Mechanics of Machine Learnings https://mlbook.explained.ai/
 
 ### :question: MLOps Coursera (TBD)
 

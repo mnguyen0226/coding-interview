@@ -29,6 +29,14 @@ void run_capacity()
  */
 void run_iterators()
 {
+    unordered_set<int> myset = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+
+    // Re
+    for (auto iter = myset.begin(); iter != myset.end(); ++iter)
+    {
+        cout << *iter << " ";
+    }
+    cout << endl;
 }
 
 /**
