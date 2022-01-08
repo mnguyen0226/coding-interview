@@ -480,6 +480,8 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 2. `<unordered_multiset>` - unordered multiset
 
+- About: unordered-multiset has similar characteristics as unordered_set but allow different elements to have equivalent values.
+
 #### :heavy_check_mark: 3. `<unordered_map>` - unordered map
 
 #### :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
@@ -551,6 +553,7 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 ### :question: Kaggle
 
 ### :question: Deep Learning Book (TBD)
+
 - Mechanics of Machine Learnings https://mlbook.explained.ai/
 
 ### :question: MLOps Coursera (TBD)
