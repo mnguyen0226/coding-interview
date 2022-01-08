@@ -480,9 +480,11 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 2. `<unordered_multiset>` - unordered multiset
 
-- About: unordered-multiset has similar characteristics as unordered_set but allow different elements to have equivalent values.
+- About: Unordered-multiset has similar characteristics as unordered_set but allow different elements to have equivalent values.
 
 #### :heavy_check_mark: 3. `<unordered_map>` - unordered map
+
+- About: Unordered maps are associative containers that store elements formed by the combination of a key value and a mapped value, and which allows for fast retrieval of individual elements based on their keys. In an unordered_map, the key value is generally used to uniquely indentify the element, while the mapped value is an object with the content associated to this key. Types of key and mapped value may differ. Internally, the elements in the unordered_map are not sorted in any particular order with respect tro either their key or mapped values, but organized into buckets depending to their hash values to allow for fast access to individual elements directly by their key values (with a constant average time complexity on average). Iterators in the containe are at least singly linked list iterattors. 
 
 #### :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
 
