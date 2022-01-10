@@ -112,6 +112,18 @@ void run_element_lookup_count()
  */
 void run_modifiers()
 {
+    unordered_map<int, string> mymap = {{1, "minh"}, {5, "123minh"}, {2, "nguyen"}, {3, "tran"}, {4, "binh"}};
+    mymap.emplace(6, "bruh");
+
+    for (int i = 0; i < mymap.bucket_count(); i++)
+    {
+        cout << "The bucket #: " << i << " stores: ";
+        for (auto iter = mymap.cbegin(i); iter != mymap.cend(i); iter++)
+        {
+            cout << "( " << iter->first << ", " << iter->second << "); ";
+        }
+        cout << endl;
+    }
 }
 
 /**
@@ -137,6 +149,7 @@ int main()
     // run_iterators();
     // run_element_access();
     // run_element_lookup_find();
-    run_element_lookup_count();
+    // run_element_lookup_count();
+    run_modifiers();
     return 0;
 }
