@@ -488,6 +488,8 @@ List of [operators](https://github.com/mnguyen0226/coding-interview-swe-ml/tree/
 
 #### :heavy_check_mark: 4. `<unordered_multimap>` - unordered multimap
 
+- About : Unordered multimaps are similar to unordered maps; however; these containers allows duplications of keys, regardless of values of data.
+
 ## Algorithms from Scratch in C & C++
 
 - Algorithms Coursera (TBD)
