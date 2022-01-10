@@ -18,6 +18,7 @@
         "list": "cpp",
         "queue": "cpp",
         "unordered_set": "cpp",
-        "array": "cpp"
+        "array": "cpp",
+        "unordered_map": "cpp"
     }
 }
