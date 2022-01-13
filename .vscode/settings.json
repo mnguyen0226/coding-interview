@@ -21,6 +21,7 @@
         "array": "cpp",
         "unordered_map": "cpp",
         "xhash": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "xiosbase": "cpp"
     }
 }
