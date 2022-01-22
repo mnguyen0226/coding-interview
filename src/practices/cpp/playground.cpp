@@ -13,5 +13,7 @@ int main()
         cout << arr[i] << endl;
     }
 
+    cout << "Test new linux" << endl;
+
     return 0;
 }
